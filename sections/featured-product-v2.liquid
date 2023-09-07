@@ -6,7 +6,9 @@
     <div class="FP2-grid hideMob">
       <div class="FP2-image-wrapper">
         <div class="FP2-image">
+          <a href="{{ FP.url }}">
         <img src="{{ section.settings.img | img_url:'' }}">
+          </a>
         </div>
         <div class="FP2-image-button">
           <a href="{{ FP.url }}" class="btn-style-1">
@@ -17,7 +19,9 @@
       </div>
       <div class="FP2-prod-info">
          <div class="FP2-prod-info-img">
+          <a href="{{ FP.url }}">
            <img src="{{ section.settings.img2 | img_url:'' }}">
+          </a>
          </div>
         <div class="FP2-prod-desc">
            {{ section.settings.text }}
@@ -44,7 +48,10 @@
       </div>
       <div class="FP3-image-wrapper">
         <div class="FP3-image">
+          <a href="{{ FP.url }}">
         <img src="{{ section.settings.img2 | img_url:'' }}">
+
+      </a>
         <p class="product__price--mobile">{{ FP.price | money }}</p>
         </div>
           <div class="FP3-image-button">
