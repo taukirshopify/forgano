@@ -1,1 +1,428 @@
-{"sections":{"d03fff59-1ad3-48cb-9960-7a94bdafb2bf":{"type":"announcement-prod","disabled":true,"settings":{"enable_bar":true,"background_annoucement_text_color":"#ffeaf6","background_annoucement":"#f7239c","content1":"BIG RESTOCKING PARTY COMING IN AUGUST 🎉 YOU DON'T WANT TO MISS IT! SIGN UP TO STAY TAPPED IN."}},"bd8d02c5-72d4-4c7b-a0b5-15fcd742af34":{"type":"banner-section","custom_css":[],"settings":{"hideDesk":false,"image":"shopify:\/\/shop_images\/Untitled_design_92.png","image2":"shopify:\/\/shop_images\/Untitled_design_91.png","text":"now flourishing","useImge":true,"img":"shopify:\/\/shop_images\/heading-2.png","heading_height":120,"richtext":"<p>Say hello to beauty and comfort. Your new go-to footwear for the hospital and beyond.<\/p>","buttonUrl":"shopify:\/\/collections\/all","buttonText":"shop now"}},"1c054611-3cf4-4c23-893f-70d70a855845":{"type":"the-products","blocks":{"329aea76-b641-4a48-9382-930d44ef027a":{"type":"product","settings":{"tp_pr1":"forgano-nursing-shoes-beige"}},"43563269-98fe-4ab9-a8a1-1550a4184b9d":{"type":"product","settings":{"tp_pr1":"forgano-nursing-shoes-black"}},"64b33496-2146-4db6-b017-e814c6a5a0a7":{"type":"product","settings":{"tp_pr1":"forgano-nursing-shoes-black"}},"14ecd933-cc85-4dde-8e51-58bc024f390b":{"type":"product","settings":{"tp_pr1":"forgano-nursing-shoes-beige"}}},"block_order":["329aea76-b641-4a48-9382-930d44ef027a","43563269-98fe-4ab9-a8a1-1550a4184b9d","64b33496-2146-4db6-b017-e814c6a5a0a7","14ecd933-cc85-4dde-8e51-58bc024f390b"],"disabled":true,"settings":{"tp_heading":"The comfiest fit for all-day wear","tp_heading1":"Simply Comfier","tp_span_color":"#1f1f1f","tp_non_span_color":"","tp_paragraph":"","tp_para_color":"","tp_product_color":"","buttonLink":"shopify:\/\/collections\/all","buttonLabel":"shop all"}},"2eb73f70-6cbd-437c-b827-381d1082076a":{"type":"newsletter","blocks":{"template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-title-1":{"type":"title","settings":{"title":""}},"template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-text-1":{"type":"text","settings":{"text":"<h2>STAY IN THE LOOP FOR <em><strong>EXCLUSIVE PRODUCT RELEASES<\/strong><\/em><\/h2>"}},"template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-form-1":{"type":"form","settings":{}}},"block_order":["template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-title-1","template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-text-1","template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-form-1"],"custom_css":[],"settings":{"color_background":"#000000","color_text":"#ffffff","border_color":"#ffffff","btn_text":"SUBSCRIBE","placeholder":"Enter Email Address","btn_text_color":"#ffffff","btn_bg":"rgba(0,0,0,0)","input_bg":"#ffffff","input_text":"#000000","plc_color":"#000000"}},"c1f21e95-ed7c-425c-aa2e-994fa0bde97a":{"type":"richtext-custom","disabled":true,"settings":{"richtext":"We Know every Morning you","richtext1":"wake up to chase your Dreams.","richtext2":"that's why we created the <b>right shoes<\/b> to help you catch them","richtext3":"","richtext4":"","richtext5":"","richtext6":"","richtext7":""}},"48834a20-403e-4af0-9b6f-907a80c4442e":{"type":"advanced-content","blocks":{"template--15942088589489__48834a20-403e-4af0-9b6f-907a80c4442e-1675610434aa2420bd-1":{"type":"liquid","settings":{"code":"<div class=\"row\">\n  <div class=\"column\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/3359\/4545\/files\/Mask_group_1.jpg?v=1673890546\" alt=\"\"><\/div>\n  <div class=\"column\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/3359\/4545\/files\/Mask_group.jpg?v=1673890546\" alt=\"\"><\/div>\n<\/div>\n<style>.column {\n  float: left;\n  width: 50%;\n}\n\n\/* Clear floats after the columns *\/\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}<\/style>","width":"100%","alignment":"center"}}},"block_order":["template--15942088589489__48834a20-403e-4af0-9b6f-907a80c4442e-1675610434aa2420bd-1"],"disabled":true,"settings":{"full_width":false,"space_around":true}},"54a9936a-72e2-4908-bf69-d7452df982db":{"type":"text-with-images-blocks","custom_css":[".text-with-head {position: relative; z-index: 1;}"],"settings":{"richtext":"We Know every Morning you","richtext1":"wake up to chase your Dreams. that's","richtext2":"why we created the <b>right shoes<\/b> to","richtext3":"help you catch them","image":"shopify:\/\/shop_images\/image-color-changed-reseize_86f9f238-8b39-4fb2-b6db-e94bed6e9427.jpg","image2":"shopify:\/\/shop_images\/3N2A5730-2_copy_1_-resizeedge.jpg","richtext4":"We Know every Morning you","richtext5":"wake up to chase your Dreams.","richtext6":"that's why we created the <b>right<\/b>","richtext7":"<b>shoes<\/b> to help you catch them","imgMob":"shopify:\/\/shop_images\/text222.svg"}},"5ccc2252-d03f-42bf-842e-8d480c20c4de":{"type":"text-image-button","settings":{"image":"shopify:\/\/shop_images\/product-image-1.png","imagelink":"shopify:\/\/products\/forgano-nursing-shoes-beige","buttonLink":"shopify:\/\/products\/forgano-nursing-shoes-beige","buttonLabel":"Shop Beige","h3":"<p>Forgano <br\/>Nursing <br\/>Shoes <\/p>","image2":"shopify:\/\/shop_images\/product-image-2.png","image2link":"shopify:\/\/products\/forgano-nursing-shoes-beige","image3":"shopify:\/\/shop_images\/IMG_4532_copy.jpg"}},"11e3612f-34b5-4ad7-8030-15fc6660cc76":{"type":"rich-text","blocks":{"template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-1":{"type":"text","disabled":true,"settings":{"enlarge_text":true,"text":"<p>COMBINING LEGENDARY COMFORT WITH PROGRESSIVE DESIGN, OUR PURPOSE IS TO SUPPORT YOU ON YOUR JOURNEY TO YOUR BEST-VERSION<\/p>"}},"template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-0":{"type":"heading","disabled":true,"settings":{"title":"Rich text"}},"4d8e3d7c-a611-4417-a9c4-6d506cdb307c":{"type":"heading","settings":{"title":"COMBINING LEGENDARY COMFORT WITH PROGRESSIVE DESIGN, OUR PURPOSE IS TO SUPPORT YOU ON YOUR JOURNEY TO YOUR BEST-VERSION"}}},"block_order":["template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-1","template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-0","4d8e3d7c-a611-4417-a9c4-6d506cdb307c"],"disabled":true,"settings":{"align_text":"center","narrow_column":true,"divider":false}},"e0c3672d-804b-4859-8fe6-d256e0f5e579":{"type":"richtext-custom","settings":{"richtext":"COMBINING LEGENDARY COMFORT WITH","richtext1":"<b>PROGRESSIVE DESIGN,<\/b> OUR Purpose is TO","richtext2":"SUPPORT YOU ON YOUR JOURNEY TO YOUR","richtext3":"BEST-VERSION","richtext4":"COMBINING LEGENDARY COMFORT","richtext5":"WITH <b>PROGRESSIVE DESIGN<\/b>, OUR Purpose","richtext6":"is TO SUPPORT YOU ON YOUR JOURNEY","richtext7":"TO YOUR BEST VERSION","imgMob":"shopify:\/\/shop_images\/text33.svg"}},"1110efef-4e34-4154-a241-24afae80c9ba":{"type":"text-image-button-1","settings":{"image":"shopify:\/\/shop_images\/3N2A5068_2_copy_1.jpg","imagelink":"shopify:\/\/products\/forgano-nursing-shoes-black","buttonLink":"shopify:\/\/products\/forgano-nursing-shoes-black","buttonLabel":"shop black","h3":"<p>The hottest style<br\/>statement for modern<br\/> scrub wear<strong> <\/strong>{{ shop.brand.slogan }}<\/p>","image2":"shopify:\/\/shop_images\/3N2A5114_copy_1.jpg","image2link":"shopify:\/\/products\/forgano-nursing-shoes-black","image3":"shopify:\/\/shop_images\/3N2A5571_jpeg_copy_1_-resize.jpg"}},"5d8c0434-40ac-4abf-981f-8d4649d59d08":{"type":"the-products","blocks":{"89c2e6fc-69ef-4596-9080-a9d0526352ae":{"type":"product","settings":{"tp_pr1":"forgano-nursing-shoes-beige"}},"f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b":{"type":"product","settings":{"tp_pr1":"forgano-nursing-shoes-black"}}},"block_order":["89c2e6fc-69ef-4596-9080-a9d0526352ae","f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b"],"settings":{"tp_heading":"The comfiest fit for all-day wear","tp_heading1":"Simply Comfier","tp_span_color":"#1f1f1f","tp_non_span_color":"","tp_paragraph":"","tp_para_color":"","tp_product_color":"","buttonLink":"shopify:\/\/collections\/all","buttonLabel":"shop all"}},"0020f82f-b570-44e5-a010-c0aca51eb8e7":{"type":"text-content-with-image","custom_css":[".text-content-with-image-right {background: #f4f4f4;}",".text-content-with-image-right h2 p,.text-content-with-image-right .site-banner-text p,.text-content-with-image-right .site-banner-text a {color: #000;}"],"settings":{"image":"shopify:\/\/shop_images\/3N2A6202_3_-resize.jpg","richtext1":"<p>Making versatility<br\/>look easy<\/p>","richtext":"<p>Collaborative colorways that<br\/>go with just about anything<br\/>you'd care to wear<\/p>","buttonUrl":"shopify:\/\/products\/forgano-nursing-shoes-beige","buttonText":"Learn More","image0":"shopify:\/\/shop_images\/mg_8096_fixed2_2c648498-4142-473f-9521-4ddb2391aa7b.png"}},"bf0a0d5e-f246-45d2-94bf-b995076262df":{"type":"our-blog-section","disabled":true,"settings":{"blog":"news","post_limit":3,"richtext1":"<p>Our blog<\/p>","buttonText":"read all"}},"4c186dd7-8434-47c2-aaea-8e7e527a0650":{"type":"reviews-section","blocks":{"ba172be5-6177-4efc-89c0-590537d3f102":{"type":"slide","settings":{"richtext1":"<p>Christa B., Las Vegas, Nevada, USA<\/p>","richtext2":"<p>\"Fast shipping, comfortable, and stylish new work shoes! Literally one of the cutest and best shoes! I would definitely recommend\"<\/p>","range":5}},"75de2419-59b7-48b8-9fbf-c050ed24ea50":{"type":"slide","settings":{"richtext1":"<p>Kenia L., Escondido, California, USA<\/p>","richtext2":"<p>“Very comfortable. I have high arches and it's difficult finding a shoe that supports me all day without pain. Recommend.<\/p>","range":5}},"f67fe4c6-7336-49a6-afb5-406cfa94a420":{"type":"slide","settings":{"richtext1":"<p>Bailey H., Glenview, IL, USA<\/p>","richtext2":"<p>\"I love these shoes so much they are so so comfy!! they feel like I'm walking on clouds\"<\/p>","range":5}},"3a9ac501-2ffc-4029-b55a-3f0f81d44c83":{"type":"slide","settings":{"richtext1":"<p>Marie A., Wilmette, IL, USA<\/p>","richtext2":"<p>\"It is so comfortable. I would buy another for my friends who are nurses. I surely will recommend it to them\"<\/p>","range":5}},"2d68b0bd-d642-4f6a-91e5-5c1f58f4f575":{"type":"slide","settings":{"richtext1":"<p>Mae G., Miami, FL, USA<\/p>","richtext2":"<p>\"The brand is more than shoes it is made of love and comfort. The minimalist design could match whether you go to work or run to the grocery. It's a statement... work + style !<\/p>","range":5}}},"block_order":["ba172be5-6177-4efc-89c0-590537d3f102","75de2419-59b7-48b8-9fbf-c050ed24ea50","f67fe4c6-7336-49a6-afb5-406cfa94a420","3a9ac501-2ffc-4029-b55a-3f0f81d44c83","2d68b0bd-d642-4f6a-91e5-5c1f58f4f575"],"settings":{"richtext1":"<p>Reviews<\/p>"}},"dc6050ca-98bc-4606-8bd9-ad165b5b6eed":{"type":"gallery-section","blocks":{"3255a244-0ecc-46c0-a8e4-359720eb7c0c":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/IMG_3734-min.jpg"}},"0e18416d-9d00-4279-bc38-2747d1e1e82f":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/IMG_2756_1bb70c16-5b56-49b1-9116-da6c095e88c0.jpg"}},"e5c0a09a-01d7-4417-a182-5d87bf543f93":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/IMG-5072-min.jpg"}},"d550f9bd-0d72-4cbc-95d6-0bc87921080a":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/IMG-5067.jpg"}},"c29ede24-8485-4959-b2b0-fc44cac814f4":{"type":"slide","settings":{"image":"shopify:\/\/shop_images\/IMG-5068-min.jpg"}}},"block_order":["3255a244-0ecc-46c0-a8e4-359720eb7c0c","0e18416d-9d00-4279-bc38-2747d1e1e82f","e5c0a09a-01d7-4417-a182-5d87bf543f93","d550f9bd-0d72-4cbc-95d6-0bc87921080a","c29ede24-8485-4959-b2b0-fc44cac814f4"],"settings":{"richtext1":"<p>Follow us <a href=\"https:\/\/instagram.com\/forgano.official\" target=\"_blank\" title=\"https:\/\/instagram.com\/forgano.official\"><strong>@forgano.official<\/strong><\/a><\/p>","richtext2":"<p>Follow us <a href=\"https:\/\/www.instagram.com\/forgano.official\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/forgano.official\/\"><strong>@forgano.official<\/strong><\/a><\/p>"}}},"order":["d03fff59-1ad3-48cb-9960-7a94bdafb2bf","bd8d02c5-72d4-4c7b-a0b5-15fcd742af34","1c054611-3cf4-4c23-893f-70d70a855845","2eb73f70-6cbd-437c-b827-381d1082076a","c1f21e95-ed7c-425c-aa2e-994fa0bde97a","48834a20-403e-4af0-9b6f-907a80c4442e","54a9936a-72e2-4908-bf69-d7452df982db","5ccc2252-d03f-42bf-842e-8d480c20c4de","11e3612f-34b5-4ad7-8030-15fc6660cc76","e0c3672d-804b-4859-8fe6-d256e0f5e579","1110efef-4e34-4154-a241-24afae80c9ba","5d8c0434-40ac-4abf-981f-8d4649d59d08","0020f82f-b570-44e5-a010-c0aca51eb8e7","bf0a0d5e-f246-45d2-94bf-b995076262df","4c186dd7-8434-47c2-aaea-8e7e527a0650","dc6050ca-98bc-4606-8bd9-ad165b5b6eed"]}
+{
+  "sections": {
+    "d03fff59-1ad3-48cb-9960-7a94bdafb2bf": {
+      "type": "announcement-prod",
+      "disabled": true,
+      "settings": {
+        "enable_bar": true,
+        "background_annoucement_text_color": "#ffeaf6",
+        "background_annoucement": "#f7239c",
+        "content1": "BIG RESTOCKING PARTY COMING IN AUGUST 🎉 YOU DON'T WANT TO MISS IT! SIGN UP TO STAY TAPPED IN."
+      }
+    },
+    "bd8d02c5-72d4-4c7b-a0b5-15fcd742af34": {
+      "type": "banner-section",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "hideDesk": false,
+        "image": "shopify:\/\/shop_images\/Untitled_design_92.png",
+        "image2": "shopify:\/\/shop_images\/Untitled_design_91.png",
+        "text": "now flourishing",
+        "useImge": true,
+        "img": "shopify:\/\/shop_images\/heading-2.png",
+        "heading_height": 120,
+        "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+        "buttonUrl": "shopify:\/\/collections\/all",
+        "buttonText": "shop now"
+      }
+    },
+    "1c054611-3cf4-4c23-893f-70d70a855845": {
+      "type": "the-products",
+      "blocks": {
+        "329aea76-b641-4a48-9382-930d44ef027a": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-beige"
+          }
+        },
+        "43563269-98fe-4ab9-a8a1-1550a4184b9d": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-black"
+          }
+        },
+        "64b33496-2146-4db6-b017-e814c6a5a0a7": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-black"
+          }
+        },
+        "14ecd933-cc85-4dde-8e51-58bc024f390b": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-beige"
+          }
+        }
+      },
+      "block_order": [
+        "329aea76-b641-4a48-9382-930d44ef027a",
+        "43563269-98fe-4ab9-a8a1-1550a4184b9d",
+        "64b33496-2146-4db6-b017-e814c6a5a0a7",
+        "14ecd933-cc85-4dde-8e51-58bc024f390b"
+      ],
+      "disabled": true,
+      "settings": {
+        "tp_heading": "The comfiest fit for all-day wear",
+        "tp_heading1": "Simply Comfier",
+        "tp_span_color": "#1f1f1f",
+        "tp_non_span_color": "",
+        "tp_paragraph": "",
+        "tp_para_color": "",
+        "tp_product_color": "",
+        "buttonLink": "shopify:\/\/collections\/all",
+        "buttonLabel": "shop all"
+      }
+    },
+    "2eb73f70-6cbd-437c-b827-381d1082076a": {
+      "type": "newsletter",
+      "blocks": {
+        "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-title-1": {
+          "type": "title",
+          "settings": {
+            "title": ""
+          }
+        },
+        "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>STAY IN THE LOOP FOR <em><strong>EXCLUSIVE PRODUCT RELEASES<\/strong><\/em><\/h2>"
+          }
+        },
+        "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-form-1": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-title-1",
+        "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-text-1",
+        "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-form-1"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "color_background": "#000000",
+        "color_text": "#ffffff",
+        "border_color": "#ffffff",
+        "btn_text": "SUBSCRIBE",
+        "placeholder": "Enter Email Address",
+        "btn_text_color": "#ffffff",
+        "btn_bg": "rgba(0,0,0,0)",
+        "input_bg": "#ffffff",
+        "input_text": "#000000",
+        "plc_color": "#000000"
+      }
+    },
+    "c1f21e95-ed7c-425c-aa2e-994fa0bde97a": {
+      "type": "richtext-custom",
+      "disabled": true,
+      "settings": {
+        "richtext": "We Know every Morning you",
+        "richtext1": "wake up to chase your Dreams.",
+        "richtext2": "that's why we created the <b>right shoes<\/b> to help you catch them",
+        "richtext3": "",
+        "richtext4": "",
+        "richtext5": "",
+        "richtext6": "",
+        "richtext7": ""
+      }
+    },
+    "48834a20-403e-4af0-9b6f-907a80c4442e": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--15942088589489__48834a20-403e-4af0-9b6f-907a80c4442e-1675610434aa2420bd-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<div class=\"row\">\n  <div class=\"column\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/3359\/4545\/files\/Mask_group_1.jpg?v=1673890546\" alt=\"\"><\/div>\n  <div class=\"column\"><img src=\"\/\/cdn.shopify.com\/s\/files\/1\/0612\/3359\/4545\/files\/Mask_group.jpg?v=1673890546\" alt=\"\"><\/div>\n<\/div>\n<style>.column {\n  float: left;\n  width: 50%;\n}\n\n\/* Clear floats after the columns *\/\n.row:after {\n  content: \"\";\n  display: table;\n  clear: both;\n}<\/style>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942088589489__48834a20-403e-4af0-9b6f-907a80c4442e-1675610434aa2420bd-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "54a9936a-72e2-4908-bf69-d7452df982db": {
+      "type": "text-with-images-blocks",
+      "custom_css": [
+        ".text-with-head {position: relative; z-index: 1;}"
+      ],
+      "settings": {
+        "richtext": "We Know every Morning you",
+        "richtext1": "wake up to chase your Dreams. that's",
+        "richtext2": "why we created the <b>right shoes<\/b> to",
+        "richtext3": "help you catch them",
+        "image": "shopify:\/\/shop_images\/image-color-changed-reseize_86f9f238-8b39-4fb2-b6db-e94bed6e9427.jpg",
+        "image2": "shopify:\/\/shop_images\/3N2A5730-2_copy_1_-resizeedge.jpg",
+        "richtext4": "We Know every Morning you",
+        "richtext5": "wake up to chase your Dreams.",
+        "richtext6": "that's why we created the <b>right<\/b>",
+        "richtext7": "<b>shoes<\/b> to help you catch them",
+        "imgMob": "shopify:\/\/shop_images\/text222.svg"
+      }
+    },
+    "5ccc2252-d03f-42bf-842e-8d480c20c4de": {
+      "type": "text-image-button",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/product-image-1.png",
+        "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "buttonLabel": "Shop Beige",
+        "h3": "<p>Forgano <br\/>Nursing <br\/>Shoes <\/p>",
+        "image2": "shopify:\/\/shop_images\/product-image-2.png",
+        "image2link": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "image3": "shopify:\/\/shop_images\/IMG_4532_copy.jpg"
+      }
+    },
+    "11e3612f-34b5-4ad7-8030-15fc6660cc76": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>COMBINING LEGENDARY COMFORT WITH PROGRESSIVE DESIGN, OUR PURPOSE IS TO SUPPORT YOU ON YOUR JOURNEY TO YOUR BEST-VERSION<\/p>"
+          }
+        },
+        "template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text"
+          }
+        },
+        "4d8e3d7c-a611-4417-a9c4-6d506cdb307c": {
+          "type": "heading",
+          "settings": {
+            "title": "COMBINING LEGENDARY COMFORT WITH PROGRESSIVE DESIGN, OUR PURPOSE IS TO SUPPORT YOU ON YOUR JOURNEY TO YOUR BEST-VERSION"
+          }
+        }
+      },
+      "block_order": [
+        "template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-1",
+        "template--15942088589489__11e3612f-34b5-4ad7-8030-15fc6660cc76-16745980277d0775a1-0",
+        "4d8e3d7c-a611-4417-a9c4-6d506cdb307c"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "e0c3672d-804b-4859-8fe6-d256e0f5e579": {
+      "type": "richtext-custom",
+      "settings": {
+        "richtext": "COMBINING LEGENDARY COMFORT WITH",
+        "richtext1": "<b>PROGRESSIVE DESIGN,<\/b> OUR Purpose is TO",
+        "richtext2": "SUPPORT YOU ON YOUR JOURNEY TO YOUR",
+        "richtext3": "BEST-VERSION",
+        "richtext4": "COMBINING LEGENDARY COMFORT",
+        "richtext5": "WITH <b>PROGRESSIVE DESIGN<\/b>, OUR Purpose",
+        "richtext6": "is TO SUPPORT YOU ON YOUR JOURNEY",
+        "richtext7": "TO YOUR BEST VERSION",
+        "imgMob": "shopify:\/\/shop_images\/text33.svg"
+      }
+    },
+    "1110efef-4e34-4154-a241-24afae80c9ba": {
+      "type": "text-image-button-1",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3N2A5068_2_copy_1.jpg",
+        "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-black",
+        "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-black",
+        "buttonLabel": "shop black",
+        "h3": "<p>The hottest style<br\/>statement for modern<br\/> scrub wear<strong> <\/strong>{{ shop.brand.slogan }}<\/p>",
+        "image2": "shopify:\/\/shop_images\/3N2A5114_copy_1.jpg",
+        "image2link": "shopify:\/\/products\/forgano-nursing-shoes-black",
+        "image3": "shopify:\/\/shop_images\/3N2A5571_jpeg_copy_1_-resize.jpg"
+      }
+    },
+    "5d8c0434-40ac-4abf-981f-8d4649d59d08": {
+      "type": "the-products",
+      "blocks": {
+        "89c2e6fc-69ef-4596-9080-a9d0526352ae": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-beige"
+          }
+        },
+        "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-black"
+          }
+        }
+      },
+      "block_order": [
+        "89c2e6fc-69ef-4596-9080-a9d0526352ae",
+        "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b"
+      ],
+      "settings": {
+        "tp_heading": "The comfiest fit for all-day wear",
+        "tp_heading1": "Simply Comfier",
+        "tp_span_color": "#1f1f1f",
+        "tp_non_span_color": "",
+        "tp_paragraph": "",
+        "tp_para_color": "",
+        "tp_product_color": "",
+        "buttonLink": "shopify:\/\/collections\/all",
+        "buttonLabel": "shop all"
+      }
+    },
+    "0020f82f-b570-44e5-a010-c0aca51eb8e7": {
+      "type": "text-content-with-image",
+      "custom_css": [
+        ".text-content-with-image-right {background: #f4f4f4;}",
+        ".text-content-with-image-right h2 p,.text-content-with-image-right .site-banner-text p,.text-content-with-image-right .site-banner-text a {color: #000;}"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/3N2A6202_3_-resize.jpg",
+        "richtext1": "<p>Making versatility<br\/>look easy<\/p>",
+        "richtext": "<p>Collaborative colorways that<br\/>go with just about anything<br\/>you'd care to wear<\/p>",
+        "buttonUrl": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "buttonText": "Learn More",
+        "image0": "shopify:\/\/shop_images\/mg_8096_fixed2_2c648498-4142-473f-9521-4ddb2391aa7b.png"
+      }
+    },
+    "bf0a0d5e-f246-45d2-94bf-b995076262df": {
+      "type": "our-blog-section",
+      "disabled": true,
+      "settings": {
+        "blog": "news",
+        "post_limit": 3,
+        "richtext1": "<p>Our blog<\/p>",
+        "buttonText": "read all"
+      }
+    },
+    "4c186dd7-8434-47c2-aaea-8e7e527a0650": {
+      "type": "reviews-section",
+      "blocks": {
+        "ba172be5-6177-4efc-89c0-590537d3f102": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Christa B., Las Vegas, Nevada, USA<\/p>",
+            "richtext2": "<p>\"Fast shipping, comfortable, and stylish new work shoes! Literally one of the cutest and best shoes! I would definitely recommend\"<\/p>",
+            "range": 5
+          }
+        },
+        "75de2419-59b7-48b8-9fbf-c050ed24ea50": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Kenia L., Escondido, California, USA<\/p>",
+            "richtext2": "<p>“Very comfortable. I have high arches and it's difficult finding a shoe that supports me all day without pain. Recommend.<\/p>",
+            "range": 5
+          }
+        },
+        "f67fe4c6-7336-49a6-afb5-406cfa94a420": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Bailey H., Glenview, IL, USA<\/p>",
+            "richtext2": "<p>\"I love these shoes so much they are so so comfy!! they feel like I'm walking on clouds\"<\/p>",
+            "range": 5
+          }
+        },
+        "3a9ac501-2ffc-4029-b55a-3f0f81d44c83": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Marie A., Wilmette, IL, USA<\/p>",
+            "richtext2": "<p>\"It is so comfortable. I would buy another for my friends who are nurses. I surely will recommend it to them\"<\/p>",
+            "range": 5
+          }
+        },
+        "2d68b0bd-d642-4f6a-91e5-5c1f58f4f575": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Mae G., Miami, FL, USA<\/p>",
+            "richtext2": "<p>\"The brand is more than shoes it is made of love and comfort. The minimalist design could match whether you go to work or run to the grocery. It's a statement... work + style !<\/p>",
+            "range": 5
+          }
+        }
+      },
+      "block_order": [
+        "ba172be5-6177-4efc-89c0-590537d3f102",
+        "75de2419-59b7-48b8-9fbf-c050ed24ea50",
+        "f67fe4c6-7336-49a6-afb5-406cfa94a420",
+        "3a9ac501-2ffc-4029-b55a-3f0f81d44c83",
+        "2d68b0bd-d642-4f6a-91e5-5c1f58f4f575"
+      ],
+      "settings": {
+        "richtext1": "<p>Reviews<\/p>"
+      }
+    },
+    "dc6050ca-98bc-4606-8bd9-ad165b5b6eed": {
+      "type": "gallery-section",
+      "blocks": {
+        "3255a244-0ecc-46c0-a8e4-359720eb7c0c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_3734-min.jpg"
+          }
+        },
+        "0e18416d-9d00-4279-bc38-2747d1e1e82f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_2756_1bb70c16-5b56-49b1-9116-da6c095e88c0.jpg"
+          }
+        },
+        "e5c0a09a-01d7-4417-a182-5d87bf543f93": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-5072-min.jpg"
+          }
+        },
+        "d550f9bd-0d72-4cbc-95d6-0bc87921080a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-5067.jpg"
+          }
+        },
+        "c29ede24-8485-4959-b2b0-fc44cac814f4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-5068-min.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "3255a244-0ecc-46c0-a8e4-359720eb7c0c",
+        "0e18416d-9d00-4279-bc38-2747d1e1e82f",
+        "e5c0a09a-01d7-4417-a182-5d87bf543f93",
+        "d550f9bd-0d72-4cbc-95d6-0bc87921080a",
+        "c29ede24-8485-4959-b2b0-fc44cac814f4"
+      ],
+      "settings": {
+        "richtext1": "<p>Follow us <a href=\"https:\/\/instagram.com\/forgano.official\" target=\"_blank\" title=\"https:\/\/instagram.com\/forgano.official\"><strong>@forgano.official<\/strong><\/a><\/p>",
+        "richtext2": "<p>Follow us <a href=\"https:\/\/www.instagram.com\/forgano.official\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/forgano.official\/\"><strong>@forgano.official<\/strong><\/a><\/p>"
+      }
+    }
+  },
+  "order": [
+    "d03fff59-1ad3-48cb-9960-7a94bdafb2bf",
+    "bd8d02c5-72d4-4c7b-a0b5-15fcd742af34",
+    "1c054611-3cf4-4c23-893f-70d70a855845",
+    "2eb73f70-6cbd-437c-b827-381d1082076a",
+    "c1f21e95-ed7c-425c-aa2e-994fa0bde97a",
+    "48834a20-403e-4af0-9b6f-907a80c4442e",
+    "54a9936a-72e2-4908-bf69-d7452df982db",
+    "5ccc2252-d03f-42bf-842e-8d480c20c4de",
+    "11e3612f-34b5-4ad7-8030-15fc6660cc76",
+    "e0c3672d-804b-4859-8fe6-d256e0f5e579",
+    "1110efef-4e34-4154-a241-24afae80c9ba",
+    "5d8c0434-40ac-4abf-981f-8d4649d59d08",
+    "0020f82f-b570-44e5-a010-c0aca51eb8e7",
+    "bf0a0d5e-f246-45d2-94bf-b995076262df",
+    "4c186dd7-8434-47c2-aaea-8e7e527a0650",
+    "dc6050ca-98bc-4606-8bd9-ad165b5b6eed"
+  ]
+}
