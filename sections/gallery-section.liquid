@@ -1,0 +1,52 @@
+<div class="asyncLoad gallery-section-main">
+<div><h2  class="mobile-hide">{{ section.settings.richtext1 }}</h2>
+<h2 class="mobile-show">{{ section.settings.richtext2 }}</h2>
+</div>
+
+<div class="gallery-section-wrapper">
+{% for block in section.blocks %}
+<div class="gallery-section-image">
+  {%- if block.settings.image != blank -%}<div>  {{ block.settings.image | img_url:"master" | img_tag }}</div> {%- endif -%}
+</div>
+{% endfor %}  
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Gallery Section",
+    "settings": [
+      {
+"type": "richtext",
+"id": "richtext1",
+"label": "Text"
+},
+            {
+"type": "richtext",
+"id": "richtext2",
+"label": "Text"
+}
+    ],
+    "blocks": [
+     {
+       "name": "Image",
+       "type": "slide",
+       "settings": [
+                {
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+}
+       ]
+     }
+   ],
+     "presets": [{
+    "name": "Gallery Section"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

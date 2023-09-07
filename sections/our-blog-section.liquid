@@ -1,0 +1,62 @@
+{%- assign blog = blogs[section.settings.blog] -%}
+<div class="asyncLoad our-blog-wrapper">
+    {%- for article in blog.articles limit: section.settings.post_limit -%}
+{% if forloop.index == 2 %}
+<div class="our-blog-richtext">
+<div><h2>{{ section.settings.richtext1 }}</h2></div>
+{% if section.settings.buttonText  %}<div> <a class="btn-style-1" href="{{ blog.url}}">{{ section.settings.buttonText }}{% include 'icon-btn-arrow' %}</a></div> {% endif %}
+
+</div>
+{% endif %}
+<div>
+{% if article.image %}
+ <div class="article-image-wrapper"> {{ article | img_url: 'master' | img_tag }}</div>
+{% endif %}
+<span>{{ article.published_at | date: "%b %d, %Y" }}</span>
+<a href="{{ article.url }}"><h4>{{ article.title }}</h4></a>
+</div> 
+
+     {%- endfor -%}
+</div>
+{% schema %}
+  {
+    "name": "Our Blog Posts",
+    "class":"our-blog-section",
+    "settings": [
+       {
+      "id": "blog",
+      "type": "blog",
+      "label": "t:sections.blog-posts.settings.blog.label"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": "t:sections.blog-posts.settings.post_limit.label",
+      "default": 3,
+      "min": 3,
+      "max": 12,
+      "step": 3
+    },
+      {
+"type": "richtext",
+"id": "richtext1",
+"label": "Text"
+},
+  
+{
+"type": "text",
+"id": "buttonText",
+"label": "Button label"
+}
+    ],
+      "presets": [{
+      "name": "Our Blog Posts"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,97 @@
+{% style %}
+.site-about-product h2 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+/* identical to box height, or 21px */
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: none;
+}
+
+.site-about {
+    display: flex;
+    gap: 44px;
+    padding: 0 50px;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+.site-about-richtext{
+      display: flex;     gap: 44px;
+  max-width:740px;
+}
+.site-about p {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+/* or 21px */
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.site-banner-heading {
+    padding: 0;
+}
+.site-about-product .site-banner-div img {
+    width: 100%;
+    display: block;
+}
+
+.site-about-product .site-banner-div {
+    padding: 0 50px;
+}
+{% endstyle %}
+<div class="site-about-product">
+       {%- if section.settings.image != blank -%} 
+<div class="site-banner-div mobile-hide"><img src="{{ section.settings.image | img_url:"master" }}"/></div>
+<div class="site-banner-div mobile-show"><img src="{{ section.settings.image2 | img_url:"master" }}"/></div>
+         {%- endif -%}
+  <div class="site-about">
+      {% if section.settings.text  %}  <div class="site-banner-heading">
+    <h2>{{ section.settings.text }}</h2>
+  </div>{% endif %}
+  <div class="site-about-richtext">
+  {% if section.settings.richtext  %}  <div>  {{ section.settings.richtext }} </div>{% endif %}
+  {% if section.settings.richtext2  %}  <div>  {{ section.settings.richtext2 }} </div>{% endif %}
+</div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Product",
+    "settings": [
+      {
+"type": "image_picker",
+"id": "image",
+"label": "t:sections.text-and-image.settings.image.label"
+},
+      {
+"type": "image_picker",
+"id": "image2",
+"label": "Mobile Image"
+},
+      {
+"type": "text",
+"id": "text",
+"label": "Heading"
+},
+{
+"type": "richtext",
+"id": "richtext",
+"label": "Text"
+},
+      {
+"type": "richtext",
+"id": "richtext2",
+"label": "Text"
+}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,27 @@
+{% comment %}
+You SHOULD NOT modify source code in this page because
+It is automatically generated from EcomSolid
+Try to edit page with the live editor.
+{% endcomment %}
+<script type="text/javascript">
+  var __GemSettings = {
+    "domain": "{{shop.domain}}",
+    "currency": "{{cart.currency.iso_code}}",
+    "money": "{{shop.money_format | replace: '"', "'" }}",
+    "template_name": "{{ template.name | handle }}",
+    "cart.item_count": "{{ cart.item_count }}"
+  }
+</script>
+{% capture esHeadTheme %}
+  {% render 'ecomsolid-head-theme' %}
+{% endcapture %}
+{% unless esHeadTheme contains 'Liquid error' %}
+  {{esHeadTheme}}
+{% endunless %}
+{% capture esHeadPage %}
+  {% render 'ecomsolid-head-page' %}
+{% endcapture %}
+{% unless esHeadPage contains 'Liquid error' %}
+  {{esHeadPage}}
+{% endunless %}
+    

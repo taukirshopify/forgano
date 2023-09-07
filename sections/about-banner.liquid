@@ -1,0 +1,55 @@
+<div class="site-container about-banner-text">
+  <div class="site-banner-text">
+{% if section.settings.text  %}  <h2 class="mobile-show">  {{ section.settings.text }} </h2>{% endif %}
+    <div>
+{% if section.settings.text  %}  <h2 class="mobile-hide">  {{ section.settings.text }} </h2>{% endif %}
+  {% if section.settings.richtext  %}  <div class="mobile-hide">  {{ section.settings.richtext }} </div>{% endif %}
+
+
+    </div>
+       {%- if section.settings.image != blank -%} 
+<div class="site-banner-div mobile-hide"><img src="{{ section.settings.image | img_url:"master" }}"/></div>
+         {%- endif -%}
+         {%- if section.settings.image2 != blank -%} 
+<div class="site-banner-div mobile-show"><img src="{{ section.settings.image2 | img_url:"master" }}"/></div>
+         {%- endif -%}
+  {% if section.settings.richtext  %}  <div class="mobile-show" style="position: static;">  {{ section.settings.richtext }} </div>{% endif %}
+  </div>
+</div>
+{% schema %}
+  {
+   "name": "About Banner",
+    "settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "t:sections.text-and-image.settings.image.label"
+},
+      {
+"type": "image_picker",
+"id": "image2",
+"label": "Mobile image"
+},
+{
+"type": "text",
+"id": "text",
+"label": "Heading"
+},
+{
+"type": "richtext",
+"id": "richtext",
+"label": "Text"
+}     
+    ],
+    "presets": [{
+      "name": "About Banner",
+      "category": "image"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

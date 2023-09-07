@@ -1,0 +1,42 @@
+{% capture accessDenied %}
+	<p style="margin-left:40%; color:red">Sorry, You are not allowed to access this page</p>
+{% endcapture %}
+{% assign elementsString = '*[itemprop=price],*[class~="price"],*[class~="Price"],*[id|="productPrice"],*[class*="__price"],*[class*="__Price"],*[class*="--price"],*[class*="--Price"],*[class="money"],*[class~="product-price"],*[id~="product-price"],*[class~="cart__item-total"],*[class~="cart__subtotal"], *[class~=cart__price-wrapper]' %}
+
+{% capture loginPage %}
+{% if customer %}
+{{ accessDenied }}
+{% else %}
+<script>
+      	let checkout_url = window.location.href.replace( '{{ shop.url | append:"/" }}' , '/');
+        let redirect_url = window.location.href;
+        if(redirect_url.includes("?")) redirect_url = '{{ shop.url }}/account/login' + "?checkout_url=" + encodeURIComponent(checkout_url);
+        else redirect_url = '{{ shop.url }}/account/login' + "?checkout_url=" + encodeURIComponent(checkout_url);
+        window.location.href = redirect_url;
+</script>
+{% endif %}
+{% endcapture %}<script>
+function getCookie(cookieName) {
+    let cookie = {};
+    document.cookie.split(";").forEach(function(el) {
+      let [key,value] = el.split("=");
+      cookie[key.trim()] = value;
+    })
+    return cookie[cookieName];
+}
+function setCookie(name,value,days) {
+  var expires = "";
+  if (days) {
+      var date = new Date();
+      date.setTime(date.getTime() + (days*24*60*60*1000));
+      expires = "; expires=" + date.toUTCString();
+  }
+  document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+}
+function eraseCookie(name) {   
+    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+}
+</script>
+
+<!-- miniOrange LOCK START _1387 --><!-- miniOrange LOCK END _1387 -->
+<!-- miniOrange LOCK START _1388 --><!-- miniOrange LOCK END _1388 -->

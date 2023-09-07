@@ -1,0 +1,82 @@
+<div class="site-container richtext-custom-wrapper">
+<div class="text-with-head mobile-hide">
+<h2><span>{{ section.settings.richtext }}</span>
+<span>{{ section.settings.richtext1 }}</span>
+<span>{{ section.settings.richtext2 }}</span>
+<span>{{ section.settings.richtext3 }}</span></h2>
+  </div>
+  <div class="text-with-head mobile-show customtextMobile">
+<!-- <h2><span class="only_mobile">{{ section.settings.richtext4 }}</span>
+<span class="only_mobile1">{{ section.settings.richtext5 }}</span>
+<span class="only_mobile2">{{ section.settings.richtext6 }}</span>
+<span class="only_mobile3">{{ section.settings.richtext7 }}</span></h2> -->
+  <img src="{{ section.settings.imgMob | img_url:'' }}">
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Richtext Custom",
+   "class":"richtext-custom",
+    "settings": [
+      {
+"type": "text",
+"id": "richtext",
+"label": "Text"
+},
+      {
+"type": "text",
+"id": "richtext1",
+"label": "Text"
+},
+      {
+"type": "text",
+"id": "richtext2",
+"label": "Text"
+},
+      {
+"type": "text",
+"id": "richtext3",
+"label": "Text"
+},
+      {
+  "type":"header",
+  "content":"Mobile"
+},
+      {
+"type": "text",
+"id": "richtext4",
+"label": "Text"
+},
+      {
+"type": "text",
+"id": "richtext5",
+"label": "Text"
+},
+      {
+"type": "text",
+"id": "richtext6",
+"label": "Text"
+},
+      {
+"type": "text",
+"id": "richtext7",
+"label": "Text"
+      },   {
+"type": "image_picker",
+"id": "imgMob",
+"label": "Mobile Image"
+}
+    ],
+    "presets": [
+{
+"name": "Richtext Custom"
+}
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

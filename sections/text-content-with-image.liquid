@@ -1,0 +1,64 @@
+<div class="asyncLoad site-container text-content-with-image-wrapper">
+<div class="text-content-with-image-left">
+  <div class="mobile-show"><h2>{{ section.settings.richtext1 }}</h2></div>
+  {%- if section.settings.image != blank -%}  {{ section.settings.image | img_url:"master" | img_tag }} {%- endif -%}
+</div>
+<div class="text-content-with-image-right">
+
+  <div class="mobile-hide"><h2>{{ section.settings.richtext1 }}</h2></div>
+
+{%- if section.settings.image0 != blank -%}<div class="image0">  {{ section.settings.image0 | img_url:"master" | img_tag }}</div> {%- endif -%}
+
+ <div class="site-banner-text">
+    <div>
+  {% if section.settings.richtext  %}  <div>  {{ section.settings.richtext }} </div>{% endif %}
+
+{% if section.settings.buttonText  %}<div> <a class="btn-style-1" href="{{ section.settings.buttonUrl}}">{{ section.settings.buttonText }}{% include 'icon-btn-arrow' %}</a></div> {% endif %}
+    </div>
+  </div>
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Text content with image",
+    "class":"text-content-with-image",
+    "settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "richtext",
+"id": "richtext1",
+"label": "Text"
+},
+{
+"type": "richtext",
+"id": "richtext",
+"label": "Text"
+},
+{
+"type": "url",
+"id": "buttonUrl",
+"label": "Button Url"
+},
+{
+"type": "text",
+"id": "buttonText",
+"label": "Button label"
+},
+      {
+"type": "image_picker",
+"id": "image0",
+"label": "Image"
+}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

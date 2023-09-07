@@ -1,0 +1,166 @@
+<style>
+.image-banner-section{
+   height: {{section.settings.section_height}}px;
+   background-image: url({{ section.settings.main_img | img_url: 'master' }});
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+.banner_with_text_overlay_content-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background-image: url({{ section.settings.main_des_img | img_url: 'master' }});
+    background-size: cover;
+    background-position: center;
+}
+     .banner_with_text_overlay_content-inner-container {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+     a.banner_with_text_overlay_btn {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+     .banner_with_text_overlay_content-inner-container h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 147%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.highlighted_text_wrapper{
+     position: relative;
+
+     }
+span.highlighted_text_background {
+    background: #3BFEDB;
+    transform: rotate(-3.67deg);
+    white-space: nowrap;
+    display: inline-block;
+    color: #3BFEDB;
+}
+span.highlighted_text_forground {
+    transform: rotate(0deg);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    white-space: nowrap;
+    background: blue;
+}
+  @media (max-width: 768px){
+    .highlighted_text_wrapper {
+    position: relative;
+    display: block;
+    margin-top: 30px;
+}
+         .banner_with_text_overlay_content-inner-container h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 147%;
+    text-align: center;
+    text-transform: capitalize;
+}
+    .image-banner-section{
+   height: {{section.settings.section_height}}px;
+   background-image: url({{ section.settings.mobile_main_img | img_url: 'master' }});
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   position: relative;
+}
+  }
+</style>
+
+
+<div class="image-banner-section">
+
+  <div class="banner_with_text_overlay_content-container">
+    <div class="banner_with_text_overlay_content-inner-container">
+    <h1>{{ section.settings.main_des }}</h1>
+    {% if section.settings.btn_link %}
+    <a class="custom_button_style banner_with_text_overlay_btn" href="{{ section.settings.btn_link }}">
+    {{ section.settings.btn_text }}
+    <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5.41675 13H20.5834" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M13 5.41699L20.5833 13.0003L13 20.5837" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    </a>
+    {% endif %}
+  </div>
+    </div>
+
+</div>
+
+  
+</div>
+
+
+{% schema %}
+  {
+    "name": "Banner with overlay text",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "main_img",
+        "label": "Banner Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "mobile_main_img",
+        "label": "MobileBanner Image"
+      },
+      {
+                  "type":"range",
+                  "id":"section_height",
+                  "label":"Select Section Height",
+                  "step":10,
+                  "unit":"px",
+                  "min":400,
+                  "max":1000,
+                  "default":900
+                 },
+      {
+        "type": "textarea",
+        "id": "main_des",
+        "label": "Add Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "main_des_img",
+        "label": "Upload Shadow"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Add Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Link the button"
+      }
+      
+    ],
+
+
+
+    "presets": [{
+      "name": "Banner with overlay text",
+      "category": "image"
+    }]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

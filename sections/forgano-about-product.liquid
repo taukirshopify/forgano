@@ -1,0 +1,607 @@
+<style>
+  .about-product-container {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin: 60px 0;
+  }
+  .about-product-subcontainer1{{ section.id }}{
+    color:{{ section.settings.ap_heading_clr }};
+        text-align: center;
+  }
+  ..about-product-subcontainer1{{ section.id }}>h1{
+    font-weight: 700;
+  }
+ .about-product-subcontainer2-detail1 {
+    position: absolute;
+       z-index: 2;
+    top: 20%;
+    left: 1%;
+}
+  .detail1-img {
+
+    display: flex;
+    justify-content: center;
+}
+  .detail1-img>img {
+    width: 74%;
+}
+
+
+.detail1-data {
+    width: 39%;
+    text-align: center;
+}
+
+
+.about-product-subcontainer2-detail2 {
+    position: absolute;
+      z-index: 2;
+    top: 10%;
+    left: 70%;
+}
+  .detail2-img>img{
+
+      width: 59%;
+  }
+  .detail2-data {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    left: 40%;
+}
+
+.about-product-subcontainer2-detail3 {
+    position: absolute;
+      z-index: 2;
+    bottom: 48%;
+    left: 3%;
+}
+  .detail3-img {
+   display: flex;
+    justify-content: space-around;
+}
+  .detail3-img> img {
+   width: 70%;
+}
+  
+.detail3-data {
+    width: 33%;
+    text-align: center;
+}
+  .about-product-subcontainer2-detail4 {
+    position: absolute;
+    z-index: 2;
+    bottom: 66%;
+    left: 41%;
+}
+
+  .detail4-data {
+    top: 90%;
+    left:84%;
+    width: 33%;
+    text-align: center;
+    position: absolute;
+}
+.about-product-subcontainer3 {
+    position: relative;
+}
+  .about-product-subcontainer3-detail1 {
+
+  position: absolute;
+    top: 27%;
+  }
+  .detail5-img {
+
+      display: flex;
+    justify-content: center;
+  }
+   .detail5-img >img{
+         width: 72%;
+   }
+
+  
+
+ 
+.detail5-data {
+   width: 33%;
+    text-align: center;
+}
+  .about-product-subcontainer3-detail2 {
+
+
+      position: absolute;
+    top: 51%;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .detail6-img>img{
+        width: 85%;
+  }
+  .detail6-data{
+        width: 33%;
+    text-align: center;
+  }
+  .mob-rspnsv{
+    display:none;
+  }
+  .mob-main-detail5-img{
+    display:none;
+  }
+
+  @media screen and (max-width: 768px){
+ .about-product-container{
+       gap: 500px;
+       margin-bottom: 352px;
+ }
+    .mob-main-detail5-img>img{
+          width: 100%;
+    }
+    .mob-main-detail5-img>img{
+          width: 100%;
+    }
+.about-product-subcontainer2-detail1 {
+    position: absolute;
+    z-index: 2;
+    top: 5%;
+    left: 7%;
+}
+  .detail1-data {
+    width: 35%;
+    text-align: left;
+}
+    .mob-rspnsv {
+    display: flex;
+}
+   .mobile-detail1-img{
+     width: 40%;
+   }
+   
+    .about-product-subcontainer2-detail2 {
+    position: absolute;
+    z-index: 2;
+    top: 17%;
+    left: 48%;
+}
+    .mob-main-detail5-img{
+    display:block;
+  }
+    .detail2-data {
+    position: absolute;
+    top: -27%;
+    width: 80%;
+    text-align: left;
+    left: 2%;
+}
+  
+    .about-product-subcontainer2-detail3 {
+    position: absolute;
+    z-index: 2;
+    bottom: 34%;
+    left: 21%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+    
+    
+  .detail3-data {
+    width: 34%;
+    text-align: left;
+}
+    .mobile-detail3-img>img{
+      width: 12%;
+    }
+    .about-product-subcontainer2-detail4 {
+    position: absolute;
+    z-index: 2;
+    bottom: 35%;
+    left: 33%;
+}
+    
+    .detail4-data {
+    top: 100%;
+    right: 23%;
+    width: 47%;
+    text-align: left;
+    position: absolute;
+}
+    .mobile-detail4-img>img{
+          width: 47%;
+    }
+    .about-product-subcontainer3-detail1 {
+    position: absolute;
+    top: 53%;
+    left: 22%;
+    display: flex;
+    flex-direction: column-reverse;
+   
+}
+    
+    
+    .detail5-data {
+    width: 33%;
+    text-align: left;
+}
+    .detail5-img {
+    justify-content: flex-start;
+}
+    .detail5-img >img {
+    width: 9%;
+}
+    .about-product-subcontainer3-detail2 {
+    position: absolute;
+    top: 51%;
+    left: 32%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+    .detail6-data {
+    width: 39%;
+    text-align: left;
+}
+    .mobile-detail6-img>img{
+      width: 30%;
+    }
+    .desktop{
+      display:none;
+    }
+    .main-img-dsktp{
+      display:none;
+    }
+</style>
+
+<div class="about-product-container page-width">
+  <div class="about-product-subcontainer1{{ section.id }}">
+    <h1>{{ section.settings.ap_heading }}</h1>
+  </div>
+
+  
+  <div class="about-product-subcontainer2">
+    
+    <div class="main-img-dsktp about-product-subcontainer2-img">
+    <img src="{{ section.settings.ap_img | img_url:"master" }}">
+    </div>
+    
+    <div class="mob-main-detail5-img">
+      <img src="{{ section.settings.ap_img_mobile | img_url:"master"}}">
+      </div>
+
+    {% if section.settings.ap_detail1_chkbx %}
+<div class="about-product-subcontainer2-detail1">
+      
+      <div class="desktop detail1-img">
+      <img src="{{ section.settings.ap_detail_obj1 | img_url:"master"}}">
+      </div>
+      
+      <div class="detail1-data">
+      <h5>{{ section.settings.ap_detail_h1 }}</h5>
+      <p>{{ section.settings.ap_detail_des1 }}</p>
+      </div>
+      
+<div class="mob-rspnsv mobile-detail1-img">
+      <img src="{{ section.settings.ap_detail_obj1_mob | img_url:"master"}}">
+      </div>
+  
+      
+</div>
+{% endif %}
+
+
+    {% if section.settings.ap_detail2_chkbx %}
+<div class="about-product-subcontainer2-detail2">
+      
+      <div class="desktop detail2-img">
+      <img  src="{{ section.settings.ap_detail_obj2 | img_url:"master" }}">
+      </div>
+      
+      <div class="detail2-data">
+      <h5>{{ section.settings.ap_detail_h2 }}</h5>
+      <p>{{ section.settings.ap_detail_des2 }}</p>
+      </div>
+
+      <div class="mob-rspnsv mobile-detail2-img">
+      <img  src="{{ section.settings.ap_detail_obj2_mob | img_url:"master" }}">
+      </div>
+     
+</div>
+{% endif %}
+
+
+    {% if section.settings.ap_detail3_chkbx %}
+<div class="about-product-subcontainer2-detail3">
+      
+      <div class="desktop detail3-img">
+      <img  src="{{ section.settings.ap_detail_obj3 | img_url:"master" }}">
+      </div>
+      
+      <div class="detail3-data">
+      <h5>{{ section.settings.ap_detail_h3 }}</h5>
+      <p>{{ section.settings.ap_detail_des3 }}</p>
+      </div>
+
+   
+      <div class="mob-rspnsv mobile-detail3-img">
+      <img  src="{{ section.settings.ap_detail_obj3_mob | img_url:"master" }}">
+      </div>
+      
+</div>
+{% endif %}
+
+
+  {% if section.settings.ap_detail4_chkbx %}
+<div class="about-product-subcontainer2-detail4">
+      
+      <div class="desktop detail4-img">
+      <img  src="{{ section.settings.ap_detail_obj4 | img_url:"master" }}">
+      </div>
+      
+      <div class="detail4-data">
+      <h5>{{ section.settings.ap_detail_h4 }}</h5>
+      <p>{{ section.settings.ap_detail_des4 }}</p>
+      </div>
+ 
+
+      <div class="mob-rspnsv mobile-detail4-img">
+      <img  src="{{ section.settings.ap_detail_obj4_mob | img_url:"master" }}">
+      </div>
+  
+</div>
+{% endif %}
+</div>
+
+ <div class="about-product-subcontainer3">
+    
+    <div class="main-img-dsktp about-product-subcontainer3-img">
+    <img src="{{ section.settings.ap_img2 | img_url:"master" }}">
+    </div>
+   
+    <div class="mob-main-detail5-img">
+      <img src="{{ section.settings.ap_img2_mobile | img_url:"master"}}">
+      </div>
+
+
+    {% if section.settings.ap_detail5_chkbx %}
+<div class="about-product-subcontainer3-detail1">
+      
+      <div class="desktop detail5-img">
+      <img src="{{ section.settings.ap_detail_obj5 | img_url:"master"}}">
+      </div>
+
+     
+      
+      <div class="detail5-data">
+      <h5>{{ section.settings.ap_detail_h5 }}</h5>
+      <p>{{ section.settings.ap_detail_des5 }}</p>
+      </div>
+
+  <div class="mob-rspnsv mobile detail5-img">
+      <img src="{{ section.settings.ap_detail_obj5_mob | img_url:"master"}}">
+      </div>
+
+  
+      
+</div>
+{% endif %}
+
+
+   {% if section.settings.ap_detail6_chkbx %}
+<div class="about-product-subcontainer3-detail2">
+      
+      <div class="desktop detail6-img">
+      <img src="{{ section.settings.ap_detail_obj6 | img_url:"master"}}">
+      </div>
+      
+      <div class="detail6-data">
+      <h5>{{ section.settings.ap_detail_h6 }}</h5>
+      <p>{{ section.settings.ap_detail_des6 }}</p>
+      </div>
+
+   
+      <div class="mob-rspnsv mobile-detail6-img">
+      <img src="{{ section.settings.ap_detail_obj6_mob | img_url:"master"}}">
+      </div>
+     
+</div>
+{% endif %}
+
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Product specification",
+    "settings": [
+      {
+        "type":"text",
+        "id":"ap_heading",
+        "label":"Type heading"
+      },
+      {
+        "type":"color",
+        "id":"ap_heading_clr",
+        "label":"Heading color"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_img",
+        "label":"Product image"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_img_mobile",
+        "label":"Product mobile image"
+      },
+      {
+        "type":"text",
+        "id":"ap_detail_h1",
+        "label":"Detail Heading"
+      },
+      {
+        "type":"textarea",
+        "id":"ap_detail_des1",
+        "label":"Detail description"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj1",
+        "label":"Upload vector"
+      },
+     {
+        "type":"image_picker",
+        "id":"ap_detail_obj1_mob",
+        "label":"Upload mobile vector"
+      },
+      {
+        "type":"checkbox",
+        "id":"ap_detail1_chkbx",
+        "label":"Show detail"
+      },
+      {
+        "type":"text",
+        "id":"ap_detail_h2",
+        "label":"Detail Heading"
+      },
+      {
+        "type":"textarea",
+        "id":"ap_detail_des2",
+        "label":"Detail description"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj2",
+        "label":"Upload vector"
+      },
+     {
+        "type":"image_picker",
+        "id":"ap_detail_obj2_mob",
+        "label":"Upload mobile vector"
+      },
+      {
+        "type":"checkbox",
+        "id":"ap_detail2_chkbx",
+        "label":"Show detail"
+      },
+      {
+        "type":"text",
+        "id":"ap_detail_h3",
+        "label":"Detail Heading"
+      },
+      {
+        "type":"textarea",
+        "id":"ap_detail_des3",
+        "label":"Detail description"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj3",
+        "label":"Upload vector"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj3_mob",
+        "label":"Upload mobile vector"
+      },
+      {
+        "type":"checkbox",
+        "id":"ap_detail3_chkbx",
+        "label":"Show detail"
+      },
+      {
+        "type":"text",
+        "id":"ap_detail_h4",
+        "label":"Detail Heading"
+      },
+      {
+        "type":"textarea",
+        "id":"ap_detail_des4",
+        "label":"Detail description"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj4",
+        "label":"Upload vector"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj4_mob",
+        "label":"Upload mobile vector"
+      },
+      {
+        "type":"checkbox",
+        "id":"ap_detail4_chkbx",
+        "label":"Show detail"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_img2",
+        "label":"Upload image"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_img2_mobile",
+        "label":"Product mobile image"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj5",
+        "label":"Upload vector"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj5_mob",
+        "label":"Upload mobile vector"
+      },
+      {
+        "type":"text",
+        "id":"ap_detail_h5",
+        "label":"Detail heading"
+      },
+      {
+        "type":"textarea",
+        "id":"ap_detail_des5",
+        "label":"Detail description"
+      },
+      {
+        "type":"checkbox",
+        "id":"ap_detail5_chkbx",
+        "label":"Show detail"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj6",
+        "label":"Upload vector"
+      },
+      {
+        "type":"image_picker",
+        "id":"ap_detail_obj6_mob",
+        "label":"Upload mobile vector"
+      },
+      {
+        "type":"text",
+        "id":"ap_detail_h6",
+        "label":"Detail heading"
+      },
+      {
+        "type":"textarea",
+        "id":"ap_detail_des6",
+        "label":"Detail description"
+      },
+      {
+        "type":"checkbox",
+        "id":"ap_detail6_chkbx",
+        "label":"Show detail"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

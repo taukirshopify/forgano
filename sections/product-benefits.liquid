@@ -1,0 +1,339 @@
+<style>
+  .product_benefits_inner_wrap--{{ section.id }}{
+   background-image: url({% if section.settings.bg_image %}{{ section.settings.bg_image | img_url: 'master' }}{% endif %});
+   background-repeat: no-repeat;
+   background-size: {{section.settings.bg_width}}px {{section.settings.bg_height}}px;
+   background-position: {{section.settings.x_axis_position}}% {{section.settings.y_axis_position}}%; 
+  }
+     .product_benefits_title_wrap--{{ section.id }}.page-width.custom-product_benefits_width h1 {
+    max-width: 799px;
+    margin: 0 auto;
+    padding: 50px 0;
+    font-size: {{section.settings.sec_title_font_size}}px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130.5%;
+    text-align: center;
+    text-transform: capitalize;
+}
+   .product_benefits_title_wrap--{{ section.id }}.page-width.custom-product_benefits_width h1 span{
+     color: {{section.settings.title_different_color}};
+}
+   .product_benefits_wrap--{{ section.id }}{
+   background: {% if section.settings.svg_code_block %}{{section.settings.color_bg}}{% endif %};
+   }
+   .product_benefits_bottom_inner-wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ gap: 20px;
+  }
+     .custom-product_benefits_width{
+         max-width: 1200px;
+
+     }
+     .custom-product_benefits-block{
+     padding: 30px;
+    border: 1px solid black;
+     }
+  .custom-product_benefits-block svg{
+        margin-bottom: 20px;
+  }
+    .custom-product_benefits-block h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: {{ section.settings.block_title_font_size }}px;
+        line-height: 34px;
+  }
+    .custom-product_benefits-block p{
+       font-style: normal;
+        font-weight: 400;
+        font-size: {{ section.settings.block_desc_font_size }}px;
+        line-height: 30px;
+  }
+     .product_benefits_bottom_wrap{
+     display: none;
+     }
+     .show{
+     display: block !important;
+     }
+     #customReadmoreBtn p{
+        color: {{ section.settings.color_btn }};
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        margin: 0px;
+     }
+          #customReadmoreBtn{
+        color: {{ section.settings.color_btn }};
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       font-weight: 700;
+     }
+     .rotate_svg{
+     transform: rotate(-180deg);
+     }
+  .custom-readmore_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+  svg.customReadmoreBtnsvg {
+    width: 18px;
+    margin-left: 5px;
+}
+  @media(max-width: 768px){
+    .product_benefits_bottom_inner-wrap {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+}
+        .custom-product_benefits-block h3{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 34px;
+  }
+    .custom-product_benefits-block p{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+  }
+ .product_benefits_inner_wrap--{{ section.id }} {
+    background-image: url({% if section.settings.mobile_bg_image %}{{ section.settings.mobile_bg_image | img_url: 'master' }}{% endif %});
+    background-repeat: no-repeat;
+    background-size: 366px 175px;
+    background-position: 50% 15%;
+}
+      .product_benefits_title_wrap--{{ section.id }} h1 {
+    font-size: 36px !important;
+}
+  }
+</style>
+<div class="product_benefits_wrap--{{ section.id }}">
+  <div class="product_benefits_inner_wrap--{{ section.id }}">
+    <div class="product_benefits_title_wrap--{{ section.id }} page-width custom-product_benefits_width">
+      <h1>
+        {{ section.settings.section_title }}
+      </h1>
+    </div>
+    <div class="product_benefits_top_section page-width custom-product_benefits_width">
+
+      {% if section.settings.benefits_title != blank %}
+      <div style="margin-bottom: 20px;" class="product_benefit_top custom-product_benefits-block">
+        {{section.settings.svg_code}}
+        <h3>{{section.settings.benefits_title}}</h3>
+        <p>{{section.settings.benefits_description}}</p>
+      </div>
+      {% endif %}
+
+    </div>
+    
+    <div class="product_benefits_bottom_wrap page-width custom-product_benefits_width">
+      <div class="product_benefits_bottom_inner-wrap">
+      {%- for block in section.blocks -%}
+      <div class="product_benefit_bottom custom-product_benefits-block">
+        {{block.settings.svg_code_block}}
+        <h3>{{block.settings.benefits_title_block}}</h3>
+        <p>{{block.settings.benefits_description_block}}</p>
+      </div>
+      {% endfor %}
+      </div>
+    </div>
+    
+    <div class="custom-readmore_btn">
+      {% if section.settings.button_label != blank %}
+      <button id="customReadmoreBtn">
+        <p>{{ section.settings.button_label }}</p>
+        <svg class="customReadmoreBtnsvg" width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5.25 8.37476L10.5 13.6248L15.75 8.37476" stroke="#E11F65" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </button>
+      {% endif %}
+    </div>
+      
+  </div>
+  
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+     $(document).ready(function(){
+    $("#customReadmoreBtn").click(function(){
+        $(".product_benefits_bottom_wrap").toggleClass("show");
+        $(".customReadmoreBtnsvg").toggleClass("rotate_svg");
+            $("#customReadmoreBtn p").text(function(i, v){
+               return v === 'READ MORE' ? 'READ LESS' : 'READ MORE'
+            })
+    });
+});
+</script>
+
+{% schema %}
+  {
+    "name": "Product Benefits",
+    "settings": [
+      {
+      "type": "textarea",
+      "id": "section_title",
+      "label": "Section title"
+      },
+      {
+      "type": "range",
+      "id": "sec_title_font_size",
+      "min": 10,
+      "max": 100,
+      "step": 10,
+      "unit": "px",
+      "label": "Section Title font size",
+      "default": 70
+      },
+      {
+      "type": "color",
+      "id": "color_text",
+      "label": "Text Color",
+      "default": "#1c1d1d"
+      },
+      {
+      "type": "color",
+      "id": "title_different_color",
+      "label": "Span Color",
+      "default": "#1c1d1d"
+      },
+      {
+      "type": "color",
+      "id": "color_bg",
+      "label": "Background Color",
+      "default": "#1c1d1d"
+      },
+      {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+      },
+      {
+      "type": "image_picker",
+      "id": "mobile_bg_image",
+      "label": "Mobile background Image"
+      },
+      {
+      "type": "range",
+      "id": "x_axis_position",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Position on x-axis",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "y_axis_position",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Position on y-axis",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "bg_height",
+      "min": 100,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Background height",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "bg_width",
+      "min": 100,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "label": "Background width",
+      "default": 500
+    },
+      {
+      "type": "textarea",
+      "id": "svg_code",
+      "label": "svg code"
+      },
+      {
+      "type": "text",
+      "id": "benefits_title",
+      "label": "Title"
+      },
+      {
+      "type": "textarea",
+      "id": "benefits_description",
+      "label": "Description"
+      },
+      {
+      "type": "range",
+      "id": "block_title_font_size",
+      "min": 10,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Block Title font size",
+      "default": 24
+      },
+      {
+      "type": "range",
+      "id": "block_desc_font_size",
+      "min": 10,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Block Description font size",
+      "default": 20
+      },
+      {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button Label"
+      },
+      {
+      "type": "color",
+      "id": "color_btn",
+      "label": "Button Color"
+      }
+    ],
+      "blocks": [
+      {
+      "type": "benefit",
+      "name": "Benefit Point",
+      "settings": [
+        {
+      "type": "textarea",
+      "id": "svg_code_block",
+      "label": "svg code"
+      },
+      {
+      "type": "text",
+      "id": "benefits_title_block",
+      "label": "Title"
+      },
+      {
+      "type": "textarea",
+      "id": "benefits_description_block",
+      "label": "Description"
+      }
+        ]
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

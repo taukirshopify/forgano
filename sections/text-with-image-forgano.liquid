@@ -1,0 +1,286 @@
+<style>
+      .custom-img-with-text{
+        display:flex;
+        border-top:1px solid;
+        border-bottom:1px solid;
+      } 
+     
+      .custom-text-container{
+        width:60%;
+      }
+      .custom-bnr-container{
+        width:40%;
+      }
+
+      .custom__heading{{ section.id }}{
+        color:{{ section.settings.head_clr}};
+        font-style: normal;
+        font-weight: 500;
+        font-size: 90px;
+        line-height: 130%;
+        /* identical to box height, or 130px */
+        
+        text-transform: uppercase;
+        
+        border: 2px solid #FFFFFF;
+      }
+  span.stroke_clr_wrapper{
+    position: relative;
+  }
+span.stroke_clr {
+    font-size: 90px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px white;
+    padding: 0px 15px;
+    background: #E11F65;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+    white-space: nowrap;
+}
+  span.stroke_clr_purple {
+    font-size: 90px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #3BFEDB;
+    padding: 0px 15px;
+    background: #3BFEDB;
+    transform: rotate(-3.67deg);
+    white-space: nowrap;
+    display: inline-block;
+}
+  .custom__heading{{ section.id }} span{
+    color:{{ section.settings.head_clr_ }};
+  } 
+      .custom__para{{ section.id }}{
+        color:{{ section.settings.des_clr}};
+        width: 80%;
+      }
+      .custom__img{
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        display:block;
+      }
+      .custom-review-container{
+        border-top:1px solid black;
+           color: white;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      }
+      .custom-review-text{{ section.id }}{
+            width: 65%;
+        height: 249px;
+    background-color:{{ section.settings.cs_rvw_clr }};
+    padding: 20px;
+      }
+  .custom-review-img{
+        width: 25%;
+  }
+  .cusom-text-upper-container-inner1 {
+    padding: 20px 40px;
+}
+  @media only screen and (max-width: 768px) {
+    .custom__heading{{ section.id }} , span.stroke_clr_wrapper , span.stroke_clr , span.stroke_clr_purple {
+    font-size: 40px;
+    }
+          .custom__para{{ section.id }}{
+        color:{{ section.settings.des_clr}};
+        width: 100%;  
+        margin-top: 25px;
+          }
+       .custom-img-with-text {
+    display: flex;
+    border-top: 1px solid;
+    flex-direction: column-reverse;
+    border-bottom: 1px solid;
+}
+  span.stroke_clr {
+    top: -5px;
+    left: 20px;
+  }
+.custom-bnr-container {
+    width:100%;
+}
+  .custom-text-container {
+    width:100%;
+  }
+  .custom-review-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+  .custom-review-text{{ section.id }}{
+    width:100%;
+    min-height: 300px;
+    margin-bottom: 30px;
+  }
+  .custom-review-img {
+  display: flex;
+    justify-content: center;
+  width:100%;
+    margin-bottom: 30px;
+  }
+  .cusom-text-upper-container-inner2 {
+    background-position: 46% 36%;
+}
+
+}
+
+</style>
+
+<section class="custom-img-with-text">
+  
+  <div class="custom-text-container">
+
+    <div class="cusom-text-upper-container">
+      <div class="cusom-text-upper-container-inner1">
+      <div class="cusom-text-upper-container-inner2">
+        <h1 class="custom__heading{{ section.id }}">{{ section.settings.head }}</h1>
+      <p class="custom_para_style custom__para{{ section.id }}">{{ section.settings.des }}</p>
+        <button class="bnr-btn">
+        <a class="bnr-btn custom_button_style" href="{{ section.settings.btn_link }}">{{ section.settings.btn_text }}
+            <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4.16699 10.5H15.8337" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M10 4.66699L15.8333 10.5003L10 16.3337" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+      </button>
+      </div>
+      </div>
+      
+    
+      
+    </div>
+    <div class="custom-review-container">
+      <div class="custom-review-text{{ section.id }}">
+        <svg width="31" height="23" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.12959 0.705153C5.2249 0.705153 3.43458 1.44504 2.08821 2.78887C0.741386 4.1328 0 5.91927 0 7.81941C0 8.79642 0.162525 9.72079 0.48275 10.5663C0.813513 11.4394 1.30417 12.2069 1.94157 12.8482C3.29761 14.2126 5.25223 14.9337 7.59401 14.9337C7.61202 14.9337 7.62564 14.9346 7.6353 14.9359C7.70646 15.1287 7.63223 15.9554 6.77524 17.3334C5.87695 18.7777 4.51959 20.1663 3.05166 21.1424C2.82061 21.2958 2.71782 21.5824 2.79821 21.8472C2.87859 22.1123 3.12326 22.2934 3.40088 22.2934C4.61366 22.2934 7.31247 21.4755 9.77626 19.2217C11.8215 17.3514 14.2589 13.9352 14.2589 8.2822C14.2589 6.14541 13.52 4.20364 12.179 2.81427C10.866 1.45463 9.07255 0.705078 7.12974 0.705078L7.12959 0.705153Z" fill="#3BFEDB"/>
+            <path d="M28.9205 2.81569C27.6066 1.45516 25.8136 0.706055 23.8708 0.706055C21.9661 0.706055 20.1758 1.44594 18.8294 2.78977C17.4826 4.1337 16.7412 5.92017 16.7412 7.82032C16.7412 8.79732 16.9037 9.72169 17.224 10.5672C17.5547 11.4403 18.0454 12.2078 18.6828 12.8491C20.0388 14.2135 21.9934 14.9346 24.3352 14.9346C24.3532 14.9346 24.3668 14.9355 24.3765 14.9368C24.4477 15.1296 24.3734 15.9563 23.5164 17.3343C22.6182 18.7786 21.2608 20.1672 19.7929 21.1433C19.5618 21.2967 19.459 21.5833 19.5394 21.8481C19.6198 22.1132 19.8645 22.2943 20.1421 22.2943C21.3549 22.2943 24.0537 21.4764 26.5175 19.2226C28.5627 17.3523 31.0001 13.9361 31.0001 8.2831C31.0005 6.14676 30.2617 4.20454 28.9207 2.8155L28.9205 2.81569Z" fill="#3BFEDB"/>
+        </svg>
+        <p class="custom_para_style">{{ section.settings.review }}</p>
+        <h4>{{ section.settings.author }}</h4>
+        <svg width="108" height="18" viewBox="0 0 108 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9 1.5L11.3175 6.195L16.5 6.9525L12.75 10.605L13.635 15.765L9 13.3275L4.365 15.765L5.25 10.605L1.5 6.9525L6.6825 6.195L9 1.5Z" fill="#F0A02D"/>
+          <path d="M31.4997 1.5L33.9459 6.195L39.4163 6.9525L35.458 10.605L36.3922 15.765L31.4997 13.3275L26.6072 15.765L27.5413 10.605L23.583 6.9525L29.0534 6.195L31.4997 1.5Z" fill="#F0A02D"/>
+          <path d="M54 1.5L56.3175 6.195L61.5 6.9525L57.75 10.605L58.635 15.765L54 13.3275L49.365 15.765L50.25 10.605L46.5 6.9525L51.6825 6.195L54 1.5Z" fill="#F0A02D"/>
+          <path d="M76.4997 1.5L78.9459 6.195L84.4163 6.9525L80.458 10.605L81.3922 15.765L76.4997 13.3275L71.6072 15.765L72.5413 10.605L68.583 6.9525L74.0534 6.195L76.4997 1.5Z" fill="#F0A02D"/>
+          <path d="M99 1.5L101.318 6.195L106.5 6.9525L102.75 10.605L103.635 15.765L99 13.3275L94.365 15.765L95.25 10.605L91.5 6.9525L96.6825 6.195L99 1.5Z" fill="#F0A02D"/>
+        </svg>
+
+      </div>
+      <div class="custom-review-img">
+        <img src="{{ section.settings.rvw_img | img_url:'master' }}">
+      </div>
+    </div>
+      
+  </div>
+
+  <div class="custom-bnr-container">
+      <img class="custom__img" src="{{ section.settings.main_img | img_url:'master'}}">
+  </div>
+
+</section>
+
+
+{% schema %}
+  {
+    "name": "Text with Image",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "main_img",
+        "label": "Banner Image"
+      },
+      {
+        "type": "textarea",
+        "id": "head",
+        "label": "Add Heading"
+      },
+      {
+        "type": "text",
+        "id": "head_strk",
+        "label": "Add Stroke words"
+      },
+      {
+        "type": "color",
+        "id": "head_clr_",
+        "label": "Color for specific words"
+      },
+      {
+        "type": "color",
+        "id": "head_clr",
+        "label": "Color for other words"
+      },
+      {
+        "type": "color",
+        "id": "fill_color",
+        "label": "Filling color for stroke"
+      },
+      {
+        "type": "color",
+        "id": "stroke_color",
+        "label": "Stroke color"
+      },
+      {
+        "type": "text",
+        "id": "des",
+        "label": "Add Text"
+      },
+      {
+        "type": "color",
+        "id": "des_clr",
+        "label": "Text Color"
+      },
+      {
+        "type": "color",
+        "id": "cs_rvw_clr",
+        "label": "Review background"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Add Button Text"
+      },
+      {
+        "type": "url",
+        "id": "btn_link",
+        "label": "Link the button"
+      },
+      {
+        "type": "color",
+        "id": "btn_bg_clr",
+        "label": "Button Background Color"
+      },
+      {
+        "type": "color",
+        "id": "btn_clr",
+        "label": "Button Text Color"
+      },
+      {
+        "type": "text",
+        "id": "review",
+        "label": "Add Review Text"
+      },
+      {
+        "type": "text",
+        "id": "author",
+        "label": "Add Client's name"
+      },
+      {
+        "type": "image_picker",
+        "id": "rvw_img",
+        "label": "Add Product's Image"
+      }
+    ]
+    
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,68 @@
+<div class="site-container text-content-with-image-wrapper {{ section.settings.text }}">
+<div class="text-content-with-image-left mobile-hide">
+  {%- if section.settings.image != blank -%}  {{ section.settings.image | img_url:"master" | img_tag }} {%- endif -%}
+</div>
+<div class="text-content-with-image-right">
+<div><div><h2>{{ section.settings.richtext1 }}</h2></div>
+ <div class="site-banner-text">
+    <div>
+  {% if section.settings.richtext  %}  <div>  {{ section.settings.richtext }} </div>{% endif %}
+<div class="text-content-with-image-left mobile-show">
+  {%- if section.settings.image != blank -%}  {{ section.settings.image | img_url:"master" | img_tag }} {%- endif -%}
+</div>
+{% if section.settings.richtext2  %}  <div class="rich--text">  {{ section.settings.richtext2 }} </div>{% endif %}
+
+{% if section.settings.buttonText  != blank %}<div> <a class="btn-style-1" href="{{ section.settings.buttonUrl}}">{{ section.settings.buttonText }}{% include 'icon-btn-arrow' %}</a></div> {% endif %}
+    </div>
+  </div></div>
+</div>
+</div>
+{% schema %}
+  {
+     "name": "Image Text",
+    "class":"text-content-with-image image-text-content-with",
+    "settings": [
+{
+"type": "text",
+"id": "text",
+"label": "Class"
+},      
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "richtext",
+"id": "richtext1",
+"label": "Text"
+},
+{
+"type": "richtext",
+"id": "richtext",
+"label": "Text"
+},
+      {
+"type": "richtext",
+"id": "richtext2",
+"label": "Text"
+},
+{
+"type": "url",
+"id": "buttonUrl",
+"label": "Button Url"
+},
+{
+"type": "text",
+"id": "buttonText",
+"label": "Button label"
+}
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

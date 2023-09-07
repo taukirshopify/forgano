@@ -1,0 +1,298 @@
+<div class="os-container">
+
+<div class="os-inner-container">
+
+  <div class="os-inner-sub1{{ section.id }}"><h1>{{ section.settings.os_heading }}</h1></div>
+  <div class="os-internal-sub">
+
+    <div class="os-inner-sub2">
+  <img src="{{ section.settings.os_img | img_url:"master" }}">
+  </div>
+
+    <div class="os-inner-sub3">
+      <div class="os-inner-sub3-inner1">
+        
+      <div class="line_with_svg">
+      <svg class="os-inner-sub3-inner1-svg1" width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.9152 0C18.4414 2.64677 18.7779 5.31062 19.2984 7.96877C20.2559 12.9265 23.307 15.5875 28.2128 16.4641C30.8009 16.9251 33.3889 17.2325 36 17.7448C34.2171 17.9724 32.4285 18.1745 30.6485 18.4335C29.4666 18.6042 28.2933 18.8291 27.1258 19.0767C22.1308 20.1411 19.8505 23.5534 19.1028 28.255C18.7462 30.4863 18.4357 32.7232 17.8778 35C17.711 33.7022 17.5672 32.4016 17.3717 31.1095C17.1761 29.8175 16.9403 28.4969 16.693 27.1963C15.7124 22.0166 12.2933 19.5121 7.25808 18.7181C4.85406 18.3424 2.45004 17.981 0 17.6537C2.4184 17.2837 4.85406 17.0105 7.24946 16.5153C13.803 15.1862 16.0173 12.8497 17.0554 6.2868C17.3889 4.20069 17.6305 2.0975 17.9152 0Z" fill="#020202"/>
+      </svg>
+      <hr class="os-hr">
+    </div>
+
+        <div class="os_text_content">
+          <h1>{{ section.settings.os_in_hading }}</h1>
+          <p>{{ section.settings.os_in_des }}</p>
+        </div>
+  
+      <div class="line_with_svg">
+      <hr style=" margin-right: -5px;" class="os-hr">
+      <svg class="os-inner-sub3-inner1-svg1" width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.9152 0C18.4414 2.64677 18.7779 5.31062 19.2984 7.96877C20.2559 12.9265 23.307 15.5875 28.2128 16.4641C30.8009 16.9251 33.3889 17.2325 36 17.7448C34.2171 17.9724 32.4285 18.1745 30.6485 18.4335C29.4666 18.6042 28.2933 18.8291 27.1258 19.0767C22.1308 20.1411 19.8505 23.5534 19.1028 28.255C18.7462 30.4863 18.4357 32.7232 17.8778 35C17.711 33.7022 17.5672 32.4016 17.3717 31.1095C17.1761 29.8175 16.9403 28.4969 16.693 27.1963C15.7124 22.0166 12.2933 19.5121 7.25808 18.7181C4.85406 18.3424 2.45004 17.981 0 17.6537C2.4184 17.2837 4.85406 17.0105 7.24946 16.5153C13.803 15.1862 16.0173 12.8497 17.0554 6.2868C17.3889 4.20069 17.6305 2.0975 17.9152 0Z" fill="#020202"/>
+      </svg>
+      
+    </div>
+  
+</div>
+
+      <div class="os-inner-sub3-inner2">
+
+  
+         <div class="os-inner-sub3-inner-internal1">
+          
+             <img class="os-inner-sub3-inner-internal1-img1" src="{{ section.settings.os_obj1 | img_url:"master" }}">
+           <img class="os-inner-sub3-inner-internal1-img2" src="{{ section.settings.os_obj2 | img_url:"master" }}">
+          
+          </div>
+        
+        <div class="os-inner-sub3-inner-internal2">
+          <img class="os-inner-sub3-inner-internal2-img" src="{{ section.settings.os_obj3 | img_url:"300x" }}">
+        </div>
+
+        
+      </div>
+    
+
+      
+  </div>
+    
+  </div>
+  
+
+  
+  
+</div>  
+</div>
+
+
+<style>
+  .os-inner-sub3-inner1 h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 139%;
+    text-transform: capitalize;
+}
+  .os-inner-sub3-inner1 p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+  .os-hr{
+    display: block;
+    width: 100%;   
+    border: none !important;
+    border-bottom: 2px solid black !important;
+    margin-left: -5px;
+}
+  .line_with_svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .os-container{
+    margin: 25px 0;
+  }
+  .os-inner-container{
+        display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+  }
+  .os-inner-sub1{{ section.id }}{
+    color:{{ section.settings.heading_color }};
+        display: flex;
+    justify-content: center;
+  }
+    .os-inner-sub1{{ section.id }} h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 130%;
+    margin: 40px 0px;
+    text-transform: uppercase;
+  }
+  .os-inner-sub2 img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+  .os-internal-sub{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .os-inner-sub2{
+        width: 50%;
+    
+  }
+  .os-inner-sub3{
+    padding: 0px 40px;
+      width: 50%;
+  }
+  .os-inner-sub3-inner1{
+    position:relative;
+        height: 50%;
+  }
+
+  .os-inner-sub3-inner1-svg2{
+    position: absolute;
+    bottom: -16px;
+    right: 0;
+  }
+  .os-inner-sub3-inner2{
+    display: flex;
+    flex-direction: column;
+       gap: 30px;
+        height: 50%;
+  }
+  .os-inner-sub3-inner-internal1{
+        display: flex;
+    justify-content: end;
+    position: relative;
+    margin: 13px 0 0 0;
+  }
+  .os-inner-sub3-inner-internal1-img1{
+            z-index: 2;
+    width: 294px;
+    border: 1px solid;
+    border-radius: 34px;
+    height: 218px;
+   
+   
+  }
+  
+  
+  .os-inner-sub3-inner-internal1-img2{
+       position: absolute;
+    z-index: 1;
+    width: 283px;
+    top: 7%;
+    height: 233px;
+    right: -4%;
+  }
+  .os-inner-sub3-inner-internal2-img{
+    border: 1px solid black;
+    border-radius: 25px;
+    
+  }
+   @media only screen and (max-width: 768px) {
+   .os-inner-sub3-inner-internal1-img2 {
+    position: absolute;
+    z-index: 1;
+    width: 283px;
+    top: 17%;
+    height: 233px;
+    right: -4%;
+}
+     .os-inner-sub1{{ section.id }} h1{
+      margin-top: 0px;
+      font-size: 40px;
+     }
+        .os-inner-sub3-inner2{
+          flex-direction:column-reverse;
+          margin: 40px 0px;
+        }
+            .os-inner-sub3-inner-internal2-img {
+    width: 100%;
+            }
+     .os-internal-sub{
+    flex-direction: column;
+     }
+     .os-inner-sub3-inner1 h1{
+       font-size: 24px;
+     }
+     .os_text_content {
+    margin: 40px 0px;
+}
+     .os_text_content p {
+    margin-top: 20px;
+}
+     .os-inner-sub2{
+       width:100%;
+     }
+     
+     .os-inner-sub3{
+       width:100%;
+       margin-top: 30px;
+       padding: 25px;
+     }
+     .os-inner-sub3-inner-internal1{
+       display: flex;
+    justify-content: unset;
+     }
+            .os-inner-sub3-inner-internal1-img1 {
+    z-index: 2;
+    width: 315px;
+    border: 1px solid;
+    border-radius: 34px;
+    height: 240px;
+            }
+<!--      img.os-inner-sub3-inner-internal1-img2 {
+          right: 26%;
+     } -->
+     .os-inner-sub3-inner-internal2{
+       display: flex;
+    justify-content: center;
+     }
+      }
+  
+  
+</style>
+{% schema %}
+  {
+    "name": "Story",
+    "settings": [
+      {
+        "type":"text",
+        "id":"os_heading",
+        "label":"Type heading"
+      },
+      {
+        "type":"color",
+        "id":"heading_color",
+        "label":"Heading color"
+      },
+      {
+        "type":"image_picker",
+        "id":"os_img",
+        "label":"Upload image"
+      },
+      {
+        "type":"text",
+        "id":"os_in_hading",
+        "label":"Type story heading"
+      },
+      {
+        "type":"textarea",
+        "id":"os_in_des",
+        "label":"Type here your story"
+      },
+      {
+        "type":"image_picker",
+        "id":"os_obj1",
+        "label":"Upload inner image"
+      },
+      {
+        "type":"image_picker",
+        "id":"os_obj2",
+        "label":"Upload inner image"
+      },
+      {
+        "type":"image_picker",
+        "id":"os_obj3",
+        "label":"Upload inner image"
+      }
+    ],
+     "presets": [
+      {
+        "name": "Our story",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

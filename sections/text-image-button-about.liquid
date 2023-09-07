@@ -1,0 +1,80 @@
+<div class="text-image--wrapper">
+<div class="text-image-button-wrapper">
+<div class="text-image-wrapper-left">
+  <svg width="94" height="94" viewBox="0 0 94 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M47 0V0C47.0184 25.9498 68.0502 46.9816 94 47V47V47C68.0502 47.0184 47.0184 68.0502 47 94V94V94C46.9816 68.0502 25.9498 47.0184 0 47V47V47C25.9498 46.9816 46.9816 25.9498 47 0V0Z" fill="#E4226A"/>
+</svg>
+
+<div class="text-image-wrapper-1">
+<div>
+  <h3>
+{{ section.settings.image}}
+</h3>
+</div>
+<div>
+
+{{ section.settings.h3}}
+
+</div>
+</div>
+ <div class="text-image-wrapper-right mobile-show">
+  {{ section.settings.image3 | img_url:"master" | img_tag }}
+</div>
+<div class="text-image-wrapper-2">
+<div>
+
+{{ section.settings.h32}}
+
+</div>
+  <div>
+  <h3>
+{{ section.settings.image2}}
+</h3>
+  </div>
+</div>
+</div>
+
+  <div class="text-image-wrapper-right mobile-hide">
+  {{ section.settings.image3 | img_url:"master" | img_tag }}
+</div>
+</div>
+</div>
+{% schema %}
+{
+"name": "Text Image Button",
+"class":"text-image-button about-text-image-button",
+"settings": [
+{
+"type": "text",
+"id": "image",
+"label": "Heading"
+},
+{
+"type": "richtext",
+"id": "h3",
+"label": "Text"
+},
+{
+"type": "text",
+"id": "image2",
+"label": "Heading"
+},
+{
+"type": "richtext",
+"id": "h32",
+"label": "Text"
+},
+{
+"type": "image_picker",
+"id": "image3",
+"label": "Image"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

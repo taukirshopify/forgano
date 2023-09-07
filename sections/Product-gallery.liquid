@@ -1,0 +1,257 @@
+<div class="custom-product_gallery_section_wrapper">
+
+<div class="swiper myProductGallerySwiper">
+  
+<div class="custom-product_gallery_section_top-barwrapper page-width">
+    <h2>{{ section.settings.section_title }}</h2>
+  <div class="custom-product_gallery_section_buttons-wrapper">
+  <div style=" margin-right: 15px;" class="swiper-button-prev product-galler-swiper_btn">
+    <svg class="custom-previous_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="44.952px" height="44.952px" viewBox="0 0 44.952 44.952" style="enable-background:new 0 0 44.952 44.952;" xml:space="preserve"><g><path d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0   c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028   c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001   l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+  </div>
+  <div class="swiper-button-next product-galler-swiper_btn">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="44.952px" height="44.952px" viewBox="0 0 44.952 44.952" style="enable-background:new 0 0 44.952 44.952;" xml:space="preserve"><g><path d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0   c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028   c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001   l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+  </div>
+
+  </div>
+</div>
+
+<div class="swiper-wrapper custom-product-swiper-wrapper">
+
+{% for block in section.blocks %}  
+
+  {% case block.type %}
+
+    {% when 'Small' %}  
+
+    {% if block.settings.small_img %}
+      <div class="Product_gallery_small_image swiper-slide">
+       <img src="{{ block.settings.small_img | img_url: 'master' }}">
+      </div>
+   {% endif %}
+    
+    {% when 'Large' %}
+
+    {% if block.settings.large_img %}
+      <div class="Product_gallery_large_image swiper-slide">
+        <img src="{{ block.settings.large_img | img_url: 'master' }}" >
+      </div>
+    {% endif %}
+
+  {% endcase %} 
+  
+{% endfor %}
+
+</div>
+
+    </div>
+  </div>
+  <style>
+    .custom-product_gallery_section_wrapper {
+    padding: 40px 0px;
+}
+    .swiper-button-next.product-galler-swiper_btn:focus{
+      background: #E11F65 !important;
+      border-color:#E11F65 !important;
+}
+        .swiper-button-next.product-galler-swiper_btn:focus svg{
+          fill: white;
+}
+        .swiper-button-prev.product-galler-swiper_btn:focus{
+      background: #E11F65 !important;
+      border-color:#E11F65 !important;
+}
+        .swiper-button-prev.product-galler-swiper_btn:focus svg{
+          fill: white;
+}
+    svg.custom-previous_svg {
+    transform: rotate(180deg);
+    }
+    .swiper-button-next svg , .swiper-button-prev svg{
+    fill: black;
+    }
+    .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    opacity: 1;
+    }
+    .product-galler-swiper_btn{
+    position: unset;
+    inset: 0;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 50px;
+    }
+          .swiper {
+        width: 100%;
+        height: 100%;
+      }
+.custom-product_gallery_section_top-barwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.custom-product_gallery_section_buttons-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+    .custom-product_gallery_section_top-barwrapper h2 {
+    max-width: 842px;
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 130.5%;
+    text-transform: capitalize;
+    color: {{section.settings.title_color}};
+    margin-bottom: 40px;
+}
+    .custom-product_gallery_section_top-barwrapper h2 span{
+
+      color: {{section.settings.span_color}};
+}
+    
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+/*         background: #fff; */
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+      .swiper-wrapper{
+            align-items: center;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+
+      }
+    .Product_gallery_large_image {
+    height: 350px;
+
+}
+    .Product_gallery_small_image {
+    height: 300px;
+}
+        .Product_gallery_large_image img{
+            border: 1px solid black;
+        border-radius: 15px;
+
+}
+    .Product_gallery_small_image img{
+            border: 1px solid black;
+        border-radius: 15px;
+}
+    @media (max-width:768px){
+      .custom-product_gallery_section_buttons-wrapper {
+    margin-bottom: 10px;
+}
+      .custom-product-swiper-wrapper{
+        padding: 17px;
+      }
+          .Product_gallery_large_image {
+    height: 500px;
+
+}
+    .Product_gallery_small_image {
+    height: 400px;
+}
+        .custom-product_gallery_section_top-barwrapper h2 {
+    font-size: 36px;
+  }
+  .custom-product_gallery_section_top-barwrapper {
+    flex-direction: column;
+    align-items: baseline;
+}
+    }
+  </style>
+
+  
+{% schema %}
+  {
+    "name": "Product Gallery",
+    "settings": [
+      {
+        "type":"textarea",
+        "id":"section_title",
+        "label":"Title"
+      },
+      {
+        "type":"color",
+        "id":"title_color",
+        "label":"different words color"
+      },
+      {
+        "type":"color",
+        "id":"span_color",
+        "label":"span color"
+      }
+    ],
+        "blocks": [
+    {
+      "type": "Small",
+      "name": "Small Image",
+      "settings": [
+        {
+        "type":"image_picker",
+        "id":"small_img",
+        "label":"Upload Image"
+      }
+      ]
+    },
+    {
+      "type": "Large",
+      "name": "Large Image",
+      "settings": [
+        {
+        "type":"image_picker",
+        "id":"large_img",
+        "label":"Upload Image"
+      }
+      ]
+    }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
+<script>
+  var swiper = new Swiper(".myProductGallerySwiper", {
+    slidesPerView: 1.3,
+    spaceBetween: 15,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev"
+    },
+            breakpoints: {
+          640: {
+            slidesPerView: 2.3,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 4.3,
+            spaceBetween: 15,
+          },
+          1024: {
+            slidesPerView: 5.3,
+            spaceBetween: 15,
+          },
+        },
+  });
+</script>

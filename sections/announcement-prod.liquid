@@ -1,0 +1,43 @@
+{% if section.settings.enable_bar %}
+  <div class="ticker-wrap" style="background-color:{{ section.settings.background_annoucement }}">
+    <div class="ticker">
+      {% for i in (1..50) %}
+      <div class="ticker__item" style="color:{{ section.settings.background_annoucement_text_color }}">{{ section.settings.content1 }}</div>
+       {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% schema %}
+  {
+    "name": "Product Announcement",
+     "settings": [
+    {
+      "type": "checkbox",
+      "id": "enable_bar",
+      "label": "Enable bar",
+      "default": true
+    },
+        {
+      "type": "color",
+      "id": "background_annoucement_text_color",
+      "label": "Text Color"
+    },        {
+      "type": "color",
+      "id": "background_annoucement",
+      "label": "Background Color"
+    },
+    {
+      "type": "text",
+      "id": "content1",
+      "label": "Text",
+      "default": "Announce something here"
+    }
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

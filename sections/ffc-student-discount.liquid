@@ -1,0 +1,54 @@
+<div id="ffcStudentDiscount" data-ffc-student-discount='{
+  "moneyFormat": {{ shop.money_format | json }},
+  "customer": {
+    "id": {{ customer.id | json }},
+    "email": {{ customer.email | json }}
+  }
+}'>
+  
+  <svg class="ffc--student-discount-loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M20 10c0 5.523-4.477 10-10 10S0 15.523 0 10 4.477 0 10 0v2c-4.418 0-8 3.582-8 8s3.582 8 8 8 8-3.582 8-8h2z" fill="#000"></path></svg>
+
+</div>
+
+<style>
+  [data-ffc-student-discount] {
+    min-height: 200px;
+    position: relative;
+  }
+
+  [data-ffc-student-discount] .ffc--student-discount-loading{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    animation: rotate 0.5s linear infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: rotate(0)
+    }
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+
+</style>
+
+<script type="text/javascript" async src="https://app-student-discount.fullfatcommerce.com/js/app.js?shop={{ shop.permanent_domain }}"></script>
+
+{% schema %}
+{
+    "name":"Student Discount",
+    "settings":[
+    ],
+    "presets":[
+        {
+            "category":"Student Discount",
+            "name":"FFC Student Discount"
+        }
+    ]
+}
+{% endschema %}

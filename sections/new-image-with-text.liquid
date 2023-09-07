@@ -1,0 +1,292 @@
+<div class="bgimg-with-text-extra">
+<div class="bgimg-with-text bg-clr{{ section.id }}">
+
+  <div style="{% if section.settings.position %} flex-direction: row-reverse; {% endif %}" class="bgimg-subcontainer page-width">
+  
+  <div class="bgimg-with-text-sub">
+    
+   <div style="text-align:start; width: 100%;">
+     <h1 class="bgimg-with-text-heading bg-clr-hdng{{ section.id }}">{{ section.settings.h_text }}</h1>
+      <p class="custom_para_style bgimg-with-text-para bg-clr-para{{ section.id }}">{{ section.settings.paragraph | newline_to_br }}</p>
+
+  </div>
+  
+           
+    <div class="btn-container">
+      {% if section.settings.btn_txt != blank %}
+      <a class="custom_button_style style-link-txt image-with_custom_btn" href="{{ section.settings.btn_link }}">{{ section.settings.btn_txt }}
+      <svg width="20" height="20" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.91699 13H21.0837" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13.5 5.41675L21.0833 13.0001L13.5 20.5834" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+
+      </a>
+        {% endif %}
+</div>
+    
+  </div>
+
+  <div class="bgimg-with-text-sub2">
+    <img src="{{ section.settings.fg_img | img_url:'400x' }}">
+  </div>
+</div>
+</div>
+</div>
+
+  
+<style>
+  .image-with_custom_btn{
+    
+    padding: 25px 30px;
+
+  }
+  .style-link-txt{
+    background-color:{{section.settings.btn_color}};
+  } 
+    .bgimg-with-text{
+    padding: 30px 0px;
+  }
+  a.style-link-txt:hover {
+    color: white;
+}
+.bgimg-with-text-heading{
+  font-size:{{section.settings.heading_font_size}}px;
+}
+.bg-clr-para{{ section.id }}{
+  font-size:{{section.settings.para_font_size}}px;
+}
+  .bg-clr{{ section.id }}
+  {
+    
+    background-color:{{ section.settings.bg_color }};
+  }
+  .bg-img{
+        position: absolute;
+        z-index: 1;
+    opacity: 0.3;
+  }
+  .bgimg-subcontainer{
+   background-image:url("{{ section.settings.bg_img | img_url:'master' }}");
+   background-repeat: no-repeat;
+   background-size: {{section.settings.bg_width}}px {{section.settings.bg_height}}px;
+   background-position: {{section.settings.x_axis_position}}% {{section.settings.y_axis_position}}%;
+   display: flex;
+   justify-content: space-evenly;
+   
+  }
+  .bgimg-with-text-sub
+  {
+   display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+    padding: 40px;
+  }
+  .bgimg-with-text-sub2
+  {
+    padding: 30px;
+    width: 40%;
+    display: flex;
+    border-radius: 22px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bgimg-with-text-sub2 img
+  {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .bg-clr-hdng{{ section.id }}
+  {
+    color:{{ section.settings.h_span_color }};
+    z-index: 2;
+  }
+  .bg-clr-hdng{{ section.id }} span{
+    color:{{ section.settings.h_nonspan_color }};
+  }
+  .bg-clr-para{{ section.id }}
+  {
+    color:{{section.settings.paragraph_color}};
+    z-index: 2;
+  }
+  .bg-clr-para{{ section.id }} span
+  {
+    font-weight: bold;
+  }
+
+  .style-link-txt
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-container
+    {
+      display:flex;
+      flex-direction:row;
+      width:100%;
+    }
+  @media only screen and (max-width: 768px) {
+    .btn-container {
+    margin: 15px 0px;
+    }
+    .bgimg-subcontainer {
+    background-size: 399px 189px;
+    background-position: 50% 25%;
+    }
+  .bgimg-subcontainer
+    {
+      flex-direction: column;
+    }
+  .bgimg-with-text-sub
+    {
+    width: 100%;
+    margin: 0;
+    padding: 12px;
+    }
+  .bgimg-with-text-sub2
+  {
+  width:100%;
+  padding: 12px;
+  }
+  
+}
+</style>
+{% schema %}
+  {
+    "name": "Image with text",
+    "settings": [
+      {
+        "type":"color",
+        "id":"bg_color",
+        "label":"Select a background color"
+      },
+      {
+        "type":"color",
+        "id":"h_span_color",
+        "label":"Heading color for other words"
+      },
+      {
+        "type":"color",
+        "id":"h_nonspan_color",
+        "label":"Heading color for specific words"
+      },
+      {
+        "type":"color",
+        "id":"paragraph_color",
+        "label":"Select color for paragraph"
+      },
+      {
+        "type":"color",
+        "id":"btn_color",
+        "label":"Select button color"
+      },
+      {
+        "type":"textarea",
+        "id":"h_text",
+        "label":"Type your heading here"
+      },
+      {
+        "type":"textarea",
+        "id":"paragraph",
+        "label":"Type your paragraph here"
+      },
+      {
+      "type": "range",
+      "id": "heading_font_size",
+      "min": 10,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Title font size",
+      "default": 36
+      },
+      {
+      "type": "range",
+      "id": "para_font_size",
+      "min": 10,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Paragraph font size",
+      "default": 20
+      },
+      {
+        "type":"image_picker",
+        "id":"bg_img",
+        "label":"Upload background image"
+      },
+      {
+        "type":"image_picker",
+        "id":"fg_img",
+        "label":"Upload foreground image"
+      },
+      {
+        "type":"text",
+        "id":"btn_txt",
+        "label":"Type your button name"
+      },
+      {
+        "type":"text",
+        "id":"btn_link",
+        "label":"Paste your link here"
+      },
+      {
+      "type": "range",
+      "id": "x_axis_position",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Position on x-axis",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "y_axis_position",
+      "min": 1,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "Position on y-axis",
+      "default": 100
+    },
+    {
+      "type": "range",
+      "id": "bg_height",
+      "min": 100,
+      "max": 500,
+      "step": 10,
+      "unit": "px",
+      "label": "Background height",
+      "default": 200
+    },
+    {
+      "type": "range",
+      "id": "bg_width",
+      "min": 100,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "label": "Background width",
+      "default": 500
+    },
+    {
+        "type":"checkbox",
+        "id":"position",
+        "label":"Image on the left"
+    }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

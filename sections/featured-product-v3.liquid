@@ -1,0 +1,69 @@
+{{ 'featured-product-v2_3.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+  {% assign FP = section.settings.product %}
+  <div class="featured-product-v3">
+    <div class="FP3-grid">
+      <div class="FP3-prod-info">
+         <div class="FP-meta-info">
+          <h2>{{ FP.title }}</h2>
+          <span>{{ section.settings.tag }}</span>
+          <p>{{ FP.price | money }}</p>
+        </div>
+        <div class="FP-desc">
+          {{ section.settings.text }}
+        </div>
+      </div>
+      <div class="FP3-image-wrapper">
+        <div class="FP3-image">
+          <img src="{{ section.settings.img | img_url:'' }}">
+          <p class="product__price--mobile">{{ FP.price | money }}</p>
+        </div>
+          <div class="FP3-image-button">
+          <a href="{{ FP.url }}" class="btn-style-1">
+            {{ section.settings.btn-text }}
+            {% render 'rectangle-icon' %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Product v3",
+  "settings": [
+         {
+           "type":"product",
+           "id":"product",
+           "label":"Product"
+         },
+    {
+           "type":"image_picker",
+           "id":"img",
+           "label":"Product Image"
+         },
+    {
+           "type":"richtext",
+           "id":"text",
+           "label":"Description"
+         },
+    {
+           "type":"text",
+           "id":"tag",
+           "label":"Title Subtext"
+         },
+    {
+           "type":"text",
+           "id":"btn-text",
+           "label":"Button text"
+         }
+       ],
+   "presets": [
+     {
+       "name": "Featured product v3"
+     }
+   ]
+}
+{% endschema %}

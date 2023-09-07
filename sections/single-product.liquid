@@ -1,0 +1,86 @@
+<div class="page-width">
+ <div class="single-prod-wrapper">
+   <div class="single-prod-item" onclick="location.href='{{ section.settings.product.url }}'">
+     <div class="single-prod-img">
+        <img src="{{ section.settings.product.featured_image | img_url:'' }}">
+     </div>
+     <div class="single-prod-info">
+       <h2>{{ section.settings.product.title }}</h2>
+       <p>{{ section.settings.product.price | money }}</p>
+     </div>
+    
+   </div>
+ </div>
+</div>
+
+<style>
+  .single-prod-wrapper {
+    padding: 100px 0;
+}
+  .single-prod-item {
+    max-width: 580px;
+    margin-inline: auto;
+    cursor: pointer;
+}
+  .single-prod-img {
+    border-radius: 18px;
+    overflow: hidden;
+}
+  .single-prod-img img{
+     display:block;
+    transition: all 0.2s;
+}
+  .single-prod-item:hover img{
+    transform:scale(1.1);
+  }
+  .single-prod-info {
+    text-align: center;
+}
+  .single-prod-info h2{
+    font-weight: 600;
+    font-size: 76px;
+    line-height: 1;
+    letter-spacing: -0.03em;
+    color: #000000;
+    text-transform: none;
+    margin: 9px 0 30px;
+  }
+.single-prod-info  p{
+        font-weight: 600;
+    font-size: 26px;
+    line-height: 87%;
+    letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+  }
+  @media screen and (max-width:768px){
+    .single-prod-info h2 {
+    font-size: 45px;
+}
+    .single-prod-wrapper {
+    padding: 20px 0;
+}
+    .single-prod-info  p {
+    font-size: 20px;
+}
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Single product",
+  "settings": [
+     {
+           "type":"product",
+           "id":"product",
+           "label":"Product"
+         }
+   
+       ],
+   "presets": [
+     {
+       "name": "Single product"
+     }
+   ]
+}
+{% endschema %}

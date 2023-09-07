@@ -1,0 +1,67 @@
+<div class="page-width">
+ <div class="two-image-wrapper">
+   <div class="TI-item">
+     <!-- <img src="{{ section.settings.img1 | img_url:'' }}"> -->
+     <picture>
+      <source media="(min-width:768px)" srcset="{{ section.settings.img1 | img_url:'' }}">
+      <img src="{{ section.settings.img1 | img_url:'master' }}">
+    </picture>
+   </div>
+   <div class="TI-item">
+     <!-- <img src="{{ section.settings.img2 | img_url:'' }}"> -->
+     <picture>
+      <source media="(min-width:768px)" srcset="{{ section.settings.img2 | img_url:'' }}">
+      <img src="{{ section.settings.img2 | img_url:'master' }}">
+    </picture>
+   </div>
+ </div>
+</div>
+
+<style>
+  .two-image-wrapper{
+    display:flex;
+    justify-content:space-between;
+    padding: 100px 0;
+  }
+  .TI-item{
+    width:calc(50% - 20px);
+  }
+  .TI-item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+    @media screen and (max-width:768px){
+    .two-image-wrapper {
+    padding: 60px 0;
+}
+    .TI-item {
+    width: calc(50% - 5px);
+}
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Two images",
+  "settings": [
+     {
+           "type":"image_picker",
+           "id":"img1",
+           "label":"Image 1"
+         },
+     {
+           "type":"image_picker",
+           "id":"img2",
+           "label":"Image 2"
+         }
+   
+       ],
+   "presets": [
+     {
+       "name": "Two images"
+     }
+   ]
+}
+{% endschema %}

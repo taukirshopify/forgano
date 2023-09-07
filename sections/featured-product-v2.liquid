@@ -1,0 +1,102 @@
+{{ 'featured-product-v2/3.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width">
+  {% assign FP = section.settings.product %}
+  <div class="featured-product-v2">
+    <div class="FP2-grid hideMob">
+      <div class="FP2-image-wrapper">
+        <div class="FP2-image">
+        <img src="{{ section.settings.img | img_url:'' }}">
+        </div>
+        <div class="FP2-image-button">
+          <a href="{{ FP.url }}" class="btn-style-1">
+            {{ section.settings.btn-text }}
+            {% render 'rectangle-icon' %}
+          </a>
+        </div>
+      </div>
+      <div class="FP2-prod-info">
+         <div class="FP2-prod-info-img">
+           <img src="{{ section.settings.img2 | img_url:'' }}">
+         </div>
+        <div class="FP2-prod-desc">
+           {{ section.settings.text }}
+         </div>
+      </div>
+      <div class="FP2-prod-title">
+        <div class="FP-meta-info">
+          <h2>{{ FP.title }}</h2>
+          <span>{{ section.settings.tag }}</span>
+          <p>{{ FP.price | money }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="FP3-grid hideDesk">
+      <div class="FP3-prod-info">
+         <div class="FP-meta-info">
+          <h2>{{ FP.title }}</h2>
+          <span>{{ section.settings.tag }}</span>
+          <p>{{ FP.price | money }}</p>
+        </div>
+        <div class="FP-desc">
+          {{ section.settings.text }}
+        </div>
+      </div>
+      <div class="FP3-image-wrapper">
+        <div class="FP3-image">
+        <img src="{{ section.settings.img2 | img_url:'' }}">
+        <p class="product__price--mobile">{{ FP.price | money }}</p>
+        </div>
+          <div class="FP3-image-button">
+          <a href="{{ FP.url }}" class="btn-style-1">
+            {{ section.settings.btn-text }}
+            {% render 'rectangle-icon' %}
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Featured Product v2",
+  "settings": [
+         {
+           "type":"product",
+           "id":"product",
+           "label":"Product"
+         },
+     {
+           "type":"image_picker",
+           "id":"img",
+           "label":"Image"
+         },
+    {
+           "type":"text",
+           "id":"btn-text",
+           "label":"Button text"
+         },
+    {
+           "type":"image_picker",
+           "id":"img2",
+           "label":"Product Image"
+         },
+    {
+           "type":"richtext",
+           "id":"text",
+           "label":"Description"
+         },
+    {
+           "type":"text",
+           "id":"tag",
+           "label":"Title Subtext"
+         }
+       ],
+   "presets": [
+     {
+       "name": "Featured product v2"
+     }
+   ]
+}
+{% endschema %}

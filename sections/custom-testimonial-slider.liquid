@@ -1,0 +1,298 @@
+<div class="ct-container bg{{ section.id }}">
+
+<div class="ct-inner-container page-width">
+
+<div class="ct-inner-container-bg-img">
+  <img src="{{ section.settings.bg_img | img_url:"700x" }}">
+</div>
+
+<div class="ct-inner-container-data">
+  
+<div class="ct-inner-container-data-heading h--color{{ section.id }}">
+  <h1>{{ section.settings.h_text }}</h1>
+</div>
+
+  
+<div class="ct-inner-container-data-testimonial-wrapper ">
+<div class="swiper mytestiomonialSwiper">
+      <div class="swiper-wrapper">
+  {% for block in section.blocks %}
+    
+  <div class="swiper-slide ct-inner-container-data-testimonial txt-bg{{ section.id }}">
+
+<svg style="margin-bottom: 10px;" width="45" height="45" viewBox="0 0 31 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M7.12959 0.705153C5.2249 0.705153 3.43458 1.44504 2.08821 2.78887C0.741386 4.1328 0 5.91927 0 7.81941C0 8.79642 0.162525 9.72079 0.48275 10.5663C0.813513 11.4394 1.30417 12.2069 1.94157 12.8482C3.29761 14.2126 5.25223 14.9337 7.59401 14.9337C7.61202 14.9337 7.62564 14.9346 7.6353 14.9359C7.70646 15.1287 7.63223 15.9554 6.77524 17.3334C5.87695 18.7777 4.51959 20.1663 3.05166 21.1424C2.82061 21.2958 2.71782 21.5824 2.79821 21.8472C2.87859 22.1123 3.12326 22.2934 3.40088 22.2934C4.61366 22.2934 7.31247 21.4755 9.77626 19.2217C11.8215 17.3514 14.2589 13.9352 14.2589 8.2822C14.2589 6.14541 13.52 4.20364 12.179 2.81427C10.866 1.45463 9.07255 0.705078 7.12974 0.705078L7.12959 0.705153Z" fill="#3BFEDB"></path>
+            <path d="M28.9205 2.81569C27.6066 1.45516 25.8136 0.706055 23.8708 0.706055C21.9661 0.706055 20.1758 1.44594 18.8294 2.78977C17.4826 4.1337 16.7412 5.92017 16.7412 7.82032C16.7412 8.79732 16.9037 9.72169 17.224 10.5672C17.5547 11.4403 18.0454 12.2078 18.6828 12.8491C20.0388 14.2135 21.9934 14.9346 24.3352 14.9346C24.3532 14.9346 24.3668 14.9355 24.3765 14.9368C24.4477 15.1296 24.3734 15.9563 23.5164 17.3343C22.6182 18.7786 21.2608 20.1672 19.7929 21.1433C19.5618 21.2967 19.459 21.5833 19.5394 21.8481C19.6198 22.1132 19.8645 22.2943 20.1421 22.2943C21.3549 22.2943 24.0537 21.4764 26.5175 19.2226C28.5627 17.3523 31.0001 13.9361 31.0001 8.2831C31.0005 6.14676 30.2617 4.20454 28.9207 2.8155L28.9205 2.81569Z" fill="#3BFEDB"></path>
+        </svg>
+
+
+
+<p class="custom_para_style txt-color{{ section.id }}">{{ block.settings.c_t_review }}</p>
+<h3 class="testimonial_auther--name txt-color{{ section.id }}">{{ block.settings.c_t_review_name }}</h3>
+
+
+  <svg width="137" height="25" viewBox="0 0 137 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.2263 2.43848L15.3163 8.69848L22.2263 9.70848L17.2263 14.5785L18.4063 21.4585L12.2263 18.2085L6.04632 21.4585L7.22632 14.5785L2.22632 9.70848L9.13632 8.69848L12.2263 2.43848Z" fill="#F0A02D"/>
+<path d="M40.2263 2.43848L43.3163 8.69848L50.2263 9.70848L45.2263 14.5785L46.4063 21.4585L40.2263 18.2085L34.0463 21.4585L35.2263 14.5785L30.2263 9.70848L37.1363 8.69848L40.2263 2.43848Z" fill="#F0A02D"/>
+<path d="M68.2263 2.43848L71.3163 8.69848L78.2263 9.70848L73.2263 14.5785L74.4063 21.4585L68.2263 18.2085L62.0463 21.4585L63.2263 14.5785L58.2263 9.70848L65.1363 8.69848L68.2263 2.43848Z" fill="#F0A02D"/>
+<path d="M96.2263 2.43848L99.3163 8.69848L106.226 9.70848L101.226 14.5785L102.406 21.4585L96.2263 18.2085L90.0463 21.4585L91.2263 14.5785L86.2263 9.70848L93.1363 8.69848L96.2263 2.43848Z" fill="#F0A02D"/>
+<path d="M124.226 2.43848L127.316 8.69848L134.226 9.70848L129.226 14.5785L130.406 21.4585L124.226 18.2085L118.046 21.4585L119.226 14.5785L114.226 9.70848L121.136 8.69848L124.226 2.43848Z" fill="#F0A02D"/>
+<rect x="0.726318" y="0.938477" width="135" height="21.5324" stroke="black"/>
+</svg>
+
+</div>
+  
+{% endfor %}
+</div>
+  <div class="testimonial_btn--wrapper">
+  <div style=" margin-right: 15px;" class="swiper-button-prev product-galler-swiper_btn testimonial_swiper-btns">
+    <svg class="custom-previous_svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="44.952px" height="44.952px" viewBox="0 0 44.952 44.952" style="enable-background:new 0 0 44.952 44.952;" xml:space="preserve"><g><path d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0   c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028   c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001   l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+  </div>
+  <div class="swiper-button-next product-galler-swiper_btn testimonial_swiper-btns">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="44.952px" height="44.952px" viewBox="0 0 44.952 44.952" style="enable-background:new 0 0 44.952 44.952;" xml:space="preserve"><g><path d="M44.952,22.108c0-1.25-0.478-2.424-1.362-3.308L30.627,5.831c-0.977-0.977-2.561-0.977-3.536,0   c-0.978,0.977-0.976,2.568,0,3.546l10.574,10.57H2.484C1.102,19.948,0,21.081,0,22.464c0,0.003,0,0.025,0,0.028   c0,1.382,1.102,2.523,2.484,2.523h35.182L27.094,35.579c-0.978,0.978-0.978,2.564,0,3.541c0.977,0.979,2.561,0.978,3.538-0.001   l12.958-12.97c0.885-0.882,1.362-2.059,1.362-3.309C44.952,22.717,44.952,22.231,44.952,22.108z"/></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g><g></g></svg>
+  </div>
+    </div>
+</div>
+  
+</div>
+  
+
+  
+</div>
+
+</div>  
+</div>
+
+<!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mytestiomonialSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 20,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          }
+          },
+      });
+    </script>
+
+
+  <style>
+  .testimonial_auther--name{
+    font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 28px;
+    
+    text-transform: capitalize !important;
+
+  }
+    .testimonial_btn--wrapper {
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .testimonial_btn--wrapper .testimonial_swiper-btns svg {
+    fill: white;
+}
+.testimonial_swiper-btns {
+    border-color: white !important;
+}
+  .ct-inner-container{
+      position:relative;
+    z-index:2;
+    }
+    .ct-inner-container-data{
+          padding: 20px 0px;
+    }
+
+    .ct-inner-container-bg-img{
+      position: absolute;
+    top: 5;
+    top: 26px;
+    right: 0;
+    padding: 30px 0;
+    }
+  .bg{{ section.id }}{
+  background-color:{{ section.settings.bg_color }};  
+  }
+  .ct-inner-container{
+/*   margin: 20px 0; */
+  }
+
+  .h--color{{ section.id }}{
+  color:{{ section.settings.h_span_color }};
+  text-align: center;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}    
+    .ct-inner-container-data-heading>h1{
+          width: 57%;
+          z-index: 2;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 46px;
+          line-height: 130.5%;
+          /* or 60px */
+          
+          text-align: center;
+          text-transform: capitalize;
+    }
+
+  .h--color{{ section.id }} span{
+    color:{{ section.settings.h_nonspan_color }};
+    
+  }
+
+  .txt-color{{ section.id }}{
+    color:{{ section.settings.paragraph_color }};
+    text-align: left;
+  }
+
+  .txt-bg{{ section.id }}{
+    background-color:{{ section.settings.review_color }};
+  }
+
+  .ct-inner-container-data-testimonial-wrapper{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+  }
+  .ct-inner-container-data-testimonial{
+ width: 30%;
+    border: 2px solid white;
+    border-radius: 39px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start !important;
+    align-items: baseline !important;
+  }
+  .ct-inner-container-data-testimonial-wrapper{
+    padding: 30px 0;
+  }     .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: left;
+        
+      
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .ct-inner-container-data-heading>h1{
+          width: 100%;
+          font-size: 24px;
+    }
+    
+      }
+  
+    </style>
+{% schema %}
+  {
+    "name": "Custom testimonial",
+    "settings": [
+       {
+        "type":"image_picker",
+        "id":"bg_img",
+        "label":"Upload background image"
+      },
+      {
+        "type":"color",
+        "id":"bg_color",
+        "label":"Select a background color"
+      },
+      {
+        "type":"color",
+        "id":"h_span_color",
+        "label":"Heading color for other words"
+      },
+      {
+        "type":"color",
+        "id":"h_nonspan_color",
+        "label":"Heading color for specific words"
+      },
+      {
+        "type":"color",
+        "id":"paragraph_color",
+        "label":"Select color for paragraph"
+      },
+      {
+        "type":"color",
+        "id":"review_color",
+        "label":"Review background"
+      },
+      {
+        "type":"textarea",
+        "id":"h_text",
+        "label":"Type your heading here"
+      }
+     
+      
+    ],
+
+    	"blocks": [
+     {
+       "name": "Testimonial",
+       "type": "text",
+       "settings": [
+         {
+           "type": "textarea",
+           "id": "c_t_review",
+           "label": "Type your review here"
+         },
+         {
+           "type": "textarea",
+           "id": "c_t_review_name",
+           "label": "Type name"
+         }
+       ]
+     }
+  ],
+    "presets": [
+      {
+        "name": "Custom testimonial slider",
+        "category": "Image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+  
+{% endjavascript %}

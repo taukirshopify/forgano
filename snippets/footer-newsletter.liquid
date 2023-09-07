@@ -1,0 +1,71 @@
+{%- if block.settings.logo -%}
+  {%- style -%}
+    .footer__logo a {
+      height: {{ block.settings.desktop_logo_height }}px;
+    }
+  {%- endstyle -%}
+  {%- assign footer_logo_size = block.settings.desktop_logo_height | prepend: 'x' -%}
+  <div class="footer__logo">
+    <a href="{{ routes.root_url }}">
+      <img src="{{ block.settings.logo | img_url: footer_logo_size, scale: 2 }}" alt="{{ block.settings.logo.alt | default: shop.name }}">
+    </a>
+  </div>
+{%- endif -%}
+<div class="footer__item-padding">
+  {%- if block.settings.show_footer_title -%}
+    <p class="h4 footer__title small--hide">{{ block.settings.title }}</p>
+    <button type="button" class="h4 footer__title collapsible-trigger collapsible-trigger-btn medium-up--hide" aria-controls="Footer-{{ block.id }}">
+      {{ block.settings.title }}
+      {%- render 'collapsible-icons' -%}
+    </button>
+  {%- endif -%}
+  <div
+    {% if block.settings.show_footer_title %}
+      id="Footer-{{ block.id }}" class="collapsible-content collapsible-content--small"
+    {% endif %}>
+    <div class="collapsible-content__inner">
+      <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
+        {%- if block.settings.text -%}
+          {{ block.settings.text }}
+        {%- endif -%}
+
+        {%- form 'customer', id: 'newsletter-footer' -%}
+          {%- if form.posted_successfully? -%}
+            <div class="note note--success">{{ 'general.newsletter_form.newsletter_confirmation' | t }}</div>
+          {%- endif -%}
+          {%- if form.context == 'footer' -%}
+            {%- if form.errors -%}
+              {{ form.errors | default_errors }}
+            {%- endif -%}
+          {%- endif -%}
+
+          <label for="Email-{{ block.id }}" class="hidden-label"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="#020202" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22 6L12 13L2 6" stroke="#020202" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            {{ 'general.newsletter_form.newsletter_email' | t }}</label>
+          <input type="hidden" name="contact[tags]" value="prospect,newsletter">
+          <input type="hidden" name="contact[context]" value="footer">
+          <div class="footer__newsletter">
+            <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="Email-{{ block.id }}" class="footer__newsletter-input" autocorrect="off" autocapitalize="off">
+            <button type="submit" class="footer__newsletter-btn" name="commit" aria-label="{{ 'general.newsletter_form.submit' | t }}">
+         <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="59" height="59" rx="29.5" fill="#E4226A"/>
+<path d="M32.7172 34.5784L37.4908 29.7736L32.7328 25L31.1104 26.5132L33.4192 28.6348H22V30.9436H33.4192L31.1104 33.0652L32.7172 34.5784Z" fill="#E9E7DF"/>
+</svg>
+
+              <span class="footer__newsletter-btn-label">
+                {{ 'general.newsletter_form.submit' | t }}
+              </span>
+            </button>
+          </div>
+        {%- endform -%}
+
+        {% comment %}
+        {% render 'social-icons', additional_classes: 'footer__social' %}
+        {% endcomment %}
+
+      </div>
+    </div>
+  </div>
+</div>

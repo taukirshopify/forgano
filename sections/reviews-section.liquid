@@ -1,0 +1,116 @@
+<div class="reviews-section-wrapper">
+<div class="reviews-section-header">
+<div><h2>{{ section.settings.richtext1 }}</h2></div>
+  <div class="swiper-button-next-prev">
+      <div class="swiper-button-prev">
+<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="59" height="59" rx="29.5" transform="matrix(-1 0 0 1 59 0)" fill="#E4226A"/>
+<path d="M26.2828 34.5784L21.5092 29.7736L26.2672 25L27.8896 26.5132L25.5808 28.6348H37V30.9436H25.5808L27.8896 33.0652L26.2828 34.5784Z" fill="white"/>
+</svg>
+</div>
+  <div class="swiper-button-next">
+<svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="59" height="59" rx="29.5" fill="#E4226A"/>
+<path d="M32.7172 34.5784L37.4908 29.7736L32.7328 25L31.1104 26.5132L33.4192 28.6348H22V30.9436H33.4192L31.1104 33.0652L32.7172 34.5784Z" fill="white"/>
+</svg>
+
+</div>
+
+</div>
+</div>
+<div class="reviews-section-bs swiper mySwiper"> 
+<div class="reviews-section-slider  swiper-wrapper">
+  {% for block in section.blocks %}
+<div class="reviews-section-inner swiper-slide">
+<h3>{{ block.settings.richtext1 }}</h3>
+<div class="rte">
+{{ block.settings.richtext2 }}
+</div>
+<ul>
+{% for i in (1..block.settings.range) %}
+  <li>
+{% render 'review-star' %}    
+  </li>
+{% endfor %}
+</ul>
+
+</div>
+{% endfor %}
+</div>
+</div>
+</div>
+{% schema %}
+  {
+    "name": "Reviews",
+"class":"reviews-section-main",
+    "settings": [
+            {
+"type": "richtext",
+"id": "richtext1",
+"label": "Text"
+}
+    ],
+    	"blocks": [
+     {
+       "name": "Review",
+       "type": "slide",
+       "settings": [
+                {
+"type": "richtext",
+"id": "richtext1",
+"label": "Text"
+},
+{
+"type": "richtext",
+"id": "richtext2",
+"label": "Text"
+},
+         {
+  "type": "range",
+  "id": "range",
+  "min": 0,
+  "max": 5,
+  "step": 1,
+  "label": "Star",
+  "default": 5
+}
+
+       ]
+     }
+   ],
+     "presets": [{
+    "name": "Reviews"
+    }]
+  }
+{% endschema %}
+
+
+<script>
+   var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4.5,
+        spaceBetween: 22,
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      breakpoints: {
+      320: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+          640: {
+            slidesPerView: 1.5,
+            spaceBetween: 20,
+          },
+          1024: {
+            slidesPerView: 2.5,
+            spaceBetween: 40,
+          },
+          1300: {
+            slidesPerView: 3.5,
+            spaceBetween: 50,
+          },
+        }
+      });
+
+</script>

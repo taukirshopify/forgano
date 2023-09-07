@@ -1,0 +1,115 @@
+<div class="asyncLoad text-image--wrapper">
+<div class="text-image-button-wrapper mobile-hide">
+<div class="text-image-wrapper-left">
+<div class="text-image-wrapper-1">
+<div>
+{% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+{{ section.settings.image | img_url:"master" | img_tag }}
+{% if section.settings.imagelink != blank %}</a>{% endif %}
+</div>
+<div><a href="{{ section.settings.buttonLink}}" class="btn-style-1">
+{{ section.settings.buttonLabel}}
+{% include 'icon-btn-arrow' %}
+</a></div>
+</div>
+
+</div>
+
+  <div class="text-image-wrapper-right">
+  {{ section.settings.image3 | img_url:"master" | img_tag }}
+</div>
+<div class="text-image-wrapper-2">
+<div>
+<div><h3>
+{{ section.settings.h3}}
+</h3></div>
+
+</div>
+  <div>
+    {% if section.settings.imagelink != blank %}<a href="{{ section.settings.image2link }}">{% endif %}
+{{ section.settings.image2 | img_url:"master" | img_tag }}
+{% if section.settings.imagelink != blank %}</a>{% endif %}
+  </div>
+</div>
+</div>
+
+<div class="text-image-button-wrapper mobile-show">
+<h3>
+{{ section.settings.h3}}
+</h3>
+
+<div class="text-image-wrapper-left">
+
+  <div class="text-image-wrapper-right">
+{% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+  {{ section.settings.image | img_url:"master" | img_tag }}
+{% if section.settings.imagelink != blank %}</a>{% endif %}
+</div>
+<div class="text-image-wrapper-1">
+
+<div>{{ section.settings.image3 | img_url:"master" | img_tag }}</div>
+<div><a href="{{ section.settings.buttonLink}}" class="btn-style-1">
+{{ section.settings.buttonLabel}}
+{% include 'icon-btn-arrow' %}
+</a></div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+{% schema %}
+{
+"name": "Text Image (3 Column)",
+"class":"text-image-button text-image-button-1",
+"settings": [
+{
+"type": "image_picker",
+"id": "image",
+"label": "Image"
+},
+{
+"type": "url",
+"id": "imagelink",
+"label": "Image Link"
+},  
+{
+"type": "url",
+"id": "buttonLink",
+"label": "Button Link"
+},
+{
+"type": "text",
+"id": "buttonLabel",
+"label": "Button Label"
+},
+{
+"type": "richtext",
+"id": "h3",
+"label": "Heading"
+},
+{
+"type": "image_picker",
+"id": "image2",
+"label": "Image"
+},
+  {
+"type": "url",
+"id": "image2link",
+"label": "Image Link"
+},  
+{
+"type": "image_picker",
+"id": "image3",
+"label": "Image"
+}
+]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

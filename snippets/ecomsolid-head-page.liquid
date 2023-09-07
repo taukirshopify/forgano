@@ -1,0 +1,49 @@
+{% comment %}
+  You SHOULD NOT modify source code in this page because
+  It is automatically generated from EcomSolid
+  Try to edit page with the live editor.
+{% endcomment %}
+{% if template.name == 'page' %}
+  {% assign EcomSolid = page.metafields.EcomSolid %}
+{% elsif template.name == 'product' %}
+  {% assign EcomSolid = product.metafields.EcomSolid %}
+{% elsif template.name == 'index' %}
+  {% assign EcomSolid = shop.metafields.EcomSolid %}
+{% elsif template.name == 'collection' %}
+  {% assign EcomSolid = collection.metafields.EcomSolid %}
+{% elsif template.name == 'article' %}
+  {% assign EcomSolid = article.metafields.EcomSolid %}
+{% elsif template.name == 'blog' %}
+  {% assign EcomSolid = blog.metafields.EcomSolid %}
+{% endif %}
+{% if EcomSolid and EcomSolid['globalStyle'] %}
+    {{ EcomSolid['globalStyle'] }}
+{% endif %}
+{% if EcomSolid and EcomSolid['globalStyleWithSetting'] %}
+    {{ EcomSolid['globalStyleWithSetting'] }}
+{% endif %}
+{% if EcomSolid and EcomSolid['headMeta'] %}
+    {{ EcomSolid['headMeta'] }}
+{% endif %}
+{% if EcomSolid and EcomSolid['robots'] %}
+    <meta name="robots" content="{{ EcomSolid['robots'] }}" />
+{% endif %}
+{% if EcomSolid and EcomSolid['facebookDesctiption'] %}
+    {%- comment %}<locksmith:6fc4>{% endcomment -%}
+      {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:description" content="{{ EcomSolid['facebookDesctiption'] }}" />{% endif -%}
+      {%- comment %}original: <meta property="og:description" content="{{ EcomSolid['facebookDesctiption'] }}" />{%- endcomment %}
+    {%- comment %}</locksmith:6fc4>{% endcomment -%}
+{% endif %}
+{% if EcomSolid and EcomSolid['title'] %}
+    {%- comment %}<locksmith:3bcd>{% endcomment -%}
+      {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:title" content="{{ EcomSolid['title'] }}" />{% endif -%}
+      {%- comment %}original: <meta property="og:title" content="{{ EcomSolid['title'] }}" />{%- endcomment %}
+    {%- comment %}</locksmith:3bcd>{% endcomment -%}
+{% endif %}
+{% if EcomSolid and EcomSolid['thumbnail'] %}
+    {%- comment %}<locksmith:bd1d>{% endcomment -%}
+      {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:image" content="{{ EcomSolid['thumbnail'] }}" />{% endif -%}
+      {%- comment %}original: <meta property="og:image" content="{{ EcomSolid['thumbnail'] }}" />{%- endcomment %}
+    {%- comment %}</locksmith:bd1d>{% endcomment -%}
+    <meta property="og:image:alt" content="{{ page_title }}" />
+{% endif %}

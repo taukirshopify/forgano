@@ -1,0 +1,333 @@
+{% style %}
+.our-shoes-heading h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 176.016px;
+    line-height: 84%;
+/* identical to box height, or 148px */
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #000000;
+    margin: 31px 0 100px;
+}
+
+.our-shoes-products-main {
+    display: flex;
+    padding: 0 50px;
+    gap: 20px;
+}
+
+.our-shoes-products-main img {
+    display: block;
+}
+.our-shoes-products-main
+.text-image-wrapper-2 {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 25.65%;
+}
+.our-shoes-products-main
+.text-image-wrapper-2>div:last-child {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pro-content h2 {
+    font-weight: 600;
+    font-size: 73px;
+    line-height: 87%;
+/* or 64px */
+    letter-spacing: -0.04em;
+    color: #1F1F1F;
+    text-transform: none;
+    max-width: 452px;
+    margin-bottom: 47px;
+}
+
+.pro-content span {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 87%;
+/* identical to box height, or 23px */
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: rgba(31, 31, 31, 0.5);
+    display: block;
+}
+.our-shoes-products-main
+.pro-content img {
+    display: block;
+}
+.our-shoes-products-main
+.pro-content div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 71px;
+}
+
+.our-shoes-products-main > div:first-child {
+    width: 39.22%;
+}
+
+.our-shoes-products-main > div:first-child img {
+    width: 100%;
+}
+
+
+  .our-shoes-products-main
+.text-image-wrapper-2 img {
+    width: 100%;
+}
+.our-shoes-products-main
+.pro-content {
+    width: 35%;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 {
+    margin-top: 200px;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 > div:first-child {
+    width: 26%;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 .text-image-wrapper-2 {
+    width: 41.56%;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 .pro-content div {
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 > div:first-child > div {
+    height: 100%;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 > div:first-child > div img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.our-shoes-products-main.our-shoes-products-main-2 .pro-content > div {
+    margin-top: 71px;
+}
+.product--item {
+    max-width: 580px;
+    text-align: center;
+}
+
+.product--item h2 {
+    font-weight: 600;
+    font-size: 73px;
+    line-height: 1;
+/* or 66px */
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: #000000;
+    text-transform: none;
+    margin: 9px 0 30px;
+}
+
+.product--item span {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 87%;
+/* identical to box height, or 23px */
+    letter-spacing: -0.04em;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+.product--item img {
+    display: block;
+    max-height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 18.9162px;
+}
+
+.our-shoes-products-main-product {
+    display: flex;
+    justify-content: center;
+    margin-top: 208px;
+}
+.ourshoesV2{
+    justify-content: space-between;
+
+}
+  .ourshoesV2.reverse{
+        flex-direction: row-reverse;
+  }
+  .ourshoesV2 .pro-content{
+    width:45% !important;
+        display: flex;
+    flex-direction: column;
+  }
+  .ourshoesV2 .text-image-wrapper-2>div {
+    gap:20px;
+    align-items: flex-start;
+}
+  .ourshoesV2 .text-image-wrapper-2>div a:nth-child(1) {
+    flex:1;
+    height: auto;
+}
+  .ourshoesV2 .text-image-wrapper-2>div a:nth-child(2) {
+    max-width: 160px;
+    height: auto;
+}
+  .ourshoesV2 .text-image-wrapper-2 {
+    width: 50% !important;
+}
+  @media screen and (max-width:768px){
+
+   .ourshoesV2.our-shoes-products-main.our-shoes-products-main-2 .pro-content, .ourshoesV2.our-shoes-products-main.our-shoes-products-main-2 .text-image-wrapper-2 {
+    width: 100% !important;
+}
+    .ourshoesV2.our-shoes-products-main.our-shoes-products-main-2 .pro-content>div{
+      margin-top:20px !important;
+    }
+    .ourshoesV2 .text-image-wrapper-2>div {
+    gap: 10px;
+}
+   .ourshoesV2 .text-image-wrapper-2>div a:nth-child(2) {
+    max-width: 146px;
+
+}
+  }
+  
+{% endstyle %}
+
+
+<div>
+  {% for block in section.blocks %}
+      {% case block.type %}
+      	{% when 'product2' %}
+{% assign product2 = block.settings.product2 %}
+<div class="our-shoes-products-main our-shoes-products-main-2 ourshoesV2 {% if block.settings.img_alignment == 'left' %}reverse{% endif %}">
+
+
+<div class="pro-content">
+<h2>{{ product2.title }}</h2>
+<span>{{ product2.price | money }}</span>
+  <div>
+         <div class="mobile-hide">   <a href="{{ product2.url}}" class="btn-style-1">
+{{ block.settings.buttonLabel2}}
+{% include 'icon-btn-arrow' %}
+</a></div>
+
+
+  </div>
+
+</div>
+<div class="text-image-wrapper-2">
+
+  <div>
+<a href="{{ product2.url}}">{{ block.settings.image22 | img_url:"master" | img_tag }}</a>
+    {% if  block.settings.image23 != blank %}
+    <a href="{{ product2.url}}">{{ block.settings.image23 | img_url:"master" | img_tag }}</a>
+      {% endif %}
+  </div>
+   <div class="mobile-show">   <a href="{{ product2.url}}" class="btn-style-1">
+{{ block.settings.buttonLabel2}}
+{% include 'icon-btn-arrow' %}
+</a></div>
+
+
+
+</div>
+  
+
+</div>
+        {% endcase %}
+    {% endfor %}
+</div>
+{% for block in section.blocks %}
+    {% case block.type %}
+      	{% when 'product' %}
+    {% if block.settings.product != blank %}
+<div class="our-shoes-products-main-product">
+
+{% assign product = block.settings.product %}
+
+<div class="product--item">
+ <div>
+{{ product.featured_image | img_url:"master" | img_tag }}
+  </div>
+<h2>{{ product.title }}</h2>
+<span>{{ product.price | money }}</span>
+<a href="{{ product.url}}"></a>
+</div>
+
+
+</div>
+{% endif %}
+       {% endcase %}
+{% endfor %}
+
+{% schema %}
+  {
+    "name": "Product V2",
+    "settings": [
+
+
+    ],
+    "blocks":[
+     
+       {
+        "type":"product",
+        "name":"Product V1",
+        "settings":[
+                      {
+            "type": "product",
+            "id": "product",
+            "label": "Product"
+            }
+        ]
+      },
+       {
+        "type":"product2",
+        "name":"Product V2",
+        "settings":[
+                        {
+                "type": "select",
+                "id": "img_alignment",
+                "label": "Image alignment",
+                "options": [
+                  {
+                    "value": "left",
+                    "label": "Left"
+                  },
+                  {
+                    "value": "right",
+                    "label": "Right"
+                  }
+                ],
+                "default": "right"
+              },
+               {
+            "type": "image_picker",
+            "id": "image22",
+            "label": "Image"
+            },
+           {
+            "type": "image_picker",
+            "id": "image23",
+            "label": "Second Image"
+            },
+                {
+            "type": "text",
+            "id": "buttonLabel2",
+            "label": "Button Label"
+            },
+                {
+            "type": "product",
+            "id": "product2",
+            "label": "Product"
+            }
+        ]
+      }
+    ]
+  }
+{% endschema %}

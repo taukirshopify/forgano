@@ -1,0 +1,251 @@
+{%- assign product2 = all_products[section.settings.tp_pr2] -%}
+{% assign image_url1 = product1.featured_media | img_url: '1x1' %}
+{% assign image_url2 = product2.featured_media | img_url: '1x1' %}
+
+<div class="tp_container page-width">
+  <div class="tp_container-sub1">
+    {% if section.settings.tp_paragraph != blank %}
+      <p class="tp_container-sub1-des rspnsv des-clr{{ section.id }}">{{ section.settings.tp_paragraph }}</p>
+    {% endif %}
+    <h1 class="tp_container-sub1-heading rspnsv hdng-bg{{ section.id }}">
+      <span class="mobile-hide">{{ section.settings.tp_heading }} </span>
+      <span class="mobile-show">{{ section.settings.tp_heading1 }} </span>
+    </h1>
+    <div>
+      <a href="{{ section.settings.buttonLink}}" class="btn-style-1">
+        {{ section.settings.buttonLabel }}
+        {% include 'icon-btn-arrow' %}
+      </a>
+    </div>
+  </div>
+
+  <div class="tp_container-sub2">
+    {% for block in section.blocks %}
+      {%- assign product1 = all_products[block.settings.tp_pr1] -%}
+      {% assign mprice = product1.selected_or_first_available_variant.price %}
+      {% assign msale_price = product1.selected_or_first_available_variant.compare_at_price %}
+
+      <div class="tp_container-sub2-inner1 rspnsv">
+        <a href="{{ product1.url  }}" class="grid-product__link">
+          <div class="tp_container-sub2-inner-img pr-bg{{ section.id }}">
+            <img src="{{ product1.featured_media | img_url: 'master' }}">
+          </div>
+
+          <div class="tp_container-sub2-inner1-text">
+            <h3 class="tp_container_title">{{ product1.title }}</h3>
+            <div class="mprice-box">
+              <p class="tp_container_paragraph">{{ product1.selected_or_first_available_variant.price | money_without_currency }}</p>
+              {% if msale_price > mprice %}
+                <p class="tp_container_paragraph msale-price">{{ msale_price | money_without_currency }}</p>
+              {% endif %}
+            </div>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+    .mprice-box{
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+     .mprice-box .msale-price{
+       text-decoration: line-through;
+     }
+    .tp_container{
+      display: flex;
+      justify-content: center;
+      margin: 20px auto;
+      flex-direction: column;
+    }
+    .tp_container-sub1{
+      display: flex;
+      justify-content: space-between;
+      margin: 30px 0px;
+    }
+    .tp_container-sub1-des{
+      width: 35%;
+    }
+    .tp_container-sub1-heading{
+      width: 60%;
+    }
+  .tp_container-sub2 {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 20px;
+  }
+    .tp_container-sub2-inner1{
+      width: 50%;
+      border: 1px solid #020202;
+    }
+    .tp_container-sub2-inner1-text{
+      padding: 12px;
+    }
+    .tp_container-sub2-inner2{
+      width: 48%;
+      border: 1px solid #020202;
+    }
+    .tp_container-sub2-inner-img >img
+    {
+      width:100%;
+    }
+    .tp_container-sub2-inner2-text{
+      padding: 10px 0px 0px 20px;
+    }
+    .pr-bg{{ section.id }}
+    {
+      background-color:{{ section.settings.tp_product_color }};
+    }
+    .hdng-bg{{ section.id }}
+    {
+      color:{{ section.settings.tp_span_color }};
+  font-weight: 500;
+  font-size: 73px;
+  line-height: 85%;
+  letter-spacing: -0.04em;
+      text-transform: none !important;
+    }
+    .hdng-bg{{ section.id }} span
+    {
+      color:{{ section.settings.tp_non_span_color }};
+    }
+    .des-clr{{ section.id }}
+    {
+      color:{{ section.settings.tp_para_color }};
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .tp_container_title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 40px;
+      line-height: 51px;
+      text-transform: capitalize;
+      color: #020202;
+  }
+
+  .tp_container_paragraph {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 44px;
+      line-height: 56px;
+      text-transform: capitalize;
+      color: #020202;
+  }
+    @media only screen and (max-width: 1200px) {
+      .tp_container-sub2{
+        flex-wrap:wrap;
+        row-gap: 40px;
+      }
+      .tp_container-sub2-inner1 {
+      width: calc(50% - 10px);
+  }
+    }
+    @media only screen and (max-width: 768px) {
+        .tp_container_title {
+  font-size: 24px;
+              line-height: 33px;
+  }
+
+  .tp_container_paragraph {
+  font-size: 26px;
+        line-height: 33px;
+  }
+
+    .tp_container-sub1
+      {
+      flex-direction: column-reverse;
+      text-align: left;
+      }
+      .rspnsv
+      {
+        width:100%;
+      }
+      .tp_container-sub2
+      {
+      flex-direction: column;
+      gap: 20px;
+      }
+      }
+  }
+</style>
+{% schema %}
+  {
+    "name": "The products",
+"class":"the-product-wrapper",
+    "settings": [
+      {
+        "type":"textarea",
+        "id":"tp_heading",
+        "label":"Type your heading here"
+      },
+       {
+        "type":"textarea",
+        "id":"tp_heading1",
+        "label":"Type your heading here"
+      },
+      {
+        "type":"color",
+        "id":"tp_span_color",
+        "label":"Heading color other for  words"
+      },
+      {
+        "type":"color",
+        "id":"tp_non_span_color",
+        "label":"Heading color for specific words"
+      },
+      {
+        "type":"textarea",
+        "id":"tp_paragraph",
+        "label":"Type your paragraph here"
+      },
+      {
+        "type":"color",
+        "id":"tp_para_color",
+        "label":"Paragraph color"
+      },
+      {
+        "type":"color",
+        "id":"tp_product_color",
+        "label":"Product background"
+      },
+      {
+"type": "url",
+"id": "buttonLink",
+"label": "Button Link"
+},
+{
+"type": "text",
+"id": "buttonLabel",
+"label": "Button Label"
+}
+
+
+    ],
+    "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+         {
+        "type":"product",
+        "id":"tp_pr1",
+        "label":"Select your product"
+      }
+      ]
+    }
+
+  ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

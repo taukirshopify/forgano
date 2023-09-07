@@ -1,0 +1,512 @@
+<style>
+
+  .featured-img-with-text-container{
+    border-top:1px solid;
+    border-bottom:1px solid;
+/*     margin-top:100px; */
+    display:flex;
+    justify-content: center;
+/*     margin-bottom: 10px; */
+  }
+  .featured-img-simple-text-block_svg {
+    width: 20%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .inner-half-width svg {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+  .featured-img-simple-text-block_svg svg {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+  .featured-img-simple-text-block_para p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+}
+  .featured-img-simple-text-block_para {
+    width: 80%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .featured-img-with-text-container>div{
+    width:50%;
+  }
+  .featured-img-bnr-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+  .featured-img-inner-container{
+      margin: 0px 45px;
+  } 
+  .featured-img-heading-container{{section.id}}{
+    color:{{section.settings.main_head_clr}};
+  }
+   .featured-img-heading-container{{section.id}} span{
+    color:{{section.settings.main_head_clr_}};
+  }
+  
+.featured-img-inner-container h1 {
+    margin: 40px 0px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 130.5%;
+    text-transform: capitalize;
+}
+  .flex_div{
+    display:flex !important;
+  }
+  .flex_div>div{
+    width:48%;
+  }
+  .featured-img-simple-text-with-img-block-one , .featured-img-simple-text-with-img-block-two , .featured-img-simple-text-with-img-block-three{
+    display:flex;
+  }
+  
+  
+  .half-width{
+    width:50%;
+   
+  }
+  .featured-text-container{
+    border-left:1px solid;
+  }
+  .featured-text-inner-container>div{
+    border-bottom:1px solid;
+  }
+  .featured-img-simple-text-block{
+    display: flex;
+  }
+  .custom-svg{
+    width:15%;
+    padding-top: 12px;
+    margin-top: 24px;
+  }
+  .custom-p{
+    width:100%;
+    padding-top: 25px;
+  }
+  .half-width-img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+    .inner-half-width{
+      padding:35px 30px;
+    }
+
+
+  .relative-div-one {
+    position:relative;
+  }
+  .relative-div-two {
+    position:relative;
+    border-left: 1px solid;
+  }
+  .relative-div-three {
+    position:relative;
+   
+    padding:30px;
+  }
+  .border-svg{
+        position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+
+  }
+  .border-svg-one {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    z-index: 10;
+    width: 30px;
+    height: 30px;
+}
+  .border-svg-two{
+    position: absolute;
+    bottom: -15px;
+    left: -15px;
+    width: 30px;
+    height: 30px;
+  }
+  .border-svg-three {
+    position: absolute;
+    bottom: -15px;
+    right: -15px;
+    width: 30px;
+    z-index: 5;
+    height: 30px;
+}
+  .half-width-right{
+   
+  }
+  .half-width-left{
+    border-left: 1px solid;
+  }
+   .half-width-left2{
+      border-left: 1px solid black;
+    }
+  .mobile-svg{
+    position:absolute;
+    display:none;
+  }
+  .mobile-svg-two{
+      display:none;
+      position:absolute;
+  } 
+  .mobile-svg-one{
+      display:none;
+      position:absolute;
+    }
+  .red{
+    color:#E11F65;
+  }
+  .common_p span{
+    
+  }
+
+
+
+  @media screen and (max-width: 768px){
+    .featured-img-with-text-container{
+      flex-direction:column;
+      border-bottom:0px;
+    }
+    .featured-img-heading-container{{section.id}}{
+      display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+    .featured-img-heading-container{{section.id}}>h1{
+      font-size: 36px;
+      margin: 20px 0px;
+    }
+    .featured-img-bnr-container>img{
+      width:100%;
+    }
+    .featured-img-with-text-container>div{
+      width:100%;
+          margin-bottom: 10px;
+    }
+    .featured-img-simple-text-with-img-block-one{
+      flex-direction:column;
+    }
+    .featured-img-simple-text-with-img-block-two{
+      flex-direction:column;
+    }
+    .featured-img-simple-text-with-img-block-three{
+      flex-direction:column;
+    }
+    .featured-img-simple-text-with-img-block-one>div{
+      width:100%;
+    }
+    .featured-img-simple-text-with-img-block-two>div{
+      width:100%;
+    }
+    .featured-img-simple-text-with-img-block-three>div{
+      width:100%;
+    }
+
+    .featured-text-container{
+    border-left:0px solid;
+    }
+    .featured-text-inner-container>div{
+    border-bottom:0px solid;
+    }
+    .half-width-right{
+    border-right:0px solid;
+  }
+    .half-width-left{
+    border-left: none;
+  }
+  
+    .half-width-left2{
+      border-left:none;
+    }
+    .relative-div-three {
+    border-right:0px solid;
+  }
+    .featured-text-inner-container{
+      border:1px solid;
+    }
+    .featured-text-inner-container>div{
+      border-bottom:1px solid;
+    }
+    .featured-text-inner-container{
+      margin:0px 30px;
+    }
+    .featured-img-simple-text-block {
+    flex-direction: column;
+}
+    .featured-img-simple-text-block_svg {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px;
+}
+    .featured-img-simple-text-block_para {
+    width: 100%;
+    }
+svg.border-svg-one {
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+  .border-svg-two{
+    display: block;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height: 30px;
+  }
+  .border-svg-three{
+    position: absolute;
+        left: 50%;
+    transform: translate(-50%);
+  }
+  p.common_p.custom_para_style {
+    font-size: 14px;
+    line-height: 24px;
+}
+    .featured-img-simple-text-with-img-block-two{
+      flex-direction:column-reverse;
+    }
+    .relative-div-one{
+      border-bottom:1px solid;
+    }
+    .relative-div-two{
+      border-bottom:1px solid;
+      border-left:none;
+    }
+    .relative-div-three{
+      border-bottom:1px solid;
+    }
+
+    .mobile-svg-two{
+     display: block;
+    top: -10px;
+    left: 50%;
+      display: none;
+    }
+     .mobile-svg-one{
+    display: block;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 30px;
+    }
+  .featured-img-inner-container {
+    margin: 0px 30px;
+}
+    .featured-img-bnr-container {
+    margin-bottom: 25px;
+}
+      p.custom_para_style.custom-p {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.border-svg {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0%);
+}
+
+
+  }
+  
+  
+</style>
+
+<div class="featured-img-with-text-container">
+
+  
+    <div class="featured-img-container">
+    <div class="featured-img-inner-container">
+        <div class="featured-img-heading-container{{ section.id }}">
+            <h1>{{ section.settings.main_head }}</h1>
+        </div>
+        <div class="featured-img-bnr-container">
+            <img src="{{ section.settings.main_img | img_url:'master' }}">
+        </div>
+    </div>
+    </div>
+
+  
+    <div class="featured-text-container">
+    <div class="featured-text-inner-container">
+        <div class="featured-img-simple-text-block">
+          <div class="featured-img-simple-text-block_svg">
+              <svg class="custom-svg" width="49" height="47" viewBox="0 0 49 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M21.5914 2.51049C22.3546 -0.50955 26.6454 -0.50955 27.4086 2.51049L29.1728 9.49215C29.6308 11.3048 31.6174 12.2615 33.3202 11.4894L39.8786 8.51575C42.7156 7.22943 45.3909 10.5842 43.5056 13.0638L39.147 18.7961C38.0154 20.2844 38.506 22.434 40.1714 23.284L46.5854 26.5575C49.3599 27.9735 48.4051 32.1568 45.291 32.2288L38.0918 32.3952C36.2226 32.4384 34.8479 34.1622 35.2217 35.9942L36.6614 43.0499C37.2842 46.102 33.4183 47.9637 31.4203 45.5738L26.8016 40.049C25.6025 38.6146 23.3975 38.6146 22.1984 40.049L17.5796 45.5738C15.5817 47.9637 11.7158 46.102 12.3386 43.0499L13.7783 35.9942C14.1521 34.1622 12.7774 32.4384 10.9082 32.3952L3.70904 32.2288C0.594901 32.1568 -0.359913 27.9735 2.4146 26.5575L8.82863 23.284C10.494 22.434 10.9846 20.2844 9.85296 18.7961L5.49444 13.0638C3.60908 10.5842 6.28441 7.22943 9.12138 8.51575L15.6798 11.4894C17.3826 12.2615 19.3692 11.3048 19.8272 9.49215L21.5914 2.51049Z" fill="#020202"/>
+              </svg>
+              </div>
+                <div class="featured-img-simple-text-block_para">
+              <p class="custom_para_style custom-p">{{ section.settings.main_des }}</p>
+                </div>
+  
+        </div>
+        <div class="featured-img-simple-text-with-img-block-one">
+              <div class="half-width half-width-img relative-div-one ">
+                <svg class="border-svg" width="21" height="20" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.95287 0C10.2452 1.43682 10.4321 2.88291 10.7213 4.32591C11.2533 7.01724 12.9483 8.46178 15.6738 8.93763C17.1116 9.18792 18.5494 9.35477 20 9.63287C19.0095 9.75646 18.0158 9.86616 17.0269 10.0068C16.3703 10.0994 15.7185 10.2215 15.0699 10.3559C12.2949 10.9337 11.028 12.7861 10.6127 15.3384C10.4146 16.5497 10.242 17.764 9.93211 19C9.83945 18.2955 9.75957 17.5894 9.65093 16.888C9.5423 16.1866 9.41129 15.4698 9.2739 14.7637C8.72913 11.9519 6.82962 10.5923 4.03227 10.1612C2.6967 9.95731 1.36113 9.7611 0 9.58343C1.34356 9.38259 2.6967 9.23427 4.02748 8.96545C7.66834 8.24395 8.89847 6.97553 9.4752 3.41284C9.66052 2.28037 9.79471 1.13864 9.95287 0Z" fill="#0047FF"/>
+                </svg>
+                <img src="{{ section.settings.block_one_img | img_url:'master' }}">
+
+                
+              
+                <svg class="border-svg-one" width="21" height="20" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.95287 0C10.2452 1.43682 10.4321 2.88291 10.7213 4.32591C11.2533 7.01724 12.9483 8.46178 15.6738 8.93763C17.1116 9.18792 18.5494 9.35477 20 9.63287C19.0095 9.75646 18.0158 9.86616 17.0269 10.0068C16.3703 10.0994 15.7185 10.2215 15.0699 10.3559C12.2949 10.9337 11.028 12.7861 10.6127 15.3384C10.4146 16.5497 10.242 17.764 9.93211 19C9.83945 18.2955 9.75957 17.5894 9.65093 16.888C9.5423 16.1866 9.41129 15.4698 9.2739 14.7637C8.72913 11.9519 6.82962 10.5923 4.03227 10.1612C2.6967 9.95731 1.36113 9.7611 0 9.58343C1.34356 9.38259 2.6967 9.23427 4.02748 8.96545C7.66834 8.24395 8.89847 6.97553 9.4752 3.41284C9.66052 2.28037 9.79471 1.13864 9.95287 0Z" fill="#0047FF"/>
+                </svg>
+              </div>
+              <div style="" class="half-width half-width-left">
+                  <div style="" class="inner-half-width">
+                    <svg width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.9958 19.0266C24.5217 21.2258 27.817 23.5653 30.7663 26.3365C32.9134 28.3538 34.8834 30.516 36.2087 33.1809C36.5038 33.7836 36.7289 34.4176 36.8794 35.0708C37.4024 37.2427 36.1762 38.4382 34.0064 37.8679C32.0477 37.3507 30.4594 36.1954 28.9717 34.9081C24.8433 31.3457 21.7851 26.9375 18.9836 22.3408C18.8488 22.1184 18.7042 21.9025 18.4963 21.5867C18.0091 22.3923 17.5722 23.119 17.1159 23.8327C14.4264 28.0347 11.5079 32.0498 7.61657 35.2722C6.4115 36.2679 5.13171 37.1557 3.63267 37.689C3.15615 37.8732 2.65135 37.9751 2.14015 37.9903C0.546914 37.9903 -0.211543 37.0945 0.0613039 35.5026C0.459206 33.168 1.77309 31.3022 3.24289 29.5412C6.62912 25.4939 10.8095 22.3714 15.2336 19.5421C15.4593 19.3987 15.6818 19.2489 15.9189 19.0942C15.7338 18.7059 15.3505 18.5964 15.0484 18.3998C10.8924 15.7123 6.94095 12.78 3.67978 9.03233C2.4406 7.61125 1.33136 6.09995 0.58265 4.35987C0.31911 3.74421 0.135718 3.09775 0.0369386 2.4361C-0.205051 0.868409 0.870106 -0.186922 2.44222 0.0628132C3.29324 0.205857 4.11266 0.494818 4.86375 0.916746C7.6588 2.44577 9.85131 4.65955 11.8944 7.03928C14.251 9.77831 16.2567 12.7606 18.1131 15.8477C18.2332 16.0475 18.2982 16.2972 18.584 16.389C20.4274 13.2714 22.4266 10.252 24.7556 7.46625C26.7045 5.14935 28.7914 2.98713 31.3819 1.35982C32.3417 0.755627 33.3584 0.273879 34.4985 0.0853698C36.0527 -0.172421 36.9817 0.583227 36.959 2.12836C36.9411 3.48499 36.3646 4.66599 35.6971 5.8035C34.1006 8.52802 31.8935 10.7337 29.5418 12.8057C27.0926 14.9615 24.4308 16.8337 21.6747 18.5899C21.4831 18.685 21.2849 18.8252 20.9958 19.0266Z" fill="#020202"/>
+                    </svg>
+                    <p class="common_p custom_para_style">{{ section.settings.des_one }}</p></div>
+                  </div>
+        </div>
+
+                      
+        <div class="featured-img-simple-text-with-img-block-two">
+              <div style="" class="half-width half-width-right">
+                  <div style="" class="inner-half-width">
+                    <svg width="49" height="47" viewBox="0 0 49 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21.5914 2.51049C22.3546 -0.50955 26.6454 -0.50955 27.4086 2.51049L29.1728 9.49215C29.6308 11.3048 31.6174 12.2615 33.3202 11.4894L39.8786 8.51575C42.7156 7.22943 45.3909 10.5842 43.5056 13.0638L39.147 18.7961C38.0154 20.2844 38.506 22.434 40.1714 23.284L46.5854 26.5575C49.3599 27.9735 48.4051 32.1568 45.291 32.2288L38.0918 32.3952C36.2226 32.4384 34.8479 34.1622 35.2217 35.9942L36.6614 43.0499C37.2842 46.102 33.4183 47.9637 31.4203 45.5738L26.8016 40.049C25.6025 38.6146 23.3975 38.6146 22.1984 40.049L17.5796 45.5738C15.5817 47.9637 11.7158 46.102 12.3386 43.0499L13.7783 35.9942C14.1521 34.1622 12.7774 32.4384 10.9082 32.3952L3.70904 32.2288C0.594901 32.1568 -0.359913 27.9735 2.4146 26.5575L8.82863 23.284C10.494 22.434 10.9846 20.2844 9.85296 18.7961L5.49444 13.0638C3.60908 10.5842 6.28441 7.22943 9.12138 8.51575L15.6798 11.4894C17.3826 12.2615 19.3692 11.3048 19.8272 9.49215L21.5914 2.51049Z" fill="#020202"/>
+                    </svg>
+                    <p class="common_p custom_para_style">{{ section.settings.des_two }}</p>
+                  </div>
+              </div>
+              <div class="half-width half-width-img relative-div-two"><img src="{{ section.settings.block_two_img | img_url:'master' }}">
+                <svg class="border-svg-two" width="21" height="20" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.95287 0C10.2452 1.43682 10.4321 2.88291 10.7213 4.32591C11.2533 7.01724 12.9483 8.46178 15.6738 8.93763C17.1116 9.18792 18.5494 9.35477 20 9.63287C19.0095 9.75646 18.0158 9.86616 17.0269 10.0068C16.3703 10.0994 15.7185 10.2215 15.0699 10.3559C12.2949 10.9337 11.028 12.7861 10.6127 15.3384C10.4146 16.5497 10.242 17.764 9.93211 19C9.83945 18.2955 9.75957 17.5894 9.65093 16.888C9.5423 16.1866 9.41129 15.4698 9.2739 14.7637C8.72913 11.9519 6.82962 10.5923 4.03227 10.1612C2.6967 9.95731 1.36113 9.7611 0 9.58343C1.34356 9.38259 2.6967 9.23427 4.02748 8.96545C7.66834 8.24395 8.89847 6.97553 9.4752 3.41284C9.66052 2.28037 9.79471 1.13864 9.95287 0Z" fill="#0047FF"/>
+                </svg>
+
+                <svg class="mobile-svg-two" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.95287 0C10.2452 1.43682 10.4321 2.88291 10.7213 4.32591C11.2533 7.01724 12.9483 8.46178 15.6738 8.93763C17.1116 9.18792 18.5494 9.35477 20 9.63287C19.0095 9.75646 18.0158 9.86616 17.0269 10.0068C16.3703 10.0994 15.7185 10.2215 15.0699 10.3559C12.2949 10.9337 11.028 12.7861 10.6127 15.3384C10.4146 16.5497 10.242 17.764 9.93211 19C9.83945 18.2955 9.75957 17.5894 9.65093 16.888C9.5423 16.1866 9.41129 15.4698 9.2739 14.7637C8.72913 11.9519 6.82962 10.5923 4.03227 10.1612C2.6967 9.95731 1.36113 9.7611 0 9.58343C1.34356 9.38259 2.6967 9.23427 4.02748 8.96545C7.66834 8.24395 8.89847 6.97553 9.4752 3.41284C9.66052 2.28037 9.79471 1.13864 9.95287 0Z" fill="#0047FF"/>
+                </svg>
+                    
+              </div>
+        </div>
+
+                    
+        <div style="border-bottom:0;" class="featured-img-simple-text-with-img-block-three ">
+              <div class="half-width half-width-img relative-div-three"><img style="border-radius:50%;" src="{{ section.settings.block_three_img | img_url:'master' }}">
+                <svg class="border-svg-three" width="21" height="20" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.95287 0C10.2452 1.43682 10.4321 2.88291 10.7213 4.32591C11.2533 7.01724 12.9483 8.46178 15.6738 8.93763C17.1116 9.18792 18.5494 9.35477 20 9.63287C19.0095 9.75646 18.0158 9.86616 17.0269 10.0068C16.3703 10.0994 15.7185 10.2215 15.0699 10.3559C12.2949 10.9337 11.028 12.7861 10.6127 15.3384C10.4146 16.5497 10.242 17.764 9.93211 19C9.83945 18.2955 9.75957 17.5894 9.65093 16.888C9.5423 16.1866 9.41129 15.4698 9.2739 14.7637C8.72913 11.9519 6.82962 10.5923 4.03227 10.1612C2.6967 9.95731 1.36113 9.7611 0 9.58343C1.34356 9.38259 2.6967 9.23427 4.02748 8.96545C7.66834 8.24395 8.89847 6.97553 9.4752 3.41284C9.66052 2.28037 9.79471 1.13864 9.95287 0Z" fill="#0047FF"/>
+                </svg>
+                <svg class="mobile-svg-one" width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M9.95287 0C10.2452 1.43682 10.4321 2.88291 10.7213 4.32591C11.2533 7.01724 12.9483 8.46178 15.6738 8.93763C17.1116 9.18792 18.5494 9.35477 20 9.63287C19.0095 9.75646 18.0158 9.86616 17.0269 10.0068C16.3703 10.0994 15.7185 10.2215 15.0699 10.3559C12.2949 10.9337 11.028 12.7861 10.6127 15.3384C10.4146 16.5497 10.242 17.764 9.93211 19C9.83945 18.2955 9.75957 17.5894 9.65093 16.888C9.5423 16.1866 9.41129 15.4698 9.2739 14.7637C8.72913 11.9519 6.82962 10.5923 4.03227 10.1612C2.6967 9.95731 1.36113 9.7611 0 9.58343C1.34356 9.38259 2.6967 9.23427 4.02748 8.96545C7.66834 8.24395 8.89847 6.97553 9.4752 3.41284C9.66052 2.28037 9.79471 1.13864 9.95287 0Z" fill="#0047FF"/>
+                </svg>
+              </div>
+              <div style="" class="half-width inner-half-width half-width-left2">
+                    <svg style="" width="37" height="38" viewBox="0 0 37 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.9958 19.0266C24.5217 21.2258 27.817 23.5653 30.7663 26.3365C32.9134 28.3538 34.8834 30.516 36.2087 33.1809C36.5038 33.7836 36.7289 34.4176 36.8794 35.0708C37.4024 37.2427 36.1762 38.4382 34.0064 37.8679C32.0477 37.3507 30.4594 36.1954 28.9717 34.9081C24.8433 31.3457 21.7851 26.9375 18.9836 22.3408C18.8488 22.1184 18.7042 21.9025 18.4963 21.5867C18.0091 22.3923 17.5722 23.119 17.1159 23.8327C14.4264 28.0347 11.5079 32.0498 7.61657 35.2722C6.4115 36.2679 5.13171 37.1557 3.63267 37.689C3.15615 37.8732 2.65135 37.9751 2.14015 37.9903C0.546914 37.9903 -0.211543 37.0945 0.0613039 35.5026C0.459206 33.168 1.77309 31.3022 3.24289 29.5412C6.62912 25.4939 10.8095 22.3714 15.2336 19.5421C15.4593 19.3987 15.6818 19.2489 15.9189 19.0942C15.7338 18.7059 15.3505 18.5964 15.0484 18.3998C10.8924 15.7123 6.94095 12.78 3.67978 9.03233C2.4406 7.61125 1.33136 6.09995 0.58265 4.35987C0.31911 3.74421 0.135718 3.09775 0.0369386 2.4361C-0.205051 0.868409 0.870106 -0.186922 2.44222 0.0628132C3.29324 0.205857 4.11266 0.494818 4.86375 0.916746C7.6588 2.44577 9.85131 4.65955 11.8944 7.03928C14.251 9.77831 16.2567 12.7606 18.1131 15.8477C18.2332 16.0475 18.2982 16.2972 18.584 16.389C20.4274 13.2714 22.4266 10.252 24.7556 7.46625C26.7045 5.14935 28.7914 2.98713 31.3819 1.35982C32.3417 0.755627 33.3584 0.273879 34.4985 0.0853698C36.0527 -0.172421 36.9817 0.583227 36.959 2.12836C36.9411 3.48499 36.3646 4.66599 35.6971 5.8035C34.1006 8.52802 31.8935 10.7337 29.5418 12.8057C27.0926 14.9615 24.4308 16.8337 21.6747 18.5899C21.4831 18.685 21.2849 18.8252 20.9958 19.0266Z" fill="#020202"/>
+                    </svg>
+                    <p class="common_p custom_para_style">{{ section.settings.des_three }}</p>
+                  </div>
+              </div>
+        </div>
+    </div>
+    </div>
+
+  
+</div>
+
+
+{% schema %}
+  {
+    "name": "Featured Image with text",
+    "settings": [
+
+      {
+        "type": "textarea",
+        "id": "main_head",
+        "label": "Add a Heading"
+      },
+      {
+        "type":"color",
+        "id":"main_head_clr",
+        "label":"Color for other words"
+      },
+      {
+        "type":"color",
+        "id":"main_head_clr_",
+        "label":"Color for specific words"
+      },
+      {
+        "type": "image_picker",
+        "id": "main_img",
+        "label": "Image"
+      },
+
+       {
+        "type": "textarea",
+        "id": "main_des",
+        "label": "Add a Main Description"
+      },
+
+
+      {
+        "type": "image_picker",
+        "id": "block_one_img",
+        "label": "Image for block 1"
+      },
+
+       {
+        "type": "textarea",
+        "id": "des_one",
+        "label": "Add a Description for Block 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "block_two_img",
+        "label": "Image for block 2"
+      },
+
+       {
+        "type": "textarea",
+        "id": "des_two",
+        "label": "Add a Description for Block 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "block_three_img",
+        "label": "Image for block 3"
+      },
+
+       {
+        "type": "textarea",
+        "id": "des_three",
+        "label": "Add a Description for Block 3"
+      }
+      
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}
