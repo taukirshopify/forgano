@@ -3,10 +3,23 @@
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
-      <div class="swiper-slide">Slide 1</div>
-      <div class="swiper-slide">Slide 2</div>
-      <div class="swiper-slide">Slide 3</div>
-      ...
+      {% for block in section.blocks %}
+      <div class="swiper-slide">
+        {% case block.type %}
+  
+          {% when 'Image' %}  
+             <div class="image-block">
+               <img src="{{ block.settings.bg_img | img_url:''  }}" alt="">
+             </div>
+          {% when 'Instagram' %}
+             <div class="instagram-text">
+                  <h4>OUR <BR> INSTAGRAM  {{ block.settings.c_t_review }} </h4>
+                  <p> {{ block.settings.c_t_review_name }} </p>
+             </div>
+          {% endcase %} 
+
+      </div>
+    {% endfor %}
     </div>
     <!-- If we need pagination -->
     <div class="swiper-pagination"></div>
@@ -29,15 +42,18 @@
 <script>
 
     const swiperold = new Swiper('.swiper-active-class', {
-        // Optional parameters
-       
-        loop: true,
-      
-        // If we need pagination
-        pagination: {
-          el: '.swiper-pagination',
+      slidesPerView: 1,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        }
         },
-      
 
       
 
@@ -48,29 +64,36 @@
   {
     "name": "Instagram feed",
     "settings": [
-       {
-        "type":"image_picker",
-        "id":"bg_img",
-        "label":"Upload background image"
-      }
+
       
     ],
 
     	"blocks": [
      {
-       "name": "Testimonial",
-       "type": "text",
+       "name": "Image",
+       "type": "Image",
        "settings": [
-         {
-           "type": "textarea",
-           "id": "c_t_review",
-           "label": "Type your review here"
-         },
-         {
-           "type": "textarea",
-           "id": "c_t_review_name",
-           "label": "Type name"
-         }
+        {
+          "type":"image_picker",
+          "id":"bg_img",
+          "label":"Upload background image"
+        }
+       ]
+     },
+     {
+       "name": "Instagram",
+       "type": "Instagram",
+       "settings": [
+        {
+          "type": "textarea",
+          "id": "c_t_review",
+          "label": "Type your review here"
+        },
+        {
+          "type": "textarea",
+          "id": "c_t_review_name",
+          "label": "Type name"
+        }
        ]
      }
   ],
