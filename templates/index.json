@@ -131,6 +131,38 @@
         "richtext7": ""
       }
     },
+    "5d8c0434-40ac-4abf-981f-8d4649d59d08": {
+      "type": "the-products",
+      "blocks": {
+        "89c2e6fc-69ef-4596-9080-a9d0526352ae": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-beige"
+          }
+        },
+        "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b": {
+          "type": "product",
+          "settings": {
+            "tp_pr1": "forgano-nursing-shoes-black"
+          }
+        }
+      },
+      "block_order": [
+        "89c2e6fc-69ef-4596-9080-a9d0526352ae",
+        "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b"
+      ],
+      "settings": {
+        "tp_heading": "The comfiest fit for all-day wear",
+        "tp_heading1": "Simply Comfier",
+        "tp_span_color": "#1f1f1f",
+        "tp_non_span_color": "",
+        "tp_paragraph": "",
+        "tp_para_color": "",
+        "tp_product_color": "",
+        "buttonLink": "shopify:\/\/collections\/all",
+        "buttonLabel": "shop all"
+      }
+    },
     "4c186dd7-8434-47c2-aaea-8e7e527a0650": {
       "type": "reviews-section",
       "blocks": {
@@ -303,38 +335,6 @@
         "image3": "shopify:\/\/shop_images\/3N2A5571_jpeg_copy_1_-resize.jpg"
       }
     },
-    "5d8c0434-40ac-4abf-981f-8d4649d59d08": {
-      "type": "the-products",
-      "blocks": {
-        "89c2e6fc-69ef-4596-9080-a9d0526352ae": {
-          "type": "product",
-          "settings": {
-            "tp_pr1": "forgano-nursing-shoes-beige"
-          }
-        },
-        "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b": {
-          "type": "product",
-          "settings": {
-            "tp_pr1": "forgano-nursing-shoes-black"
-          }
-        }
-      },
-      "block_order": [
-        "89c2e6fc-69ef-4596-9080-a9d0526352ae",
-        "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b"
-      ],
-      "settings": {
-        "tp_heading": "The comfiest fit for all-day wear",
-        "tp_heading1": "Simply Comfier",
-        "tp_span_color": "#1f1f1f",
-        "tp_non_span_color": "",
-        "tp_paragraph": "",
-        "tp_para_color": "",
-        "tp_product_color": "",
-        "buttonLink": "shopify:\/\/collections\/all",
-        "buttonLabel": "shop all"
-      }
-    },
     "0020f82f-b570-44e5-a010-c0aca51eb8e7": {
       "type": "text-content-with-image",
       "custom_css": [
@@ -413,6 +413,7 @@
     "1c054611-3cf4-4c23-893f-70d70a855845",
     "2eb73f70-6cbd-437c-b827-381d1082076a",
     "c1f21e95-ed7c-425c-aa2e-994fa0bde97a",
+    "5d8c0434-40ac-4abf-981f-8d4649d59d08",
     "4c186dd7-8434-47c2-aaea-8e7e527a0650",
     "48834a20-403e-4af0-9b6f-907a80c4442e",
     "54a9936a-72e2-4908-bf69-d7452df982db",
@@ -420,7 +421,6 @@
     "11e3612f-34b5-4ad7-8030-15fc6660cc76",
     "e0c3672d-804b-4859-8fe6-d256e0f5e579",
     "1110efef-4e34-4154-a241-24afae80c9ba",
-    "5d8c0434-40ac-4abf-981f-8d4649d59d08",
     "0020f82f-b570-44e5-a010-c0aca51eb8e7",
     "bf0a0d5e-f246-45d2-94bf-b995076262df",
     "dc6050ca-98bc-4606-8bd9-ad165b5b6eed"
