@@ -131,6 +131,61 @@
         "richtext7": ""
       }
     },
+    "4c186dd7-8434-47c2-aaea-8e7e527a0650": {
+      "type": "reviews-section",
+      "blocks": {
+        "ba172be5-6177-4efc-89c0-590537d3f102": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Christa B., Las Vegas, Nevada, USA<\/p>",
+            "richtext2": "<p>\"Fast shipping, comfortable, and stylish new work shoes! Literally one of the cutest and best shoes! I would definitely recommend\"<\/p>",
+            "range": 5
+          }
+        },
+        "75de2419-59b7-48b8-9fbf-c050ed24ea50": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Kenia L., Escondido, California, USA<\/p>",
+            "richtext2": "<p>“Very comfortable. I have high arches and it's difficult finding a shoe that supports me all day without pain. Recommend.<\/p>",
+            "range": 5
+          }
+        },
+        "f67fe4c6-7336-49a6-afb5-406cfa94a420": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Bailey H., Glenview, IL, USA<\/p>",
+            "richtext2": "<p>\"I love these shoes so much they are so so comfy!! they feel like I'm walking on clouds\"<\/p>",
+            "range": 5
+          }
+        },
+        "3a9ac501-2ffc-4029-b55a-3f0f81d44c83": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Marie A., Wilmette, IL, USA<\/p>",
+            "richtext2": "<p>\"It is so comfortable. I would buy another for my friends who are nurses. I surely will recommend it to them\"<\/p>",
+            "range": 5
+          }
+        },
+        "2d68b0bd-d642-4f6a-91e5-5c1f58f4f575": {
+          "type": "slide",
+          "settings": {
+            "richtext1": "<p>Mae G., Miami, FL, USA<\/p>",
+            "richtext2": "<p>\"The brand is more than shoes it is made of love and comfort. The minimalist design could match whether you go to work or run to the grocery. It's a statement... work + style !<\/p>",
+            "range": 5
+          }
+        }
+      },
+      "block_order": [
+        "ba172be5-6177-4efc-89c0-590537d3f102",
+        "75de2419-59b7-48b8-9fbf-c050ed24ea50",
+        "f67fe4c6-7336-49a6-afb5-406cfa94a420",
+        "3a9ac501-2ffc-4029-b55a-3f0f81d44c83",
+        "2d68b0bd-d642-4f6a-91e5-5c1f58f4f575"
+      ],
+      "settings": {
+        "richtext1": "<p>Reviews<\/p>"
+      }
+    },
     "48834a20-403e-4af0-9b6f-907a80c4442e": {
       "type": "advanced-content",
       "blocks": {
@@ -305,61 +360,6 @@
         "buttonText": "read all"
       }
     },
-    "4c186dd7-8434-47c2-aaea-8e7e527a0650": {
-      "type": "reviews-section",
-      "blocks": {
-        "ba172be5-6177-4efc-89c0-590537d3f102": {
-          "type": "slide",
-          "settings": {
-            "richtext1": "<p>Christa B., Las Vegas, Nevada, USA<\/p>",
-            "richtext2": "<p>\"Fast shipping, comfortable, and stylish new work shoes! Literally one of the cutest and best shoes! I would definitely recommend\"<\/p>",
-            "range": 5
-          }
-        },
-        "75de2419-59b7-48b8-9fbf-c050ed24ea50": {
-          "type": "slide",
-          "settings": {
-            "richtext1": "<p>Kenia L., Escondido, California, USA<\/p>",
-            "richtext2": "<p>“Very comfortable. I have high arches and it's difficult finding a shoe that supports me all day without pain. Recommend.<\/p>",
-            "range": 5
-          }
-        },
-        "f67fe4c6-7336-49a6-afb5-406cfa94a420": {
-          "type": "slide",
-          "settings": {
-            "richtext1": "<p>Bailey H., Glenview, IL, USA<\/p>",
-            "richtext2": "<p>\"I love these shoes so much they are so so comfy!! they feel like I'm walking on clouds\"<\/p>",
-            "range": 5
-          }
-        },
-        "3a9ac501-2ffc-4029-b55a-3f0f81d44c83": {
-          "type": "slide",
-          "settings": {
-            "richtext1": "<p>Marie A., Wilmette, IL, USA<\/p>",
-            "richtext2": "<p>\"It is so comfortable. I would buy another for my friends who are nurses. I surely will recommend it to them\"<\/p>",
-            "range": 5
-          }
-        },
-        "2d68b0bd-d642-4f6a-91e5-5c1f58f4f575": {
-          "type": "slide",
-          "settings": {
-            "richtext1": "<p>Mae G., Miami, FL, USA<\/p>",
-            "richtext2": "<p>\"The brand is more than shoes it is made of love and comfort. The minimalist design could match whether you go to work or run to the grocery. It's a statement... work + style !<\/p>",
-            "range": 5
-          }
-        }
-      },
-      "block_order": [
-        "ba172be5-6177-4efc-89c0-590537d3f102",
-        "75de2419-59b7-48b8-9fbf-c050ed24ea50",
-        "f67fe4c6-7336-49a6-afb5-406cfa94a420",
-        "3a9ac501-2ffc-4029-b55a-3f0f81d44c83",
-        "2d68b0bd-d642-4f6a-91e5-5c1f58f4f575"
-      ],
-      "settings": {
-        "richtext1": "<p>Reviews<\/p>"
-      }
-    },
     "dc6050ca-98bc-4606-8bd9-ad165b5b6eed": {
       "type": "gallery-section",
       "blocks": {
@@ -413,6 +413,7 @@
     "1c054611-3cf4-4c23-893f-70d70a855845",
     "2eb73f70-6cbd-437c-b827-381d1082076a",
     "c1f21e95-ed7c-425c-aa2e-994fa0bde97a",
+    "4c186dd7-8434-47c2-aaea-8e7e527a0650",
     "48834a20-403e-4af0-9b6f-907a80c4442e",
     "54a9936a-72e2-4908-bf69-d7452df982db",
     "5ccc2252-d03f-42bf-842e-8d480c20c4de",
@@ -422,7 +423,6 @@
     "5d8c0434-40ac-4abf-981f-8d4649d59d08",
     "0020f82f-b570-44e5-a010-c0aca51eb8e7",
     "bf0a0d5e-f246-45d2-94bf-b995076262df",
-    "4c186dd7-8434-47c2-aaea-8e7e527a0650",
     "dc6050ca-98bc-4606-8bd9-ad165b5b6eed"
   ]
 }
