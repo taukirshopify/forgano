@@ -414,10 +414,17 @@
           "settings": {
             "bg_img": "shopify:\/\/shop_images\/IMG_3734-min.jpg"
           }
+        },
+        "b7dcbd0c-755c-4d31-9abb-b0f611cabadd": {
+          "type": "Image",
+          "settings": {
+            "bg_img": "shopify:\/\/shop_images\/IMG_2756_1bb70c16-5b56-49b1-9116-da6c095e88c0.jpg"
+          }
         }
       },
       "block_order": [
-        "6bbb59b9-5d91-417b-aecb-ce8944cd36a9"
+        "6bbb59b9-5d91-417b-aecb-ce8944cd36a9",
+        "b7dcbd0c-755c-4d31-9abb-b0f611cabadd"
       ],
       "settings": {
       }
