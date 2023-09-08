@@ -1,1 +1,407 @@
-{"sections":{"main":{"type":"main-product","blocks":{"9874a274-940c-4109-a384-4e5c8e20bcf4":{"type":"shopify:\/\/apps\/fera\/blocks\/product_reviews_summary\/2fbfcfa7-8a04-479f-89a8-0621fa099c51","settings":{"star_color":"#ffd84f","size":16,"show_count":true,"show_avg_rating":false,"alignment":"left","hide_when_no_reviews":true}},"separator":{"type":"separator","disabled":true,"settings":{}},"variant_picker":{"type":"variant_picker","settings":{"variant_labels":true,"picker_type":"button","color_swatches":false}},"198cacc9-83fa-4189-9f33-d07111ba4ef1":{"type":"student-offer","settings":{"content":""}},"22c70cd2-de15-454b-a022-c85f048ae1d2":{"type":"shoppay-guid","settings":{"shoppay-text":"Or 4 Payments Of","shoppay-icon":"shopify:\/\/shop_images\/shoppay-logo.png"}},"buy_buttons":{"type":"buy_buttons","settings":{"show_quantity_selector":true,"show_dynamic_checkout":false,"surface_pickup_enable":true}},"price":{"type":"price","disabled":true,"settings":{}},"description":{"type":"description","disabled":true,"settings":{"is_tab":false}},"53479a7e-33b5-4827-b98f-9e150ff14a8a":{"type":"description_tab","settings":{"title":"Description"}},"d20ab06d-9f22-4aa0-92d9-34ad0eab880c":{"type":"tab","settings":{"title":"SHIPPING & EXCHANGE","content":"<p>All orders ship within 5-7 business days (Free exchange)<\/p>","page":""}},"730e4aff-e464-4b1a-a156-c1ab62b903e5":{"type":"tab","settings":{"title":"shoe care","content":"<p>Washing-machine friendly. Remove laces and place them in a mesh laundry bag. Wash with cold water<br\/>and mild detergent on a gentle cycle. Air dry sneakers indoors. Do not use fabric softener or bleach.<\/p>","page":""}}},"block_order":["9874a274-940c-4109-a384-4e5c8e20bcf4","separator","variant_picker","198cacc9-83fa-4189-9f33-d07111ba4ef1","22c70cd2-de15-454b-a022-c85f048ae1d2","buy_buttons","price","description","53479a7e-33b5-4827-b98f-9e150ff14a8a","d20ab06d-9f22-4aa0-92d9-34ad0eab880c","730e4aff-e464-4b1a-a156-c1ab62b903e5"],"settings":{"prd_title_font_size":70,"prd_price_text":"#0047ff","sku_enable":false,"image_position":"left","image_size":"medium","product_zoom_enable":true,"thumbnail_position":"below","thumbnail_arrows":true,"mobile_layout":"partial","enable_video_looping":true,"product_video_style":"muted"}},"sub":{"type":"product-full-width","blocks":{"b6a4fa24-a9d3-4c79-8eef-ac3216d5d93c":{"type":"tab","settings":{"icon_title":"<svg class=\"custom_tab-icon\" width=\"36\" height=\"36\" viewbox=\"0 0 36 36\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M23.3849 2.625C18.9299 2.625 15.3149 6.24 15.3149 10.695C15.3149 15.15 18.9299 18.765 23.3849 18.765C27.8399 18.765 31.4549 15.15 31.4549 10.695C31.4549 6.24 27.8399 2.625 23.3849 2.625Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M9.53992 19.545C6.79492 19.545 4.54492 21.78 4.54492 24.54C4.54492 27.3 6.77992 29.535 9.53992 29.535C12.2849 29.535 14.5349 27.3 14.5349 24.54C14.5349 21.78 12.2849 19.545 9.53992 19.545Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M24.9298 24.9301C22.6048 24.9301 20.7148 26.8201 20.7148 29.1451C20.7148 31.4701 22.6048 33.3601 24.9298 33.3601C27.2548 33.3601 29.1448 31.4701 29.1448 29.1451C29.1448 26.8201 27.2548 24.9301 24.9298 24.9301Z\" fill=\"#0047FF\"><\/path>\n<\/svg>","title":"Materials","content":"<p>Top : Fly-knit, Genuine Suede <\/p><p>Outsole : Rubber, Plastic MD<\/p>","page":""}},"3cbd3842-6738-4e1f-b036-33b9a57bcd58":{"type":"tab","settings":{"icon_title":"<svg class=\"custom_tab-icon\" width=\"36\" height=\"36\" viewbox=\"0 0 36 36\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M21 4.38V16.845C21 18.375 19.755 19.62 18.225 19.62H4.5C3.675 19.62 3 18.945 3 18.12V8.535C3 5.475 5.475 3 8.535 3H19.605C20.385 3 21 3.615 21 4.38Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M32.25 23.25C32.67 23.25 33 23.58 33 24V25.5C33 27.99 30.99 30 28.5 30C28.5 27.525 26.475 25.5 24 25.5C21.525 25.5 19.5 27.525 19.5 30H16.5C16.5 27.525 14.475 25.5 12 25.5C9.525 25.5 7.5 27.525 7.5 30C5.01 30 3 27.99 3 25.5V22.5C3 21.675 3.675 21 4.5 21H18.75C20.82 21 22.5 19.32 22.5 17.25V9C22.5 8.175 23.175 7.5 24 7.5H25.26C26.34 7.5 27.33 8.085 27.87 9.015L28.83 10.695C28.965 10.935 28.785 11.25 28.5 11.25C26.43 11.25 24.75 12.93 24.75 15V19.5C24.75 21.57 26.43 23.25 28.5 23.25H32.25Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M12 33C13.6569 33 15 31.6569 15 30C15 28.3431 13.6569 27 12 27C10.3431 27 9 28.3431 9 30C9 31.6569 10.3431 33 12 33Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M24 33C25.6569 33 27 31.6569 27 30C27 28.3431 25.6569 27 24 27C22.3431 27 21 28.3431 21 30C21 31.6569 22.3431 33 24 33Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M33 18.795V21H28.5C27.675 21 27 20.325 27 19.5V15C27 14.175 27.675 13.5 28.5 13.5H30.435L32.61 17.31C32.865 17.76 33 18.27 33 18.795Z\" fill=\"#0047FF\"><\/path>\n<\/svg>","title":"Shipping & Exchange","content":"<p>Free shipping 5-7days (Only US)<\/p><p>Free exchange policy<\/p>","page":""}},"bc9c7137-63ad-4ad9-9414-8cc5cde96631":{"type":"tab","settings":{"icon_title":"<svg class=\"custom_tab-icon\" width=\"36\" height=\"36\" viewbox=\"0 0 36 36\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M28.5 10.5C28.29 10.5 28.125 10.665 28.125 10.875V18C28.125 18.615 27.615 19.125 27 19.125C26.385 19.125 25.875 18.615 25.875 18V10.875C25.875 10.665 25.71 10.5 25.5 10.5H22.5C22.29 10.5 22.125 10.665 22.125 10.875V14.4C22.125 15.015 21.615 15.525 21 15.525C20.385 15.525 19.875 15.015 19.875 14.4V10.875C19.875 10.665 19.71 10.5 19.5 10.5H16.56C16.35 10.5 16.185 10.665 16.185 10.875L16.125 18.015C16.125 18.63 15.615 19.125 15 19.125C15 19.125 15 19.125 14.985 19.125C14.37 19.125 13.875 18.615 13.875 17.985L13.935 10.875C13.935 10.665 13.77 10.5 13.56 10.5H10.5C10.29 10.5 10.125 10.665 10.125 10.875V16.2C10.125 16.815 9.615 17.325 9 17.325C8.385 17.325 7.875 16.815 7.875 16.2V10.875C7.875 10.665 7.71 10.5 7.5 10.5C5.01 10.5 3 12.51 3 15V21C3 23.49 5.01 25.5 7.5 25.5H28.5C30.99 25.5 33 23.49 33 21V15C33 12.51 30.99 10.5 28.5 10.5Z\" fill=\"#0047FF\"><\/path>\n<\/svg>","title":"Size Recommendation","content":"<p>Fits true to size. Order your natural size. <\/p>","page":""}}},"block_order":["b6a4fa24-a9d3-4c79-8eef-ac3216d5d93c","3cbd3842-6738-4e1f-b036-33b9a57bcd58","bc9c7137-63ad-4ad9-9414-8cc5cde96631"],"disabled":true,"settings":{"max_width":false}},"814fb202-7482-40b0-8b2c-5265aa643f14":{"type":"new-image-with-text","disabled":true,"settings":{"bg_color":"#000000","h_span_color":"#ffffff","h_nonspan_color":"#3bfedb","paragraph_color":"#ffffff","btn_color":"#e11f65","h_text":"In with <span>the new<\/span>","paragraph":"What do the world's top fashion brands have in common? Apart from elite-level materials, they invest in advanced cutting-edge technology to ensure the perfect chunky sole that never loses its functionality and chic-looking shape. Never.\n\nCombining the slightly thick sole, and cushioned-soft memory foam, this silhouette promises optimal traction, convenience, and support for an interrupted performance. Best of all? It makes sure not to feel bulky on your feet or cause any pain, so you can look hottie enough from the clinic to Sunday brunch and everything in between without any discomfort.","heading_font_size":36,"para_font_size":20,"bg_img":"shopify:\/\/shop_images\/Group_313_4.png","fg_img":"shopify:\/\/shop_images\/Mask_group_7f008334-cc9d-4335-b8ce-998b2eacbd92.png","btn_txt":"","btn_link":"","x_axis_position":1,"y_axis_position":50,"bg_height":400,"bg_width":880,"position":false}},"9b73e271-8ac4-4eaa-9de8-7a62869a61f6":{"type":"text-slider","disabled":true,"settings":{"enable_bar":true,"font_weight":"600","background_annoucement_text_color":"#ffffff","background_annoucement":"#0047ff","content1":"Free Shipping on Every Order!","content2":"Free Shipping on Every Order!","content3":"Free Shipping on Every Order!","content4":"Free Shipping on Every Order!","content5":"Free Shipping on Every Order!","content6":"Free Shipping on Every Order!","link":""}},"product-recommendations":{"type":"product-recommendations","disabled":true,"settings":{"show_product_recommendations":true,"product_recommendations_heading":"You may also like","related_count":5}},"recently-viewed":{"type":"recently-viewed","disabled":true,"settings":{"recent_count":5}},"collection-return":{"type":"collection-return","disabled":true,"settings":{}},"1664904571d6718697":{"type":"product-benefits","blocks":{"c88a8b6f-7bef-4a3f-8e6a-5bf945c6c418":{"type":"benefit","settings":{"svg_code_block":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M35.5233 32.9706C35.0027 33.4518 34.4036 33.8152 33.7554 34.0607C33.1072 34.3063 32.4099 33.8348 32.4099 33.1375V31.8411C32.4099 29.9259 30.8581 28.3741 28.9429 28.3741H26.0554C24.1402 28.3741 22.5884 29.9259 22.5884 31.8411V33.3929C22.5884 33.9331 22.1465 34.375 21.6063 34.375H21.1643C18.7581 34.0116 17.6777 32.0572 17.6777 30.309C17.6777 28.659 18.6402 26.8322 20.7322 26.3215C20.1527 24.0331 20.6438 21.8822 22.1367 20.3206C23.8358 18.5429 26.5465 17.8357 28.884 18.5625C31.0349 19.2206 32.5474 20.9884 33.0876 23.4438C34.9634 23.8661 36.4661 25.2804 37.0652 27.2447C37.7134 29.3759 37.1242 31.5661 35.5233 32.9706Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M28.9438 29.8474H26.0562C24.8089 29.8474 24.0625 30.5938 24.0625 31.8412V34.7287C24.0625 35.976 24.8089 36.7224 26.0562 36.7224H28.9438C30.1911 36.7224 30.9375 35.976 30.9375 34.7287V31.8412C30.9375 30.5938 30.1911 29.8474 28.9438 29.8474ZM29.4348 34.3162C29.6804 34.5617 29.6804 34.9644 29.4348 35.2099C29.3071 35.3278 29.15 35.3867 28.983 35.3867C28.8259 35.3867 28.6688 35.3278 28.5411 35.2099L27.5 34.1688L26.4687 35.2099C26.3411 35.3278 26.1839 35.3867 26.017 35.3867C25.8598 35.3867 25.7027 35.3278 25.575 35.2099C25.3295 34.9644 25.3295 34.5617 25.575 34.3162L26.6161 33.2751L25.575 32.2438C25.3295 31.9983 25.3295 31.5956 25.575 31.3501C25.8205 31.1046 26.2232 31.1046 26.4687 31.3501L27.5 32.3912L28.5411 31.3501C28.7866 31.1046 29.1893 31.1046 29.4348 31.3501C29.6804 31.5956 29.6804 31.9983 29.4348 32.2438L28.3937 33.2751L29.4348 34.3162Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title_block":"Non-Slip Sole","benefits_description_block":"Time to turn your painful, long-day shifts into a blissful experience! Stop worrying about\nslipping on unexpectedly slick surfaces. Our Forgano Nursing Shoes come with EVA rubber, non-slip grid lines, and hexagon shape that are proven to provide maximum performance, traction, and workplace safety every time you step foot in your shoes."}},"ee613181-4b57-4d54-900a-47b3bd79124f":{"type":"benefit","settings":{"svg_code_block":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M32.0084 22.9921L21.9119 33.0885C21.4405 33.56 20.6352 33.4519 20.3503 32.8528C19.8396 31.8019 19.545 30.6135 19.545 29.3662C19.5253 23.9448 25.0253 19.3091 26.8914 17.885C27.2548 17.61 27.7459 17.61 28.0994 17.885C28.9539 18.5332 30.5548 19.8787 32.0575 21.6466C32.3914 22.0394 32.3718 22.6287 32.0084 22.9921Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M35.4561 29.3759C35.4561 33.7563 31.8909 37.3215 27.5007 37.3215C25.7427 37.3215 24.1025 36.7518 22.7766 35.7697C22.2954 35.4161 22.2561 34.709 22.6784 34.2867L32.5686 24.3965C33.0302 23.9349 33.8061 24.0331 34.1204 24.6027C34.9257 26.0858 35.4659 27.6965 35.4561 29.3759Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title_block":"Lightweight Midsole","benefits_description_block":"Shift from outdoors to indoors in graceful fashion and easy-going style. Featuring 100% high-quality rubber, reliable cushioning, and optimal durability, our chunky shoes contain lightweight\nmidsoles you'll want to slip into to feel as light as a feather and add a fashionable element to your scrubs."}},"b3b65ae5-79c8-47c3-945c-73b4d2d76d04":{"type":"benefit","settings":{"svg_code_block":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M33.7295 37.8021C31.487 37.8021 29.6566 35.9717 29.6566 33.7292V33.25C29.6566 32.8571 29.9824 32.5313 30.3753 32.5313C30.7682 32.5313 31.0941 32.8571 31.0941 33.25V33.7292C31.0941 35.1858 32.2728 36.3646 33.7295 36.3646C35.1862 36.3646 36.3649 35.1858 36.3649 33.7292C36.3649 32.2725 35.1862 31.0938 33.7295 31.0938H17.917C17.5241 31.0938 17.1982 30.7679 17.1982 30.375C17.1982 29.9821 17.5241 29.6562 17.917 29.6562H33.7295C35.972 29.6562 37.8024 31.4867 37.8024 33.7292C37.8024 35.9717 35.972 37.8021 33.7295 37.8021Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M33.7295 28.2188H17.917C17.5241 28.2188 17.1982 27.893 17.1982 27.5001C17.1982 27.1072 17.5241 26.7813 17.917 26.7813H33.7295C35.1862 26.7813 36.3649 25.6026 36.3649 24.1459C36.3649 22.6892 35.1862 21.5105 33.7295 21.5105C32.2728 21.5105 31.0941 22.6892 31.0941 24.1459V24.6251C31.0941 25.018 30.7682 25.3438 30.3753 25.3438C29.9824 25.3438 29.6566 25.018 29.6566 24.6251V24.1459C29.6566 21.9034 31.487 20.073 33.7295 20.073C35.972 20.073 37.8024 21.9034 37.8024 24.1459C37.8024 26.3884 35.972 28.2188 33.7295 28.2188Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M24.9224 25.3438H17.917C17.5241 25.3438 17.1982 25.018 17.1982 24.6251C17.1982 24.2322 17.5241 23.9063 17.917 23.9063H24.9224C25.9478 23.9063 26.7816 23.0726 26.7816 22.0472C26.7816 21.0217 25.9478 20.188 24.9224 20.188C23.897 20.188 23.0632 21.0217 23.0632 22.0472V22.4113C23.0632 22.8042 22.7374 23.1301 22.3445 23.1301C21.9516 23.1301 21.6257 22.8138 21.6257 22.4113V22.0472C21.6257 20.2263 23.1016 18.7505 24.9224 18.7505C26.7432 18.7505 28.2191 20.2263 28.2191 22.0472C28.2191 23.868 26.7432 25.3438 24.9224 25.3438Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title_block":"Breathable, Skin-Friendly Materials Built For Life","benefits_description_block":"Whether it's a long-night shift or just walking countless miles a day, being confined to hectic work schedules may not be the most comfortable experience. Made from carefully-selected,premium materials, our chunky sneakers provide you with the right protection against moisture and friction at all times to keep your feet free from blisters and irritations."}},"35e872f1-7b20-4eb4-b95c-f43f13db1776":{"type":"benefit","settings":{"svg_code_block":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M34.3136 23.1585L30.9402 19.7852C27.9119 16.7664 26.3211 17.8781 24.4044 19.7852L18.9802 25.2093C17.8781 26.3114 17.2744 27.0206 17.054 27.8064C17.054 27.816 17.0444 27.816 17.0444 27.816C17.0444 27.8256 17.0444 27.8256 17.0444 27.8256C17.0444 27.8352 17.0444 27.8352 17.0444 27.8352V27.8639C16.6515 29.2631 17.6865 30.4514 18.9802 31.7452L22.3631 35.1089C23.5706 36.326 24.5481 37.0831 25.6311 37.0831C26.714 37.0831 27.6436 36.3548 28.8894 35.1089L34.3136 29.6943C34.7831 29.2152 35.1281 28.8223 35.3965 28.4485C35.3965 28.4389 35.3965 28.4389 35.3965 28.4389C35.3965 28.4389 35.3965 28.4389 35.4061 28.4389C36.6327 26.7235 36.3069 25.1423 34.3136 23.1585ZM33.3265 26.896H33.3169C33.0294 26.8289 32.7323 26.7714 32.4352 26.7139C32.4161 26.7139 32.3969 26.7043 32.3681 26.7043C31.6973 26.5798 31.0169 26.4743 30.3269 26.3881H30.2886C29.5986 26.3018 28.899 26.2348 28.1994 26.1964H28.1227C27.5094 26.1581 26.8865 26.1389 26.2731 26.1389C25.5256 26.1389 24.7781 26.1773 24.0402 26.2252C23.9156 26.2348 23.8006 26.2443 23.6856 26.2539C23.1298 26.2923 22.574 26.3498 22.0277 26.4168C21.8744 26.436 21.7306 26.4552 21.5869 26.4743C21.0311 26.5606 20.4848 26.6468 19.9386 26.7523C19.814 26.781 19.699 26.8002 19.5744 26.8193C19.5265 26.8289 19.469 26.8385 19.4211 26.8481C19.5936 26.6564 19.7948 26.4552 20.0152 26.2348L25.4298 20.8202C27.174 19.0952 27.7681 18.6831 29.9148 20.8202L33.2786 24.1935C33.7961 24.7014 34.1411 25.1327 34.3519 25.5064C34.3519 25.5064 34.3519 25.516 34.3615 25.516C34.764 26.2156 34.1123 27.0493 33.3265 26.896Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M36.0775 32.1672C35.7133 31.7168 35.397 31.3335 34.6879 31.3335C33.9787 31.3335 33.6625 31.7168 33.3079 32.1672C32.5412 33.116 32.1962 34.151 32.3208 35.1477C32.4646 36.2881 33.4421 37.0835 34.6879 37.0835C35.9337 37.0835 36.9112 36.2881 37.055 35.1381C37.1795 34.1414 36.8441 33.116 36.0775 32.1672Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title_block":"Waterproof Soles, Moisture-Wicking Shield","benefits_description_block":"Proven to provide your feet with a secure hold against oily, wet, and glossy workplace surfaces, this repellent shield on your outsoles never lets you down. Stay safe and comfortable while you juggle hundreds of tasks a day, knowing Forgano Nursing Shoes are pampering your feet from the outside in with the attention to detail you deserve."}},"4c51cf72-3780-4f11-a334-ee09a02bea3e":{"type":"benefit","settings":{"svg_code_block":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M33.9688 23.6665V25.679C33.5471 25.6215 33.0679 25.5928 32.5312 25.5832V23.6665C32.5312 20.6478 31.6783 18.6353 27.5 18.6353C23.3217 18.6353 22.4688 20.6478 22.4688 23.6665V25.5832C21.9321 25.5928 21.4529 25.6215 21.0312 25.679V23.6665C21.0312 20.8873 21.7021 17.1978 27.5 17.1978C33.2979 17.1978 33.9688 20.8873 33.9688 23.6665Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M33.9691 25.6793C33.5474 25.6218 33.0682 25.5931 32.5316 25.5835H22.4691C21.9324 25.5931 21.4532 25.6218 21.0316 25.6793C18.5878 25.9764 17.917 27.1743 17.917 30.3752V32.2918C17.917 36.1252 18.8753 37.0835 22.7087 37.0835H32.292C36.1253 37.0835 37.0837 36.1252 37.0837 32.2918V30.3752C37.0837 27.1743 36.4128 25.9764 33.9691 25.6793ZM24.3474 32.0139C24.1653 32.1864 23.9162 32.2918 23.667 32.2918C23.5424 32.2918 23.4178 32.2631 23.3028 32.2152C23.1782 32.1672 23.0824 32.1002 22.9866 32.0139C22.8141 31.8318 22.7087 31.5827 22.7087 31.3335C22.7087 31.2089 22.7374 31.0843 22.7853 30.9693C22.8332 30.8543 22.9003 30.7489 22.9866 30.6531C23.0824 30.5668 23.1782 30.4997 23.3028 30.4518C23.6574 30.2985 24.0791 30.3847 24.3474 30.6531C24.4337 30.7489 24.5007 30.8543 24.5487 30.9693C24.5966 31.0843 24.6253 31.2089 24.6253 31.3335C24.6253 31.5827 24.5199 31.8318 24.3474 32.0139ZM28.382 31.6977C28.3341 31.8127 28.267 31.9181 28.1807 32.0139C27.9987 32.1864 27.7495 32.2918 27.5003 32.2918C27.2416 32.2918 27.002 32.1864 26.8199 32.0139C26.7337 31.9181 26.6666 31.8127 26.6187 31.6977C26.5707 31.5827 26.542 31.4581 26.542 31.3335C26.542 31.0747 26.6474 30.8352 26.8199 30.6531C27.1745 30.2985 27.8166 30.2985 28.1807 30.6531C28.3532 30.8352 28.4587 31.0747 28.4587 31.3335C28.4587 31.4581 28.4299 31.5827 28.382 31.6977ZM32.0141 32.0139C31.832 32.1864 31.5828 32.2918 31.3337 32.2918C31.0845 32.2918 30.8353 32.1864 30.6532 32.0139C30.4807 31.8318 30.3753 31.5922 30.3753 31.3335C30.3753 31.0747 30.4807 30.8352 30.6532 30.6531C31.0174 30.2985 31.6595 30.2985 32.0141 30.6531C32.0524 30.701 32.0907 30.7489 32.1291 30.8064C32.1674 30.8543 32.1962 30.9118 32.2153 30.9693C32.2441 31.0268 32.2632 31.0843 32.2728 31.1418C32.2824 31.2089 32.292 31.276 32.292 31.3335C32.292 31.5827 32.1866 31.8318 32.0141 32.0139Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title_block":"TPU Midfoot Strap","benefits_description_block":"Medial & lateral TPU Midfoot strap makes our chunky shoes perfect even during the most high-intensity shifts. Whether you're heading to your workplace in the pouring rain or the blistering heat, it's designed to ensure maximum security."}},"ff9cf4c7-f318-4508-9c40-52e4883730b8":{"type":"benefit","settings":{"svg_code_block":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M36.6621 26.2923L35.3588 24.7781C35.1096 24.4906 34.9083 23.954 34.9083 23.5706V21.9415C34.9083 20.9256 34.0746 20.0919 33.0587 20.0919H31.4296C31.0558 20.0919 30.5096 19.8906 30.2221 19.6415L28.7079 18.3381C28.0467 17.7727 26.9637 17.7727 26.2929 18.3381L24.7883 19.651C24.5008 19.8906 23.9546 20.0919 23.5808 20.0919H21.9229C20.9071 20.0919 20.0733 20.9256 20.0733 21.9415V23.5802C20.0733 23.954 19.8721 24.4906 19.6325 24.7781L18.3388 26.3019C17.7829 26.9631 17.7829 28.0365 18.3388 28.6977L19.6325 30.2215C19.8721 30.509 20.0733 31.0456 20.0733 31.4194V33.0581C20.0733 34.074 20.9071 34.9077 21.9229 34.9077H23.5808C23.9546 34.9077 24.5008 35.109 24.7883 35.3581L26.3025 36.6615C26.9637 37.2269 28.0467 37.2269 28.7175 36.6615L30.2317 35.3581C30.5192 35.109 31.0558 34.9077 31.4392 34.9077H33.0683C34.0842 34.9077 34.9179 34.074 34.9179 33.0581V31.429C34.9179 31.0552 35.1192 30.509 35.3683 30.2215L36.6717 28.7073C37.2275 28.046 37.2275 26.9535 36.6621 26.2923ZM31.4871 25.6885L26.8583 30.3173C26.7242 30.4515 26.5421 30.5281 26.3504 30.5281C26.1587 30.5281 25.9767 30.4515 25.8425 30.3173L23.5233 27.9981C23.2454 27.7202 23.2454 27.2602 23.5233 26.9823C23.8012 26.7044 24.2612 26.7044 24.5392 26.9823L26.3504 28.7935L30.4712 24.6727C30.7492 24.3948 31.2092 24.3948 31.4871 24.6727C31.765 24.9506 31.765 25.4106 31.4871 25.6885Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title_block":"Chic for any occasion","benefits_description_block":"Style it with scrubs when stepping out for work, or rock them with biker shorts, skirts, or even a dress to show off your unique sense of fashion. Whatever you do, our head-turning Forgano Nursing shoes will make you the hottie of every room. Rest assured, friends and colleagues and alike will be envious of your chunky shoes every time you flaunt them."}}},"block_order":["c88a8b6f-7bef-4a3f-8e6a-5bf945c6c418","ee613181-4b57-4d54-900a-47b3bd79124f","b3b65ae5-79c8-47c3-945c-73b4d2d76d04","35e872f1-7b20-4eb4-b95c-f43f13db1776","4c51cf72-3780-4f11-a334-ee09a02bea3e","ff9cf4c7-f318-4508-9c40-52e4883730b8"],"disabled":true,"settings":{"section_title":"How our <span>Forgano shoes<\/span> make your workday a <span>breeze<\/span>","sec_title_font_size":70,"color_text":"#000000","title_different_color":"#0047ff","color_bg":"#e6e6e6","bg_image":"shopify:\/\/shop_images\/Group_313.png","mobile_bg_image":"shopify:\/\/shop_images\/Group_315.png","x_axis_position":100,"y_axis_position":5,"bg_height":380,"bg_width":800,"svg_code":"<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M36.2207 23.5422C36.7765 22.9288 37.0832 22.1334 37.0832 21.2997C37.0832 19.4309 35.569 17.9167 33.7003 17.9167C32.8665 17.9167 32.0807 18.2234 31.4673 18.7792C30.2311 18.2042 28.899 17.9167 27.4998 17.9167C26.1294 17.9167 24.7686 18.2138 23.5419 18.7792C22.9286 18.2234 22.1332 17.9167 21.2994 17.9167C19.4307 17.9167 17.9165 19.4309 17.9165 21.2997C17.9165 22.1334 18.2232 22.9288 18.779 23.5422C18.2136 24.7688 17.9165 26.1297 17.9165 27.5001C17.9165 28.8992 18.204 30.2313 18.779 31.4676C18.2232 32.0809 17.9165 32.8667 17.9165 33.7005C17.9165 35.5692 19.4307 37.0834 21.2994 37.0834C22.1332 37.0834 22.9286 36.7767 23.5419 36.2209C24.7686 36.7863 26.1294 37.0834 27.4998 37.0834C28.899 37.0834 30.2311 36.7959 31.4673 36.2209C32.0807 36.7767 32.8665 37.0834 33.7003 37.0834C35.569 37.0834 37.0832 35.5692 37.0832 33.7005C37.0832 32.8667 36.7765 32.0809 36.2207 31.4676C36.7957 30.2313 37.0832 28.8992 37.0832 27.5001C37.0832 26.1297 36.7861 24.7688 36.2207 23.5422ZM34.8598 30.538C34.7544 30.4997 34.649 30.4613 34.5436 30.4326C34.3807 30.3942 34.2082 30.3655 34.0453 30.3463C33.9303 30.3367 33.8153 30.3272 33.7003 30.3272C31.8411 30.3272 30.3269 31.8413 30.3269 33.7005C30.3269 33.8155 30.3365 33.9305 30.3461 34.0455C30.3653 34.2084 30.394 34.3809 30.4323 34.5438C30.4611 34.6493 30.4994 34.7547 30.5378 34.8601C30.5378 34.8888 30.5473 34.9176 30.5665 34.9463C30.5761 34.9751 30.5857 35.0038 30.5953 35.0326C28.669 35.8376 26.369 35.8472 24.4044 35.0326C24.414 35.0038 24.4236 34.9751 24.4332 34.9463C24.4523 34.9176 24.4619 34.8888 24.4619 34.8601C24.5003 34.7547 24.5386 34.6493 24.5673 34.5438C24.6057 34.3809 24.6344 34.2084 24.6536 34.0455C24.6632 33.9305 24.6728 33.8155 24.6728 33.7005C24.6728 31.8413 23.1586 30.3272 21.2994 30.3272C21.1844 30.3272 21.0694 30.3367 20.9544 30.3463C20.7915 30.3655 20.619 30.3942 20.4561 30.4326C20.3507 30.4613 20.2453 30.4997 20.1398 30.538C20.1111 30.538 20.0823 30.5476 20.0536 30.5667C20.0248 30.5763 19.9961 30.5859 19.9673 30.5955C19.5553 29.6276 19.354 28.583 19.354 27.5001C19.354 26.4363 19.5648 25.3726 19.9673 24.4047C19.9769 24.4047 19.9961 24.4142 20.0057 24.4142C19.8907 24.3663 19.7661 24.3088 19.6607 24.2513C19.5073 24.1651 19.354 24.0692 19.2103 23.9542C19.4978 24.1747 19.8044 24.3472 20.1398 24.4622C20.2548 24.5101 20.3794 24.5484 20.4944 24.5772C20.5711 24.5963 20.6382 24.6059 20.7053 24.6155C20.7915 24.6347 20.8682 24.6442 20.9544 24.6538C21.0694 24.6634 21.1844 24.673 21.2994 24.673C23.1586 24.673 24.6728 23.1588 24.6728 21.2997C24.6728 21.1847 24.6632 21.0697 24.6536 20.9547C24.644 20.8684 24.6344 20.7917 24.6153 20.7055C24.6057 20.6384 24.5961 20.5713 24.5769 20.4947C24.5482 20.3797 24.5098 20.2551 24.4619 20.1401C24.3469 19.8047 24.1744 19.498 23.954 19.2105C24.069 19.3542 24.1648 19.5076 24.2511 19.6609C24.3086 19.7663 24.3661 19.8909 24.414 20.0059C24.414 19.9963 24.4044 19.9772 24.4044 19.9676C26.3594 19.153 28.669 19.1626 30.5953 19.9676C30.5857 19.9963 30.5761 20.0251 30.5665 20.0538C30.5473 20.0826 30.5378 20.1113 30.5378 20.1401C30.4994 20.2455 30.4611 20.3509 30.4323 20.4563C30.394 20.6192 30.3653 20.7917 30.3461 20.9547C30.3365 21.0697 30.3269 21.1847 30.3269 21.2997C30.3269 23.1588 31.8411 24.673 33.7003 24.673C33.8153 24.673 33.9303 24.6634 34.0453 24.6538C34.2082 24.6347 34.3807 24.6059 34.5436 24.5676C34.649 24.5388 34.7544 24.5005 34.8598 24.4622C34.8886 24.4622 34.9173 24.4526 34.9461 24.4334C34.9748 24.4238 35.0036 24.4142 35.0323 24.4047C35.4348 25.3726 35.6457 26.4363 35.6457 27.5001C35.6457 28.583 35.4444 29.6276 35.0323 30.5955C35.0036 30.5859 34.9748 30.5763 34.9461 30.5667C34.9173 30.5476 34.8886 30.538 34.8598 30.538Z\" fill=\"#E11F65\"><\/path>\n<\/svg>","benefits_title":"Knit Mesh Upper","benefits_description":"We really mean it when we say our nursing shoes are one-of-a-kind, just like you. Infused with ultra-soft, foam-fitting technical material, this knit mesh upper is akin to a foot spent lapping in style and leisure without having to compromise on functionality. At Forgano, we're doing more than just providing an alternative to conventional sneakers.\nUsing a Knit Mesh Upper, we're finding innovative technological solutions that generate significantly less waste and are less toxic to the environment. Trust us, shopping Forgano Nursing Shoes does just as much for Mother Earth as it does for your classy style, wherever you go!","block_title_font_size":24,"block_desc_font_size":20,"button_label":"READ MORE","color_btn":"#e11f65"}},"bcdceeeb-5387-43b8-85bc-b9c74e82333b":{"type":"about-product","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_17.jpg","image2":"shopify:\/\/shop_images\/Untitled_design_17.jpg","text":"About shoe","richtext":"<p>The Gano Z nursing shoe puts a fresh spin on footwear for healthcare pros, with the most unique blend of aesthetics, comfort, and functionality available on the market.<br\/><br\/>Lightweight, form-fitting, and crafted from sustainable materials. Soft, breathable knit offering an all-in-one solution for both new and experienced nurses. Enjoy a gentle stretch that hugs your feet for ultimate comfort.<\/p>","richtext2":"<p>Those 12-hour shifts are no secret. Now featuring sustainable Ortholite™ insoles, offering maximum cushioning. So you can show up early, and go that extra mile without feeling it at the end of the day.<br\/><br\/>Designed for today's hard-working nurse who wants to look good and feel her best. We'll make sure you never go unnoticed.<\/p>"}},"f60f384a-9b7f-4728-a5d6-da5e9d81e0a6":{"type":"product-gallery-section","blocks":{"b3a06287-f0c6-430e-959c-4a3b2bda3ab9":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_86.png"}},"191f7b8d-3e4c-43d5-af15-8d4a20bd95d8":{"type":"text","settings":{"richtext1":"<p>How to<br\/> style<\/p>","richtext2":"<p>Our highest quality nursing shoes will quickly become your next favorite, keeping you cozy and stylish at the same time<\/p>"}},"09ed9919-0132-49ac-b45d-6a67f2ba7bd3":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Untitled_design_6.jpg"}},"77d4963c-b479-43f5-9cac-03bc179b8e0d":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/3N2A5912-2.jpg"}}},"block_order":["b3a06287-f0c6-430e-959c-4a3b2bda3ab9","191f7b8d-3e4c-43d5-af15-8d4a20bd95d8","09ed9919-0132-49ac-b45d-6a67f2ba7bd3","77d4963c-b479-43f5-9cac-03bc179b8e0d"],"settings":{}},"1674317319cf02b85c":{"type":"apps","blocks":{"b3c75f7d-fe1e-409e-8ca4-0470f3977080":{"type":"shopify:\/\/apps\/fera\/blocks\/product_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51","disabled":true,"settings":{"heading":"Product Reviews","layout":"list","star_color":"#ffd84f","when_no_reviews":"show_from_related"}},"15163433-d9f3-43f2-8888-29220359a9dc":{"type":"shopify:\/\/apps\/fera\/blocks\/product_customer_media\/2fbfcfa7-8a04-479f-89a8-0621fa099c51","disabled":true,"settings":{"heading":"Customer Photos & Videos","when_no_media":"hide"}},"e5117992-b3b4-4fbd-b893-cc63bebaf5d9":{"type":"shopify:\/\/apps\/fera\/blocks\/product_reviews_summary\/2fbfcfa7-8a04-479f-89a8-0621fa099c51","disabled":true,"settings":{"star_color":"#ffd84f","size":16,"show_count":true,"show_avg_rating":false,"alignment":"left","hide_when_no_reviews":true}}},"block_order":["b3c75f7d-fe1e-409e-8ca4-0470f3977080","15163433-d9f3-43f2-8888-29220359a9dc","e5117992-b3b4-4fbd-b893-cc63bebaf5d9"],"settings":{"full_width":false,"space_around":true}}},"order":["main","sub","814fb202-7482-40b0-8b2c-5265aa643f14","9b73e271-8ac4-4eaa-9de8-7a62869a61f6","product-recommendations","recently-viewed","collection-return","1664904571d6718697","bcdceeeb-5387-43b8-85bc-b9c74e82333b","f60f384a-9b7f-4728-a5d6-da5e9d81e0a6","1674317319cf02b85c"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "9874a274-940c-4109-a384-4e5c8e20bcf4": {
+          "type": "shopify:\/\/apps\/fera\/blocks\/product_reviews_summary\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "settings": {
+            "star_color": "#ffd84f",
+            "size": 16,
+            "show_count": true,
+            "show_avg_rating": false,
+            "alignment": "left",
+            "hide_when_no_reviews": true
+          }
+        },
+        "separator": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": false
+          }
+        },
+        "198cacc9-83fa-4189-9f33-d07111ba4ef1": {
+          "type": "student-offer",
+          "settings": {
+            "content": ""
+          }
+        },
+        "22c70cd2-de15-454b-a022-c85f048ae1d2": {
+          "type": "shoppay-guid",
+          "settings": {
+            "shoppay-text": "Or 4 Payments Of",
+            "shoppay-icon": "shopify:\/\/shop_images\/shoppay-logo.png"
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "disabled": true,
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "53479a7e-33b5-4827-b98f-9e150ff14a8a": {
+          "type": "description_tab",
+          "settings": {
+            "title": "Description"
+          }
+        },
+        "d20ab06d-9f22-4aa0-92d9-34ad0eab880c": {
+          "type": "tab",
+          "settings": {
+            "title": "SHIPPING & EXCHANGE",
+            "content": "<p>All orders ship within 5-7 business days (Free exchange)<\/p>",
+            "page": ""
+          }
+        },
+        "730e4aff-e464-4b1a-a156-c1ab62b903e5": {
+          "type": "tab",
+          "settings": {
+            "title": "shoe care",
+            "content": "<p>Washing-machine friendly. Remove laces and place them in a mesh laundry bag. Wash with cold water<br\/>and mild detergent on a gentle cycle. Air dry sneakers indoors. Do not use fabric softener or bleach.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "9874a274-940c-4109-a384-4e5c8e20bcf4",
+        "separator",
+        "variant_picker",
+        "198cacc9-83fa-4189-9f33-d07111ba4ef1",
+        "22c70cd2-de15-454b-a022-c85f048ae1d2",
+        "buy_buttons",
+        "price",
+        "description",
+        "53479a7e-33b5-4827-b98f-9e150ff14a8a",
+        "d20ab06d-9f22-4aa0-92d9-34ad0eab880c",
+        "730e4aff-e464-4b1a-a156-c1ab62b903e5"
+      ],
+      "settings": {
+        "prd_title_font_size": 70,
+        "prd_price_text": "#0047ff",
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "b6a4fa24-a9d3-4c79-8eef-ac3216d5d93c": {
+          "type": "tab",
+          "settings": {
+            "icon_title": "<svg class=\"custom_tab-icon\" width=\"36\" height=\"36\" viewbox=\"0 0 36 36\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M23.3849 2.625C18.9299 2.625 15.3149 6.24 15.3149 10.695C15.3149 15.15 18.9299 18.765 23.3849 18.765C27.8399 18.765 31.4549 15.15 31.4549 10.695C31.4549 6.24 27.8399 2.625 23.3849 2.625Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M9.53992 19.545C6.79492 19.545 4.54492 21.78 4.54492 24.54C4.54492 27.3 6.77992 29.535 9.53992 29.535C12.2849 29.535 14.5349 27.3 14.5349 24.54C14.5349 21.78 12.2849 19.545 9.53992 19.545Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M24.9298 24.9301C22.6048 24.9301 20.7148 26.8201 20.7148 29.1451C20.7148 31.4701 22.6048 33.3601 24.9298 33.3601C27.2548 33.3601 29.1448 31.4701 29.1448 29.1451C29.1448 26.8201 27.2548 24.9301 24.9298 24.9301Z\" fill=\"#0047FF\"><\/path>\n<\/svg>",
+            "title": "Materials",
+            "content": "<p>Top : Fly-knit, Genuine Suede <\/p><p>Outsole : Rubber, Plastic MD<\/p>",
+            "page": ""
+          }
+        },
+        "3cbd3842-6738-4e1f-b036-33b9a57bcd58": {
+          "type": "tab",
+          "settings": {
+            "icon_title": "<svg class=\"custom_tab-icon\" width=\"36\" height=\"36\" viewbox=\"0 0 36 36\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M21 4.38V16.845C21 18.375 19.755 19.62 18.225 19.62H4.5C3.675 19.62 3 18.945 3 18.12V8.535C3 5.475 5.475 3 8.535 3H19.605C20.385 3 21 3.615 21 4.38Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M32.25 23.25C32.67 23.25 33 23.58 33 24V25.5C33 27.99 30.99 30 28.5 30C28.5 27.525 26.475 25.5 24 25.5C21.525 25.5 19.5 27.525 19.5 30H16.5C16.5 27.525 14.475 25.5 12 25.5C9.525 25.5 7.5 27.525 7.5 30C5.01 30 3 27.99 3 25.5V22.5C3 21.675 3.675 21 4.5 21H18.75C20.82 21 22.5 19.32 22.5 17.25V9C22.5 8.175 23.175 7.5 24 7.5H25.26C26.34 7.5 27.33 8.085 27.87 9.015L28.83 10.695C28.965 10.935 28.785 11.25 28.5 11.25C26.43 11.25 24.75 12.93 24.75 15V19.5C24.75 21.57 26.43 23.25 28.5 23.25H32.25Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M12 33C13.6569 33 15 31.6569 15 30C15 28.3431 13.6569 27 12 27C10.3431 27 9 28.3431 9 30C9 31.6569 10.3431 33 12 33Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M24 33C25.6569 33 27 31.6569 27 30C27 28.3431 25.6569 27 24 27C22.3431 27 21 28.3431 21 30C21 31.6569 22.3431 33 24 33Z\" fill=\"#0047FF\"><\/path>\n<path d=\"M33 18.795V21H28.5C27.675 21 27 20.325 27 19.5V15C27 14.175 27.675 13.5 28.5 13.5H30.435L32.61 17.31C32.865 17.76 33 18.27 33 18.795Z\" fill=\"#0047FF\"><\/path>\n<\/svg>",
+            "title": "Shipping & Exchange",
+            "content": "<p>Free shipping 5-7days (Only US)<\/p><p>Free exchange policy<\/p>",
+            "page": ""
+          }
+        },
+        "bc9c7137-63ad-4ad9-9414-8cc5cde96631": {
+          "type": "tab",
+          "settings": {
+            "icon_title": "<svg class=\"custom_tab-icon\" width=\"36\" height=\"36\" viewbox=\"0 0 36 36\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M28.5 10.5C28.29 10.5 28.125 10.665 28.125 10.875V18C28.125 18.615 27.615 19.125 27 19.125C26.385 19.125 25.875 18.615 25.875 18V10.875C25.875 10.665 25.71 10.5 25.5 10.5H22.5C22.29 10.5 22.125 10.665 22.125 10.875V14.4C22.125 15.015 21.615 15.525 21 15.525C20.385 15.525 19.875 15.015 19.875 14.4V10.875C19.875 10.665 19.71 10.5 19.5 10.5H16.56C16.35 10.5 16.185 10.665 16.185 10.875L16.125 18.015C16.125 18.63 15.615 19.125 15 19.125C15 19.125 15 19.125 14.985 19.125C14.37 19.125 13.875 18.615 13.875 17.985L13.935 10.875C13.935 10.665 13.77 10.5 13.56 10.5H10.5C10.29 10.5 10.125 10.665 10.125 10.875V16.2C10.125 16.815 9.615 17.325 9 17.325C8.385 17.325 7.875 16.815 7.875 16.2V10.875C7.875 10.665 7.71 10.5 7.5 10.5C5.01 10.5 3 12.51 3 15V21C3 23.49 5.01 25.5 7.5 25.5H28.5C30.99 25.5 33 23.49 33 21V15C33 12.51 30.99 10.5 28.5 10.5Z\" fill=\"#0047FF\"><\/path>\n<\/svg>",
+            "title": "Size Recommendation",
+            "content": "<p>Fits true to size. Order your natural size. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "b6a4fa24-a9d3-4c79-8eef-ac3216d5d93c",
+        "3cbd3842-6738-4e1f-b036-33b9a57bcd58",
+        "bc9c7137-63ad-4ad9-9414-8cc5cde96631"
+      ],
+      "disabled": true,
+      "settings": {
+        "max_width": false
+      }
+    },
+    "814fb202-7482-40b0-8b2c-5265aa643f14": {
+      "type": "new-image-with-text",
+      "disabled": true,
+      "settings": {
+        "bg_color": "#000000",
+        "h_span_color": "#ffffff",
+        "h_nonspan_color": "#3bfedb",
+        "paragraph_color": "#ffffff",
+        "btn_color": "#e11f65",
+        "h_text": "In with <span>the new<\/span>",
+        "paragraph": "What do the world's top fashion brands have in common? Apart from elite-level materials, they invest in advanced cutting-edge technology to ensure the perfect chunky sole that never loses its functionality and chic-looking shape. Never.\n\nCombining the slightly thick sole, and cushioned-soft memory foam, this silhouette promises optimal traction, convenience, and support for an interrupted performance. Best of all? It makes sure not to feel bulky on your feet or cause any pain, so you can look hottie enough from the clinic to Sunday brunch and everything in between without any discomfort.",
+        "heading_font_size": 36,
+        "para_font_size": 20,
+        "bg_img": "shopify:\/\/shop_images\/Group_313_4.png",
+        "fg_img": "shopify:\/\/shop_images\/Mask_group_7f008334-cc9d-4335-b8ce-998b2eacbd92.png",
+        "btn_txt": "",
+        "btn_link": "",
+        "x_axis_position": 1,
+        "y_axis_position": 50,
+        "bg_height": 400,
+        "bg_width": 880,
+        "position": false
+      }
+    },
+    "9b73e271-8ac4-4eaa-9de8-7a62869a61f6": {
+      "type": "text-slider",
+      "disabled": true,
+      "settings": {
+        "enable_bar": true,
+        "font_weight": "600",
+        "background_annoucement_text_color": "#ffffff",
+        "background_annoucement": "#0047ff",
+        "content1": "Free Shipping on Every Order!",
+        "content2": "Free Shipping on Every Order!",
+        "content3": "Free Shipping on Every Order!",
+        "content4": "Free Shipping on Every Order!",
+        "content5": "Free Shipping on Every Order!",
+        "content6": "Free Shipping on Every Order!",
+        "link": ""
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "related_count": 5
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "1664904571d6718697": {
+      "type": "product-benefits",
+      "blocks": {
+        "c88a8b6f-7bef-4a3f-8e6a-5bf945c6c418": {
+          "type": "benefit",
+          "settings": {
+            "svg_code_block": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M35.5233 32.9706C35.0027 33.4518 34.4036 33.8152 33.7554 34.0607C33.1072 34.3063 32.4099 33.8348 32.4099 33.1375V31.8411C32.4099 29.9259 30.8581 28.3741 28.9429 28.3741H26.0554C24.1402 28.3741 22.5884 29.9259 22.5884 31.8411V33.3929C22.5884 33.9331 22.1465 34.375 21.6063 34.375H21.1643C18.7581 34.0116 17.6777 32.0572 17.6777 30.309C17.6777 28.659 18.6402 26.8322 20.7322 26.3215C20.1527 24.0331 20.6438 21.8822 22.1367 20.3206C23.8358 18.5429 26.5465 17.8357 28.884 18.5625C31.0349 19.2206 32.5474 20.9884 33.0876 23.4438C34.9634 23.8661 36.4661 25.2804 37.0652 27.2447C37.7134 29.3759 37.1242 31.5661 35.5233 32.9706Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M28.9438 29.8474H26.0562C24.8089 29.8474 24.0625 30.5938 24.0625 31.8412V34.7287C24.0625 35.976 24.8089 36.7224 26.0562 36.7224H28.9438C30.1911 36.7224 30.9375 35.976 30.9375 34.7287V31.8412C30.9375 30.5938 30.1911 29.8474 28.9438 29.8474ZM29.4348 34.3162C29.6804 34.5617 29.6804 34.9644 29.4348 35.2099C29.3071 35.3278 29.15 35.3867 28.983 35.3867C28.8259 35.3867 28.6688 35.3278 28.5411 35.2099L27.5 34.1688L26.4687 35.2099C26.3411 35.3278 26.1839 35.3867 26.017 35.3867C25.8598 35.3867 25.7027 35.3278 25.575 35.2099C25.3295 34.9644 25.3295 34.5617 25.575 34.3162L26.6161 33.2751L25.575 32.2438C25.3295 31.9983 25.3295 31.5956 25.575 31.3501C25.8205 31.1046 26.2232 31.1046 26.4687 31.3501L27.5 32.3912L28.5411 31.3501C28.7866 31.1046 29.1893 31.1046 29.4348 31.3501C29.6804 31.5956 29.6804 31.9983 29.4348 32.2438L28.3937 33.2751L29.4348 34.3162Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+            "benefits_title_block": "Non-Slip Sole",
+            "benefits_description_block": "Time to turn your painful, long-day shifts into a blissful experience! Stop worrying about\nslipping on unexpectedly slick surfaces. Our Forgano Nursing Shoes come with EVA rubber, non-slip grid lines, and hexagon shape that are proven to provide maximum performance, traction, and workplace safety every time you step foot in your shoes."
+          }
+        },
+        "ee613181-4b57-4d54-900a-47b3bd79124f": {
+          "type": "benefit",
+          "settings": {
+            "svg_code_block": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M32.0084 22.9921L21.9119 33.0885C21.4405 33.56 20.6352 33.4519 20.3503 32.8528C19.8396 31.8019 19.545 30.6135 19.545 29.3662C19.5253 23.9448 25.0253 19.3091 26.8914 17.885C27.2548 17.61 27.7459 17.61 28.0994 17.885C28.9539 18.5332 30.5548 19.8787 32.0575 21.6466C32.3914 22.0394 32.3718 22.6287 32.0084 22.9921Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M35.4561 29.3759C35.4561 33.7563 31.8909 37.3215 27.5007 37.3215C25.7427 37.3215 24.1025 36.7518 22.7766 35.7697C22.2954 35.4161 22.2561 34.709 22.6784 34.2867L32.5686 24.3965C33.0302 23.9349 33.8061 24.0331 34.1204 24.6027C34.9257 26.0858 35.4659 27.6965 35.4561 29.3759Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+            "benefits_title_block": "Lightweight Midsole",
+            "benefits_description_block": "Shift from outdoors to indoors in graceful fashion and easy-going style. Featuring 100% high-quality rubber, reliable cushioning, and optimal durability, our chunky shoes contain lightweight\nmidsoles you'll want to slip into to feel as light as a feather and add a fashionable element to your scrubs."
+          }
+        },
+        "b3b65ae5-79c8-47c3-945c-73b4d2d76d04": {
+          "type": "benefit",
+          "settings": {
+            "svg_code_block": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M33.7295 37.8021C31.487 37.8021 29.6566 35.9717 29.6566 33.7292V33.25C29.6566 32.8571 29.9824 32.5313 30.3753 32.5313C30.7682 32.5313 31.0941 32.8571 31.0941 33.25V33.7292C31.0941 35.1858 32.2728 36.3646 33.7295 36.3646C35.1862 36.3646 36.3649 35.1858 36.3649 33.7292C36.3649 32.2725 35.1862 31.0938 33.7295 31.0938H17.917C17.5241 31.0938 17.1982 30.7679 17.1982 30.375C17.1982 29.9821 17.5241 29.6562 17.917 29.6562H33.7295C35.972 29.6562 37.8024 31.4867 37.8024 33.7292C37.8024 35.9717 35.972 37.8021 33.7295 37.8021Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M33.7295 28.2188H17.917C17.5241 28.2188 17.1982 27.893 17.1982 27.5001C17.1982 27.1072 17.5241 26.7813 17.917 26.7813H33.7295C35.1862 26.7813 36.3649 25.6026 36.3649 24.1459C36.3649 22.6892 35.1862 21.5105 33.7295 21.5105C32.2728 21.5105 31.0941 22.6892 31.0941 24.1459V24.6251C31.0941 25.018 30.7682 25.3438 30.3753 25.3438C29.9824 25.3438 29.6566 25.018 29.6566 24.6251V24.1459C29.6566 21.9034 31.487 20.073 33.7295 20.073C35.972 20.073 37.8024 21.9034 37.8024 24.1459C37.8024 26.3884 35.972 28.2188 33.7295 28.2188Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M24.9224 25.3438H17.917C17.5241 25.3438 17.1982 25.018 17.1982 24.6251C17.1982 24.2322 17.5241 23.9063 17.917 23.9063H24.9224C25.9478 23.9063 26.7816 23.0726 26.7816 22.0472C26.7816 21.0217 25.9478 20.188 24.9224 20.188C23.897 20.188 23.0632 21.0217 23.0632 22.0472V22.4113C23.0632 22.8042 22.7374 23.1301 22.3445 23.1301C21.9516 23.1301 21.6257 22.8138 21.6257 22.4113V22.0472C21.6257 20.2263 23.1016 18.7505 24.9224 18.7505C26.7432 18.7505 28.2191 20.2263 28.2191 22.0472C28.2191 23.868 26.7432 25.3438 24.9224 25.3438Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+            "benefits_title_block": "Breathable, Skin-Friendly Materials Built For Life",
+            "benefits_description_block": "Whether it's a long-night shift or just walking countless miles a day, being confined to hectic work schedules may not be the most comfortable experience. Made from carefully-selected,premium materials, our chunky sneakers provide you with the right protection against moisture and friction at all times to keep your feet free from blisters and irritations."
+          }
+        },
+        "35e872f1-7b20-4eb4-b95c-f43f13db1776": {
+          "type": "benefit",
+          "settings": {
+            "svg_code_block": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M34.3136 23.1585L30.9402 19.7852C27.9119 16.7664 26.3211 17.8781 24.4044 19.7852L18.9802 25.2093C17.8781 26.3114 17.2744 27.0206 17.054 27.8064C17.054 27.816 17.0444 27.816 17.0444 27.816C17.0444 27.8256 17.0444 27.8256 17.0444 27.8256C17.0444 27.8352 17.0444 27.8352 17.0444 27.8352V27.8639C16.6515 29.2631 17.6865 30.4514 18.9802 31.7452L22.3631 35.1089C23.5706 36.326 24.5481 37.0831 25.6311 37.0831C26.714 37.0831 27.6436 36.3548 28.8894 35.1089L34.3136 29.6943C34.7831 29.2152 35.1281 28.8223 35.3965 28.4485C35.3965 28.4389 35.3965 28.4389 35.3965 28.4389C35.3965 28.4389 35.3965 28.4389 35.4061 28.4389C36.6327 26.7235 36.3069 25.1423 34.3136 23.1585ZM33.3265 26.896H33.3169C33.0294 26.8289 32.7323 26.7714 32.4352 26.7139C32.4161 26.7139 32.3969 26.7043 32.3681 26.7043C31.6973 26.5798 31.0169 26.4743 30.3269 26.3881H30.2886C29.5986 26.3018 28.899 26.2348 28.1994 26.1964H28.1227C27.5094 26.1581 26.8865 26.1389 26.2731 26.1389C25.5256 26.1389 24.7781 26.1773 24.0402 26.2252C23.9156 26.2348 23.8006 26.2443 23.6856 26.2539C23.1298 26.2923 22.574 26.3498 22.0277 26.4168C21.8744 26.436 21.7306 26.4552 21.5869 26.4743C21.0311 26.5606 20.4848 26.6468 19.9386 26.7523C19.814 26.781 19.699 26.8002 19.5744 26.8193C19.5265 26.8289 19.469 26.8385 19.4211 26.8481C19.5936 26.6564 19.7948 26.4552 20.0152 26.2348L25.4298 20.8202C27.174 19.0952 27.7681 18.6831 29.9148 20.8202L33.2786 24.1935C33.7961 24.7014 34.1411 25.1327 34.3519 25.5064C34.3519 25.5064 34.3519 25.516 34.3615 25.516C34.764 26.2156 34.1123 27.0493 33.3265 26.896Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M36.0775 32.1672C35.7133 31.7168 35.397 31.3335 34.6879 31.3335C33.9787 31.3335 33.6625 31.7168 33.3079 32.1672C32.5412 33.116 32.1962 34.151 32.3208 35.1477C32.4646 36.2881 33.4421 37.0835 34.6879 37.0835C35.9337 37.0835 36.9112 36.2881 37.055 35.1381C37.1795 34.1414 36.8441 33.116 36.0775 32.1672Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+            "benefits_title_block": "Waterproof Soles, Moisture-Wicking Shield",
+            "benefits_description_block": "Proven to provide your feet with a secure hold against oily, wet, and glossy workplace surfaces, this repellent shield on your outsoles never lets you down. Stay safe and comfortable while you juggle hundreds of tasks a day, knowing Forgano Nursing Shoes are pampering your feet from the outside in with the attention to detail you deserve."
+          }
+        },
+        "4c51cf72-3780-4f11-a334-ee09a02bea3e": {
+          "type": "benefit",
+          "settings": {
+            "svg_code_block": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M33.9688 23.6665V25.679C33.5471 25.6215 33.0679 25.5928 32.5312 25.5832V23.6665C32.5312 20.6478 31.6783 18.6353 27.5 18.6353C23.3217 18.6353 22.4688 20.6478 22.4688 23.6665V25.5832C21.9321 25.5928 21.4529 25.6215 21.0312 25.679V23.6665C21.0312 20.8873 21.7021 17.1978 27.5 17.1978C33.2979 17.1978 33.9688 20.8873 33.9688 23.6665Z\" fill=\"#E11F65\"><\/path>\n<path d=\"M33.9691 25.6793C33.5474 25.6218 33.0682 25.5931 32.5316 25.5835H22.4691C21.9324 25.5931 21.4532 25.6218 21.0316 25.6793C18.5878 25.9764 17.917 27.1743 17.917 30.3752V32.2918C17.917 36.1252 18.8753 37.0835 22.7087 37.0835H32.292C36.1253 37.0835 37.0837 36.1252 37.0837 32.2918V30.3752C37.0837 27.1743 36.4128 25.9764 33.9691 25.6793ZM24.3474 32.0139C24.1653 32.1864 23.9162 32.2918 23.667 32.2918C23.5424 32.2918 23.4178 32.2631 23.3028 32.2152C23.1782 32.1672 23.0824 32.1002 22.9866 32.0139C22.8141 31.8318 22.7087 31.5827 22.7087 31.3335C22.7087 31.2089 22.7374 31.0843 22.7853 30.9693C22.8332 30.8543 22.9003 30.7489 22.9866 30.6531C23.0824 30.5668 23.1782 30.4997 23.3028 30.4518C23.6574 30.2985 24.0791 30.3847 24.3474 30.6531C24.4337 30.7489 24.5007 30.8543 24.5487 30.9693C24.5966 31.0843 24.6253 31.2089 24.6253 31.3335C24.6253 31.5827 24.5199 31.8318 24.3474 32.0139ZM28.382 31.6977C28.3341 31.8127 28.267 31.9181 28.1807 32.0139C27.9987 32.1864 27.7495 32.2918 27.5003 32.2918C27.2416 32.2918 27.002 32.1864 26.8199 32.0139C26.7337 31.9181 26.6666 31.8127 26.6187 31.6977C26.5707 31.5827 26.542 31.4581 26.542 31.3335C26.542 31.0747 26.6474 30.8352 26.8199 30.6531C27.1745 30.2985 27.8166 30.2985 28.1807 30.6531C28.3532 30.8352 28.4587 31.0747 28.4587 31.3335C28.4587 31.4581 28.4299 31.5827 28.382 31.6977ZM32.0141 32.0139C31.832 32.1864 31.5828 32.2918 31.3337 32.2918C31.0845 32.2918 30.8353 32.1864 30.6532 32.0139C30.4807 31.8318 30.3753 31.5922 30.3753 31.3335C30.3753 31.0747 30.4807 30.8352 30.6532 30.6531C31.0174 30.2985 31.6595 30.2985 32.0141 30.6531C32.0524 30.701 32.0907 30.7489 32.1291 30.8064C32.1674 30.8543 32.1962 30.9118 32.2153 30.9693C32.2441 31.0268 32.2632 31.0843 32.2728 31.1418C32.2824 31.2089 32.292 31.276 32.292 31.3335C32.292 31.5827 32.1866 31.8318 32.0141 32.0139Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+            "benefits_title_block": "TPU Midfoot Strap",
+            "benefits_description_block": "Medial & lateral TPU Midfoot strap makes our chunky shoes perfect even during the most high-intensity shifts. Whether you're heading to your workplace in the pouring rain or the blistering heat, it's designed to ensure maximum security."
+          }
+        },
+        "ff9cf4c7-f318-4508-9c40-52e4883730b8": {
+          "type": "benefit",
+          "settings": {
+            "svg_code_block": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M36.6621 26.2923L35.3588 24.7781C35.1096 24.4906 34.9083 23.954 34.9083 23.5706V21.9415C34.9083 20.9256 34.0746 20.0919 33.0587 20.0919H31.4296C31.0558 20.0919 30.5096 19.8906 30.2221 19.6415L28.7079 18.3381C28.0467 17.7727 26.9637 17.7727 26.2929 18.3381L24.7883 19.651C24.5008 19.8906 23.9546 20.0919 23.5808 20.0919H21.9229C20.9071 20.0919 20.0733 20.9256 20.0733 21.9415V23.5802C20.0733 23.954 19.8721 24.4906 19.6325 24.7781L18.3388 26.3019C17.7829 26.9631 17.7829 28.0365 18.3388 28.6977L19.6325 30.2215C19.8721 30.509 20.0733 31.0456 20.0733 31.4194V33.0581C20.0733 34.074 20.9071 34.9077 21.9229 34.9077H23.5808C23.9546 34.9077 24.5008 35.109 24.7883 35.3581L26.3025 36.6615C26.9637 37.2269 28.0467 37.2269 28.7175 36.6615L30.2317 35.3581C30.5192 35.109 31.0558 34.9077 31.4392 34.9077H33.0683C34.0842 34.9077 34.9179 34.074 34.9179 33.0581V31.429C34.9179 31.0552 35.1192 30.509 35.3683 30.2215L36.6717 28.7073C37.2275 28.046 37.2275 26.9535 36.6621 26.2923ZM31.4871 25.6885L26.8583 30.3173C26.7242 30.4515 26.5421 30.5281 26.3504 30.5281C26.1587 30.5281 25.9767 30.4515 25.8425 30.3173L23.5233 27.9981C23.2454 27.7202 23.2454 27.2602 23.5233 26.9823C23.8012 26.7044 24.2612 26.7044 24.5392 26.9823L26.3504 28.7935L30.4712 24.6727C30.7492 24.3948 31.2092 24.3948 31.4871 24.6727C31.765 24.9506 31.765 25.4106 31.4871 25.6885Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+            "benefits_title_block": "Chic for any occasion",
+            "benefits_description_block": "Style it with scrubs when stepping out for work, or rock them with biker shorts, skirts, or even a dress to show off your unique sense of fashion. Whatever you do, our head-turning Forgano Nursing shoes will make you the hottie of every room. Rest assured, friends and colleagues and alike will be envious of your chunky shoes every time you flaunt them."
+          }
+        }
+      },
+      "block_order": [
+        "c88a8b6f-7bef-4a3f-8e6a-5bf945c6c418",
+        "ee613181-4b57-4d54-900a-47b3bd79124f",
+        "b3b65ae5-79c8-47c3-945c-73b4d2d76d04",
+        "35e872f1-7b20-4eb4-b95c-f43f13db1776",
+        "4c51cf72-3780-4f11-a334-ee09a02bea3e",
+        "ff9cf4c7-f318-4508-9c40-52e4883730b8"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_title": "How our <span>Forgano shoes<\/span> make your workday a <span>breeze<\/span>",
+        "sec_title_font_size": 70,
+        "color_text": "#000000",
+        "title_different_color": "#0047ff",
+        "color_bg": "#e6e6e6",
+        "bg_image": "shopify:\/\/shop_images\/Group_313.png",
+        "mobile_bg_image": "shopify:\/\/shop_images\/Group_315.png",
+        "x_axis_position": 100,
+        "y_axis_position": 5,
+        "bg_height": 380,
+        "bg_width": 800,
+        "svg_code": "<svg width=\"55\" height=\"55\" viewbox=\"0 0 55 55\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<circle cx=\"27.5\" cy=\"27.5\" r=\"26\" fill=\"#F4F4F4\" stroke=\"#E11F65\" stroke-width=\"3\"><\/circle>\n<path d=\"M36.2207 23.5422C36.7765 22.9288 37.0832 22.1334 37.0832 21.2997C37.0832 19.4309 35.569 17.9167 33.7003 17.9167C32.8665 17.9167 32.0807 18.2234 31.4673 18.7792C30.2311 18.2042 28.899 17.9167 27.4998 17.9167C26.1294 17.9167 24.7686 18.2138 23.5419 18.7792C22.9286 18.2234 22.1332 17.9167 21.2994 17.9167C19.4307 17.9167 17.9165 19.4309 17.9165 21.2997C17.9165 22.1334 18.2232 22.9288 18.779 23.5422C18.2136 24.7688 17.9165 26.1297 17.9165 27.5001C17.9165 28.8992 18.204 30.2313 18.779 31.4676C18.2232 32.0809 17.9165 32.8667 17.9165 33.7005C17.9165 35.5692 19.4307 37.0834 21.2994 37.0834C22.1332 37.0834 22.9286 36.7767 23.5419 36.2209C24.7686 36.7863 26.1294 37.0834 27.4998 37.0834C28.899 37.0834 30.2311 36.7959 31.4673 36.2209C32.0807 36.7767 32.8665 37.0834 33.7003 37.0834C35.569 37.0834 37.0832 35.5692 37.0832 33.7005C37.0832 32.8667 36.7765 32.0809 36.2207 31.4676C36.7957 30.2313 37.0832 28.8992 37.0832 27.5001C37.0832 26.1297 36.7861 24.7688 36.2207 23.5422ZM34.8598 30.538C34.7544 30.4997 34.649 30.4613 34.5436 30.4326C34.3807 30.3942 34.2082 30.3655 34.0453 30.3463C33.9303 30.3367 33.8153 30.3272 33.7003 30.3272C31.8411 30.3272 30.3269 31.8413 30.3269 33.7005C30.3269 33.8155 30.3365 33.9305 30.3461 34.0455C30.3653 34.2084 30.394 34.3809 30.4323 34.5438C30.4611 34.6493 30.4994 34.7547 30.5378 34.8601C30.5378 34.8888 30.5473 34.9176 30.5665 34.9463C30.5761 34.9751 30.5857 35.0038 30.5953 35.0326C28.669 35.8376 26.369 35.8472 24.4044 35.0326C24.414 35.0038 24.4236 34.9751 24.4332 34.9463C24.4523 34.9176 24.4619 34.8888 24.4619 34.8601C24.5003 34.7547 24.5386 34.6493 24.5673 34.5438C24.6057 34.3809 24.6344 34.2084 24.6536 34.0455C24.6632 33.9305 24.6728 33.8155 24.6728 33.7005C24.6728 31.8413 23.1586 30.3272 21.2994 30.3272C21.1844 30.3272 21.0694 30.3367 20.9544 30.3463C20.7915 30.3655 20.619 30.3942 20.4561 30.4326C20.3507 30.4613 20.2453 30.4997 20.1398 30.538C20.1111 30.538 20.0823 30.5476 20.0536 30.5667C20.0248 30.5763 19.9961 30.5859 19.9673 30.5955C19.5553 29.6276 19.354 28.583 19.354 27.5001C19.354 26.4363 19.5648 25.3726 19.9673 24.4047C19.9769 24.4047 19.9961 24.4142 20.0057 24.4142C19.8907 24.3663 19.7661 24.3088 19.6607 24.2513C19.5073 24.1651 19.354 24.0692 19.2103 23.9542C19.4978 24.1747 19.8044 24.3472 20.1398 24.4622C20.2548 24.5101 20.3794 24.5484 20.4944 24.5772C20.5711 24.5963 20.6382 24.6059 20.7053 24.6155C20.7915 24.6347 20.8682 24.6442 20.9544 24.6538C21.0694 24.6634 21.1844 24.673 21.2994 24.673C23.1586 24.673 24.6728 23.1588 24.6728 21.2997C24.6728 21.1847 24.6632 21.0697 24.6536 20.9547C24.644 20.8684 24.6344 20.7917 24.6153 20.7055C24.6057 20.6384 24.5961 20.5713 24.5769 20.4947C24.5482 20.3797 24.5098 20.2551 24.4619 20.1401C24.3469 19.8047 24.1744 19.498 23.954 19.2105C24.069 19.3542 24.1648 19.5076 24.2511 19.6609C24.3086 19.7663 24.3661 19.8909 24.414 20.0059C24.414 19.9963 24.4044 19.9772 24.4044 19.9676C26.3594 19.153 28.669 19.1626 30.5953 19.9676C30.5857 19.9963 30.5761 20.0251 30.5665 20.0538C30.5473 20.0826 30.5378 20.1113 30.5378 20.1401C30.4994 20.2455 30.4611 20.3509 30.4323 20.4563C30.394 20.6192 30.3653 20.7917 30.3461 20.9547C30.3365 21.0697 30.3269 21.1847 30.3269 21.2997C30.3269 23.1588 31.8411 24.673 33.7003 24.673C33.8153 24.673 33.9303 24.6634 34.0453 24.6538C34.2082 24.6347 34.3807 24.6059 34.5436 24.5676C34.649 24.5388 34.7544 24.5005 34.8598 24.4622C34.8886 24.4622 34.9173 24.4526 34.9461 24.4334C34.9748 24.4238 35.0036 24.4142 35.0323 24.4047C35.4348 25.3726 35.6457 26.4363 35.6457 27.5001C35.6457 28.583 35.4444 29.6276 35.0323 30.5955C35.0036 30.5859 34.9748 30.5763 34.9461 30.5667C34.9173 30.5476 34.8886 30.538 34.8598 30.538Z\" fill=\"#E11F65\"><\/path>\n<\/svg>",
+        "benefits_title": "Knit Mesh Upper",
+        "benefits_description": "We really mean it when we say our nursing shoes are one-of-a-kind, just like you. Infused with ultra-soft, foam-fitting technical material, this knit mesh upper is akin to a foot spent lapping in style and leisure without having to compromise on functionality. At Forgano, we're doing more than just providing an alternative to conventional sneakers.\nUsing a Knit Mesh Upper, we're finding innovative technological solutions that generate significantly less waste and are less toxic to the environment. Trust us, shopping Forgano Nursing Shoes does just as much for Mother Earth as it does for your classy style, wherever you go!",
+        "block_title_font_size": 24,
+        "block_desc_font_size": 20,
+        "button_label": "READ MORE",
+        "color_btn": "#e11f65"
+      }
+    },
+    "bcdceeeb-5387-43b8-85bc-b9c74e82333b": {
+      "type": "about-product",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_17.jpg",
+        "image2": "shopify:\/\/shop_images\/Untitled_design_17.jpg",
+        "text": "About shoe",
+        "richtext": "<p>The Gano Z nursing shoe puts a fresh spin on footwear for healthcare pros, with the most unique blend of aesthetics, comfort, and functionality available on the market.<br\/><br\/>Lightweight, form-fitting, and crafted from sustainable materials. Soft, breathable knit offering an all-in-one solution for both new and experienced nurses. Enjoy a gentle stretch that hugs your feet for ultimate comfort.<\/p>",
+        "richtext2": "<p>Those 12-hour shifts are no secret. Now featuring sustainable Ortholite™ insoles, offering maximum cushioning. So you can show up early, and go that extra mile without feeling it at the end of the day.<br\/><br\/>Designed for today's hard-working nurse who wants to look good and feel her best. We'll make sure you never go unnoticed.<\/p>"
+      }
+    },
+    "f60f384a-9b7f-4728-a5d6-da5e9d81e0a6": {
+      "type": "product-gallery-section",
+      "blocks": {
+        "b3a06287-f0c6-430e-959c-4a3b2bda3ab9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_86.png"
+          }
+        },
+        "191f7b8d-3e4c-43d5-af15-8d4a20bd95d8": {
+          "type": "text",
+          "settings": {
+            "richtext1": "<p>How to<br\/> style<\/p>",
+            "richtext2": "<p>Our highest quality nursing shoes will quickly become your next favorite, keeping you cozy and stylish at the same time<\/p>"
+          }
+        },
+        "09ed9919-0132-49ac-b45d-6a67f2ba7bd3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design_6.jpg"
+          }
+        },
+        "77d4963c-b479-43f5-9cac-03bc179b8e0d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3N2A5912-2.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "b3a06287-f0c6-430e-959c-4a3b2bda3ab9",
+        "191f7b8d-3e4c-43d5-af15-8d4a20bd95d8",
+        "09ed9919-0132-49ac-b45d-6a67f2ba7bd3",
+        "77d4963c-b479-43f5-9cac-03bc179b8e0d"
+      ],
+      "settings": {
+      }
+    },
+    "1674317319cf02b85c": {
+      "type": "apps",
+      "blocks": {
+        "b3c75f7d-fe1e-409e-8ca4-0470f3977080": {
+          "type": "shopify:\/\/apps\/fera\/blocks\/product_reviews\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "disabled": true,
+          "settings": {
+            "heading": "Product Reviews",
+            "layout": "list",
+            "star_color": "#ffd84f",
+            "when_no_reviews": "show_from_related"
+          }
+        },
+        "15163433-d9f3-43f2-8888-29220359a9dc": {
+          "type": "shopify:\/\/apps\/fera\/blocks\/product_customer_media\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "disabled": true,
+          "settings": {
+            "heading": "Customer Photos & Videos",
+            "when_no_media": "hide"
+          }
+        },
+        "e5117992-b3b4-4fbd-b893-cc63bebaf5d9": {
+          "type": "shopify:\/\/apps\/fera\/blocks\/product_reviews_summary\/2fbfcfa7-8a04-479f-89a8-0621fa099c51",
+          "disabled": true,
+          "settings": {
+            "star_color": "#ffd84f",
+            "size": 16,
+            "show_count": true,
+            "show_avg_rating": false,
+            "alignment": "left",
+            "hide_when_no_reviews": true
+          }
+        }
+      },
+      "block_order": [
+        "b3c75f7d-fe1e-409e-8ca4-0470f3977080",
+        "15163433-d9f3-43f2-8888-29220359a9dc",
+        "e5117992-b3b4-4fbd-b893-cc63bebaf5d9"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "814fb202-7482-40b0-8b2c-5265aa643f14",
+    "9b73e271-8ac4-4eaa-9de8-7a62869a61f6",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "1664904571d6718697",
+    "bcdceeeb-5387-43b8-85bc-b9c74e82333b",
+    "f60f384a-9b7f-4728-a5d6-da5e9d81e0a6",
+    "1674317319cf02b85c"
+  ]
+}
