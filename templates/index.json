@@ -438,6 +438,13 @@
           "settings": {
             "bg_img": "shopify:\/\/shop_images\/IMG-5068.jpg"
           }
+        },
+        "b5e5be92-0535-41ef-8d52-790b5b0854c3": {
+          "type": "Instagram",
+          "settings": {
+            "c_t_review": "OUR <br> INSTAGRAM",
+            "c_t_review_name": ""
+          }
         }
       },
       "block_order": [
@@ -445,7 +452,8 @@
         "b7dcbd0c-755c-4d31-9abb-b0f611cabadd",
         "df158292-8cd8-4c71-b8fb-14a8b317e3f6",
         "fdfa548e-4d92-4b26-8abf-7146ace04368",
-        "c68bc2b2-41d5-47fd-aaee-bf9374562aa3"
+        "c68bc2b2-41d5-47fd-aaee-bf9374562aa3",
+        "b5e5be92-0535-41ef-8d52-790b5b0854c3"
       ],
       "settings": {
       }
