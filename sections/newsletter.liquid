@@ -36,13 +36,17 @@
               <div class="rte">{{ block.settings.text }}</div>
             {%- endif -%}
           {%- when 'form' -%}
-            <div class="klaviyo-form-W4bApW"></div>
-            
-           {%- if template.name == "index" or template.name == 'product'  -%}
+             <div class=" template-index newsletter__input-grouP">
+              <div class="klaviyo-form-W4bApW"></div>
+            </div>
+          
+
+           {% comment %} {%- if template.name == "index" or template.name == 'product'  -%}
             {%- render 'signup-offer-form', section_id: section.id, snippet_context: 'section', btn_text: section.settings.btn_text, placeholder: section.settings.placeholder -%}
              {%- else -%}
              {%- render 'newsletter-form', section_id: section.id, snippet_context: 'section', btn_text: section.settings.btn_text, placeholder: section.settings.placeholder -%}
-             {%- endif -%}
+             {%- endif -%} {% endcomment %}
+
           {%- when 'share_buttons' -%}
             {%- render 'social-sharing' -%}
         {%- endcase -%}
