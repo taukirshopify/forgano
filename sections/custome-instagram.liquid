@@ -1,5 +1,8 @@
 <!-- Slider main container -->
-<div class="swiper swiper-active-class">
+
+
+<div class="swiper swiper-active-class page-width">
+
     <!-- Additional required wrapper -->
     <div class="swiper-wrapper">
       <!-- Slides -->
@@ -14,27 +17,113 @@
           {% when 'Instagram' %}
              <div class="instagram-text">
                   <h4> {{ block.settings.c_t_review }} </h4>
-                  <p> {{ block.settings.c_t_review_name }} </p>
+                  <p> 
+                  <a href="https://instagram.com/forgano.official" target="_blank" title="https://instagram.com/forgano.official">
+                  
+                  {{ block.settings.c_t_review_name }} </a> </p>
              </div>
           {% endcase %} 
 
       </div>
     {% endfor %}
     </div>
-    <!-- If we need pagination -->
-    <div class="swiper-pagination"></div>
+
   
     <!-- If we need navigation buttons -->
-    <div class="swiper-button-prev"></div>
-    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev">
+
+
+      <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="59" height="59" rx="29.5" transform="matrix(-1 0 0 1 59 0)" fill="#F7239C"></rect>
+        <path d="M26.2828 34.5784L21.5092 29.7736L26.2672 25L27.8896 26.5132L25.5808 28.6348H37V30.9436H25.5808L27.8896 33.0652L26.2828 34.5784Z" fill="white"></path>
+        </svg>
+
+    </div>
+
+    <div class="swiper-button-next">
+      <svg width="59" height="59" viewBox="0 0 59 59" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="59" height="59" rx="29.5" fill="#F7239C"></rect>
+        <path d="M32.7172 34.5784L37.4908 29.7736L32.7328 25L31.1104 26.5132L33.4192 28.6348H22V30.9436H33.4192L31.1104 33.0652L32.7172 34.5784Z" fill="white"></path>
+        </svg>
+    </div>
   
-    <!-- If we need scrollbar -->
-    <div class="swiper-scrollbar"></div>
+
   </div>
 
 
 
+
+
   <style>
+.swiper-active-class  img{
+  height:100%;
+}
+
+.instagram-text {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: initial;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.image-block {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.swiper-active-class  img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 3600px) and (min-width: 900px)  {
+  .swiper-button-prev {
+    width: 50px;
+  }
+  .swiper-button-next {
+    width: 50px;
+  }
+  .swiper-active-class {
+    padding: 60px 0;
+}
+
+}
+@media only screen and (max-width: 899px)  {
+  .swiper-button-prev {
+    width: 25px;
+  }
+  .swiper-button-next {
+    width: 25px;
+  }
+
+
+.swiper-active-class {
+    padding: 20px 0;
+}
+}
+
+
+
+.instagram-text h4{
+  color: #000;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5 !important;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.instagram-text a{
+  color: #F7239C;
+font-size: 27px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: uppercase;
+display:block
+}
 
 </style>
 
@@ -42,8 +131,8 @@
 <script>
 
     const swiperold = new Swiper('.swiper-active-class', {
-      slidesPerView: 1,
-      spaceBetween: 20,
+      slidesPerView: 2,
+      spaceBetween: 10,
       navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -51,7 +140,11 @@
       breakpoints: {
         768: {
           slidesPerView: 3,
-          spaceBetween: 30,
+          spaceBetween: 15,
+        },
+        1020: {
+          slidesPerView: 4,
+          spaceBetween: 20,
         }
         },
 
