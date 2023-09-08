@@ -405,6 +405,11 @@
         "richtext1": "<p>Follow us <a href=\"https:\/\/instagram.com\/forgano.official\" target=\"_blank\" title=\"https:\/\/instagram.com\/forgano.official\"><strong>@forgano.official<\/strong><\/a><\/p>",
         "richtext2": "<p>Follow us <a href=\"https:\/\/www.instagram.com\/forgano.official\/\" target=\"_blank\" title=\"https:\/\/www.instagram.com\/forgano.official\/\"><strong>@forgano.official<\/strong><\/a><\/p>"
       }
+    },
+    "0b501d17-5a02-4104-bf5e-22b824a91712": {
+      "type": "custome-instagram",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -423,6 +428,7 @@
     "1110efef-4e34-4154-a241-24afae80c9ba",
     "0020f82f-b570-44e5-a010-c0aca51eb8e7",
     "bf0a0d5e-f246-45d2-94bf-b995076262df",
-    "dc6050ca-98bc-4606-8bd9-ad165b5b6eed"
+    "dc6050ca-98bc-4606-8bd9-ad165b5b6eed",
+    "0b501d17-5a02-4104-bf5e-22b824a91712"
   ]
 }
