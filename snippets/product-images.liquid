@@ -7,6 +7,23 @@
 
 }
 
+.swiper-slide {
+  overflow: hidden;
+}
+
+
+@media only screen and (max-width: 800px) and (min-width: 3600px)  {
+  .hide-mobile{
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 800px) and (min-width: 3600px)  {
+  .hide-mobile{
+    display: none;
+  }
+
+}
 </style>
 
 
@@ -179,10 +196,10 @@
 
             </div>
             <!-- Add Pagination -->
-            <div class="swiper-pagination swiper-pagination-white"></div>
+
             <!-- Add Navigation -->
-            <div class="swiper-button-prev"></div>
-            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev">prev</div>
+            <div class="swiper-button-next">next</div>
     </div>
       
 
@@ -210,18 +227,16 @@
 
 
 <script>
-  <script>
+
     const productswiper = new Swiper('.swiper-container-product', {
         zoom: true,
         toggle:true,
-        pagination: {
-          el: '.swiper-pagination',
-        },
+
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
    });
-  </script>
+
 
 </script>
