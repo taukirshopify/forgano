@@ -21,7 +21,7 @@
         "image2": "shopify:\/\/shop_images\/Untitled_design_91.png",
         "text": "now flourishing",
         "useImge": true,
-        "img": "shopify:\/\/shop_images\/heading-2.png",
+        "img": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-08T080516.522.png",
         "heading_height": 120,
         "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
         "buttonUrl": "shopify:\/\/collections\/all",
@@ -416,6 +416,13 @@
             "bg_img": "shopify:\/\/shop_images\/IMG_3734-min.jpg"
           }
         },
+        "b5e5be92-0535-41ef-8d52-790b5b0854c3": {
+          "type": "Instagram",
+          "settings": {
+            "c_t_review": "OUR <br> INSTAGRAM",
+            "c_t_review_name": "@forgano.official"
+          }
+        },
         "b7dcbd0c-755c-4d31-9abb-b0f611cabadd": {
           "type": "Image",
           "settings": {
@@ -439,22 +446,15 @@
           "settings": {
             "bg_img": "shopify:\/\/shop_images\/IMG-5068.jpg"
           }
-        },
-        "b5e5be92-0535-41ef-8d52-790b5b0854c3": {
-          "type": "Instagram",
-          "settings": {
-            "c_t_review": "OUR <br> INSTAGRAM",
-            "c_t_review_name": "@forgano.official"
-          }
         }
       },
       "block_order": [
         "6bbb59b9-5d91-417b-aecb-ce8944cd36a9",
+        "b5e5be92-0535-41ef-8d52-790b5b0854c3",
         "b7dcbd0c-755c-4d31-9abb-b0f611cabadd",
         "df158292-8cd8-4c71-b8fb-14a8b317e3f6",
         "fdfa548e-4d92-4b26-8abf-7146ace04368",
-        "c68bc2b2-41d5-47fd-aaee-bf9374562aa3",
-        "b5e5be92-0535-41ef-8d52-790b5b0854c3"
+        "c68bc2b2-41d5-47fd-aaee-bf9374562aa3"
       ],
       "settings": {
       }
