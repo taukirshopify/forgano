@@ -259,6 +259,9 @@
     const productswiper = new Swiper('.swiper-container-product', {
         {% comment %} zoom: false,
         toggle:true, {% endcomment %}
+        zoom: {
+          toggle: true, // Enable zoom toggle with double tap
+        },
         allowTouchMove:false;
 
         navigation: {
