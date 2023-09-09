@@ -15,7 +15,9 @@
 .swiper-slide {
   overflow: hidden;
 }
-
+.swiper-horizontal {
+  touch-action: auto !important;
+}
 
 .desktop-hide {
   position: relative;
@@ -255,7 +257,7 @@
    });
 
 
-{% comment %} var swiperContainer = document.querySelector('.swiper-container-product');
+var swiperContainer = document.querySelector('.swiper-container-product');
    var isPinchZooming = false;
 
    swiperContainer.addEventListener('touchstart', function (e) {
@@ -276,7 +278,7 @@
     if (isPinchZooming) {
       mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
     }
-  }); {% endcomment %}
+  });
 
 
   });
