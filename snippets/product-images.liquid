@@ -255,7 +255,7 @@
    });
 
 
-var swiperContainer = document.querySelector('.swiper-container-product');
+{% comment %} var swiperContainer = document.querySelector('.swiper-container-product');
    var isPinchZooming = false;
 
    swiperContainer.addEventListener('touchstart', function (e) {
@@ -276,7 +276,7 @@ var swiperContainer = document.querySelector('.swiper-container-product');
     if (isPinchZooming) {
       mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
     }
-  });
+  }); {% endcomment %}
 
 
   });
