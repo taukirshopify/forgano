@@ -194,7 +194,7 @@
         {% for image in product.images %}
           <div class="swiper-slide">
             <div class="swiper-zoom-container">
-              <img src="{{ image | img_url:'' }}" alt="{{ image.alt }}">
+              <img src="{{ image | img_url:'master' }}" alt="{{ image.alt }}">
              </div>
           </div>
 
@@ -245,8 +245,8 @@
 <script>
 
     const productswiper = new Swiper('.swiper-container-product', {
-        zoom: false,
-        toggle:true,
+        {% comment %} zoom: false,
+        toggle:true, {% endcomment %}
 
         navigation: {
           nextEl: '.swiper-button-next',
