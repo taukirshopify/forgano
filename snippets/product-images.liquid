@@ -250,39 +250,33 @@
     let mySwiper  = new Swiper('.swiper-container-product', {
         {% comment %} zoom: false,
         toggle:true, {% endcomment %}
-        allowTouchMove: true,
+        allowTouchMove: false,
 
    });
 
-   window.onresize = resize;
-   function resize() {
-    mySwiper.allowTouchMove = false;
-   }
 
-   {% comment %} var swiperContainer = document.querySelector('.swiper-container-product');
+var swiperContainer = document.querySelector('.swiper-container-product');
    var isPinchZooming = false;
 
    swiperContainer.addEventListener('touchstart', function (e) {
-     if (e.touches.length  > 1 ) {
-      console.log("this is working");
-       isPinchZooming = true;
-       mySwiper.allowTouchMove = false; // Allow touch move for pinch-to-zoom
-     }
-   });
-   
-   
-   swiperContainer.addEventListener('touchend', function (e) {
-     if (e.touches.length < 2) {
-       isPinchZooming = false;
-       mySwiper.allowTouchMove = true; // Re-enable Swiper touch move after pinch-zoom ends
-     }
-   });
-   
-   swiperContainer.addEventListener('touchmove', function (e) {
-     if (isPinchZooming) {
-       mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
-     }
-   }); {% endcomment %}
+    if (e.touches.length === 2) {
+      isPinchZooming = true;
+      mySwiper.allowTouchMove = false; // Allow touch move for pinch-to-zoom
+    }
+  });
+  
+  swiperContainer.addEventListener('touchend', function (e) {
+    if (e.touches.length < 2) {
+      isPinchZooming = false;
+      mySwiper.allowTouchMove = true; // Re-enable Swiper touch move after pinch-zoom ends
+    }
+  });
+  
+  swiperContainer.addEventListener('touchmove', function (e) {
+    if (isPinchZooming) {
+      mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
+    }
+  });
 
 
   });
