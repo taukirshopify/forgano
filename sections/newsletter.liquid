@@ -250,4 +250,47 @@ input[type="email"]::-ms-input-placeholder {
   text-align: center;
   letter-spacing: 2px !important;
 }
+
+
+@media only screen and (max-width: 700px) and (min-width: 100px)  {
+
+  .newsletter-section
+  input[type="email"]::placeholder {
+               
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+    letter-spacing: 1px !important;
+  }
+  .newsletter-section
+  input[type="text"]::placeholder {
+     
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+    letter-spacing: 1px !important;
+  }
+  .newsletter-section
+  input[type="tel"]::placeholder {
+     
+    /* Firefox, Chrome, Opera */
+    text-align: left;
+    letter-spacing: 1px !important;
+  }
+  .newsletter-section
+  input[type="email"]:-ms-input-placeholder {
+     
+    /* Internet Explorer 10-11 */
+    text-align: left;
+    letter-spacing: 1px !important;
+  }
+  .newsletter-section
+  input[type="email"]::-ms-input-placeholder {
+     
+    /* Microsoft Edge */
+    text-align: left;
+    letter-spacing: 1px !important;
+  }
+  
+
+}
+
 </style>
