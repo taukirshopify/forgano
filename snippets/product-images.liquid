@@ -250,11 +250,16 @@
     let mySwiper  = new Swiper('.swiper-container-product', {
         {% comment %} zoom: false,
         toggle:true, {% endcomment %}
-        allowTouchMove: false,
+        allowTouchMove: true,
 
    });
 
-   var swiperContainer = document.querySelector('.swiper-container-product');
+   window.onresize = resize;
+   function resize() {
+    mySwiper.allowTouchMove = false;
+   }
+
+   {% comment %} var swiperContainer = document.querySelector('.swiper-container-product');
    var isPinchZooming = false;
 
    swiperContainer.addEventListener('touchstart', function (e) {
@@ -264,6 +269,7 @@
        mySwiper.allowTouchMove = false; // Allow touch move for pinch-to-zoom
      }
    });
+   
    
    swiperContainer.addEventListener('touchend', function (e) {
      if (e.touches.length < 2) {
@@ -276,7 +282,7 @@
      if (isPinchZooming) {
        mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
      }
-   });
+   }); {% endcomment %}
 
 
   });
