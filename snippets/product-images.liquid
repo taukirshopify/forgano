@@ -246,17 +246,14 @@
 
 
 <script>
-
-    let swiperContainer = new Swiper('.swiper-container-product', {
+  $( document ).ready(function() {
+    let mySwiper  = new Swiper('.swiper-container-product', {
         {% comment %} zoom: false,
         toggle:true, {% endcomment %}
         allowTouchMove: true,
 
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        },
    });
+
    var swiperContainer = document.querySelector('.swiper-container-product');
    var isPinchZooming = false;
 
@@ -279,4 +276,7 @@
        mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
      }
    });
+
+
+  });
 </script>
