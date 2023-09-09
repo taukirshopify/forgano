@@ -247,42 +247,36 @@
 
 <script>
 
-    const productswiper = new Swiper('.swiper-container-product', {
+    let swiperContainer = new Swiper('.swiper-container-product', {
         {% comment %} zoom: false,
         toggle:true, {% endcomment %}
-
-   
-
-
-
-        allowTouchMove: function(event) {
-          // Check if it's a two-finger touch event (pinch to zoom)
-          if (event.touches.length === 2) {
-            return false; // Allow default browser zoom behavior
-          }
-      
-          // For single-finger touch events, handle slide navigation
-          // You can add your logic here to control when to allow slide navigation
-          // For example, you might want to allow slide navigation when the user swipes horizontally.
-          // You can use event.touches[0].clientX and event.touches[0].clientY to get the touch position.
-          // Return true to allow slide navigation, or false to prevent it.
-          
-          // Example: Allow slide navigation for horizontal swipes only
-          var deltaX = event.touches[0].clientX - event.touches[0].clientX;
-          if (Math.abs(deltaX) > 10) {
-            return true; // Allow slide navigation for horizontal swipes
-          }
-      
-          // Default to preventing touch move for other cases
-          return false;
-        },
-
+        allowTouchMove: true,
 
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         },
    });
+   var swiperContainer = document.querySelector('.swiper-container-product');
+   var isPinchZooming = false;
 
-
+   swiperContainer.addEventListener('touchstart', function (e) {
+     if (e.touches.length === 2) {
+       isPinchZooming = true;
+       mySwiper.allowTouchMove = true; // Allow touch move for pinch-to-zoom
+     }
+   });
+   
+   swiperContainer.addEventListener('touchend', function (e) {
+     if (e.touches.length < 2) {
+       isPinchZooming = false;
+       mySwiper.allowTouchMove = true; // Re-enable Swiper touch move after pinch-zoom ends
+     }
+   });
+   
+   swiperContainer.addEventListener('touchmove', function (e) {
+     if (isPinchZooming) {
+       mySwiper.allowTouchMove = false; // Disable Swiper touch move during pinch-zoom
+     }
+   });
 </script>
