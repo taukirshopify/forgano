@@ -258,9 +258,10 @@
    var isPinchZooming = false;
 
    swiperContainer.addEventListener('touchstart', function (e) {
-     if (e.touches.length === 2) {
+     if (e.touches.length  > 1 ) {
+      console.log("this is working");
        isPinchZooming = true;
-       mySwiper.allowTouchMove = true; // Allow touch move for pinch-to-zoom
+       mySwiper.allowTouchMove = false; // Allow touch move for pinch-to-zoom
      }
    });
    
