@@ -258,7 +258,7 @@
         allowTouchMove: function(event) {
           // Check if it's a two-finger touch event (pinch to zoom)
           if (event.touches.length === 2) {
-            return true; // Allow default browser zoom behavior
+            return false; // Allow default browser zoom behavior
           }
       
           // For single-finger touch events, handle slide navigation
