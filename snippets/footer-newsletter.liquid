@@ -25,9 +25,9 @@
     {% endif %}>
     <div class="collapsible-content__inner">
       <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
-        {%- if block.settings.text -%}
+        {% comment %} {%- if block.settings.text -%}
           {{ block.settings.text }}
-        {%- endif -%}
+        {%- endif -%} {% endcomment %}
 
         {% comment %} {%- form 'customer', id: 'newsletter-footer' -%}
           {%- if form.posted_successfully? -%}
