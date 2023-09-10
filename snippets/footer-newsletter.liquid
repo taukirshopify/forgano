@@ -15,7 +15,7 @@
   {%- if block.settings.show_footer_title -%}
     <p class="h4 footer__title small--hide">{{ block.settings.title }}</p>
     <button type="button" class="h4 footer__title collapsible-trigger collapsible-trigger-btn medium-up--hide" aria-controls="Footer-{{ block.id }}">
-      {{ block.settings.title }}
+      {% comment %} {{ block.settings.title }} {% endcomment %}
       {%- render 'collapsible-icons' -%}
     </button>
   {%- endif -%}
