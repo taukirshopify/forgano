@@ -5,10 +5,9 @@
    <div class="row">
       <div class="col-6  align-center-mobile">
              <div class="left-wrapper">
-                <h4>Sign Up for Email and Get 15% off Your First Purchase</h4>
+                <h4>{{ section.settings.title }}</h4>
                 <p> 
-                Sign up to receive Urban Outfitters emails and get first dibs on new arrivals,  <br>
-                sales, exclusive content, events and more!
+                {{  section.settings.p  }}
                </p>
              </div>
       </div>
@@ -97,3 +96,37 @@
 }
 
 </style>
+
+
+
+{% schema %}
+  {
+    "name": "Instagram feed",
+    "settings": [
+
+      {
+         "type": "text",
+         "id": "title",
+         "label": "Tilte",
+         "default": "Sign Up for Email and Get 15% off Your First Purchase",
+  
+         "placeholder": "Sign Up for Email and Get 15% off Your First Purchase"
+      },
+      {
+         "type": "text",
+         "id": "p",
+         "label": "Details",
+         "default": "Sign up to receive Urban Outfitters emails",
+   
+         "placeholder": "Sign up to receive Urban Outfitters emails"
+      }
+    ],
+
+    
+    "presets": [
+      {
+        "name": "NewLetter"
+      }
+    ]
+  }
+{% endschema %}
