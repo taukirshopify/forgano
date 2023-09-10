@@ -302,6 +302,47 @@
           "title": "Sign Up for Email and Get 15% off Your First Purchase",
           "p": "Sign up to receive Urban Outfitters emails"
         }
+      },
+      "custome-instagram": {
+        "type": "custome-instagram",
+        "blocks": {
+          "01719b4d-c067-4c83-b9ab-bcb116d1936b": {
+            "type": "Image",
+            "settings": {
+            }
+          },
+          "1d66e12a-14aa-4d9b-99fb-55763d087be2": {
+            "type": "Instagram",
+            "settings": {
+              "c_t_review": "",
+              "c_t_review_name": ""
+            }
+          },
+          "c5a17ace-8ab9-4924-8f3f-9a9e7abe6b25": {
+            "type": "Image",
+            "settings": {
+            }
+          },
+          "acf367e6-7745-4328-89c0-c49ca16e64ff": {
+            "type": "Image",
+            "settings": {
+            }
+          },
+          "291a7575-d5b3-4e4d-a029-cd2ae75f7523": {
+            "type": "Image",
+            "settings": {
+            }
+          }
+        },
+        "block_order": [
+          "01719b4d-c067-4c83-b9ab-bcb116d1936b",
+          "1d66e12a-14aa-4d9b-99fb-55763d087be2",
+          "c5a17ace-8ab9-4924-8f3f-9a9e7abe6b25",
+          "acf367e6-7745-4328-89c0-c49ca16e64ff",
+          "291a7575-d5b3-4e4d-a029-cd2ae75f7523"
+        ],
+        "settings": {
+        }
       }
     },
     "content_for_index": [
