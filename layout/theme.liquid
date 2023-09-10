@@ -137,7 +137,7 @@
 
 
       {%- section 'footer-promotions' -%}
-       {% if  template != 'about-us' and   template != 'contact' and   template != 'customers' and  template != 'cart' %}
+       {% if  trequest.page_type != 'page' %}
         {{ request.page_type | handle }}
         {%- section 'custome-instagram' -%}
        {% endif %}
