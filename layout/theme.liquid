@@ -138,6 +138,7 @@
 
       {%- section 'footer-promotions' -%}
        {% if  template != 'about-us' and   template != 'contact' and   template != 'customers' and  template != 'cart' %}
+        {{ request.page_type | handle }}
         {%- section 'custome-instagram' -%}
        {% endif %}
  
