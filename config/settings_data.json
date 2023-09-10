@@ -309,12 +309,13 @@
           "01719b4d-c067-4c83-b9ab-bcb116d1936b": {
             "type": "Image",
             "settings": {
+              "bg_img": "shopify:\/\/shop_images\/IMG_3734.jpg"
             }
           },
           "1d66e12a-14aa-4d9b-99fb-55763d087be2": {
             "type": "Instagram",
             "settings": {
-              "c_t_review": "",
+              "c_t_review": "OUR <br> INSTAGRAM",
               "c_t_review_name": ""
             }
           },
