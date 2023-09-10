@@ -137,8 +137,8 @@
 
 
       {%- section 'footer-promotions' -%}
-       {% if  trequest.page_type != 'page' %}
-        {{ request.page_type | handle }}
+       {% if  trequest.page_type == 'page' %}
+   {% else %}
         {%- section 'custome-instagram' -%}
        {% endif %}
  
