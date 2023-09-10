@@ -131,7 +131,7 @@
     {%- section 'header' -%}
     {%- section 'newsletter-popup' -%}
 
-      <main class="main-content" id="MainContent">
+      <main class="main-content  {{ template | replace: '.', '_' | handelize }}" id="MainContent">
         <!--LayoutHub-Workspace-Start-->{% comment %}{{ content_for_layout }}{% endcomment %}{% include 'wlm-body' %}<!--LayoutHub-Workspace-End-->
       </main>
 
