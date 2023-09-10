@@ -334,6 +334,7 @@
           "291a7575-d5b3-4e4d-a029-cd2ae75f7523": {
             "type": "Image",
             "settings": {
+              "bg_img": "shopify:\/\/shop_images\/IMG-5067.jpg"
             }
           }
         },
