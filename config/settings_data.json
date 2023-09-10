@@ -295,6 +295,13 @@
           "background_annoucement": "#f7239c",
           "content1": "FORGANO IS BACK"
         }
+      },
+      "customenewletter": {
+        "type": "customenewletter",
+        "settings": {
+          "title": "Sign Up for Email and Get 15% off Your First Purchase",
+          "p": "Sign up to receive Urban Outfitters emails"
+        }
       }
     },
     "content_for_index": [
