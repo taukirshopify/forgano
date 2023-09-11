@@ -133,7 +133,7 @@
               "logo": "shopify:\/\/shop_images\/Forgano_Logo__White_Background_2_-removebg-preview.png",
               "desktop_logo_height": 37,
               "show_footer_title": true,
-              "title": "Join us:",
+              "title": "Contact us",
               "text": "<p><strong>Email<\/strong>: info@forgano.com <\/p>",
               "container_width": 65
             }
@@ -164,6 +164,7 @@
           },
           "832be2b1-4ad3-4f9b-9373-f7d8fc5c13ba": {
             "type": "social",
+            "disabled": true,
             "settings": {
               "follow_us_title": "Follow us:",
               "container_width": 25
