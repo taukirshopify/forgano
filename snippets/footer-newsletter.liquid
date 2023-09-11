@@ -12,7 +12,7 @@
     </a>
   </div>
 {%- endif -%}
-<div class="footer__item-padding">
+{% comment %} <div class="footer__item-padding">
   {%- if block.settings.show_footer_title -%}
     <p class="h4 footer__title small--hide">{{ block.settings.title }}</p>
     <button type="button" class="h4 footer__title collapsible-trigger collapsible-trigger-btn medium-up--hide" aria-controls="Footer-{{ block.id }}">
@@ -42,7 +42,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> {% endcomment %}
 
 
 
