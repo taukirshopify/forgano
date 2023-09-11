@@ -25,9 +25,9 @@
     {% endif %}>
     <div class="collapsible-content__inner">
       <div class="footer__collapsible{% unless block.settings.show_footer_title %} footer_collapsible--disabled{% endunless %}">
-        {% comment %} {%- if block.settings.text -%}
+ {%- if block.settings.text -%}
           {{ block.settings.text }}
-        {%- endif -%} {% endcomment %}
+        {%- endif -%} 
         <div class="footer-new-letter">
           <div class="klaviyo-form-UkGSN8"></div>
         </div>
@@ -52,7 +52,8 @@
     display: block;
     border-radius: 64px !important;
 }
-.footer-new-letter input {
+.footer-new-letter
+ input {
   border-radius: 30px !important;
 }
 
