@@ -17,46 +17,47 @@
 <div class=" swiper swiper-container-benner">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
-          <div class="swiper-slide">
+     
              {% for c in section.blocks %}
-              <div id="custom-banner--{{ c.id }}" class="site-container">
-                {% if c.settings.useImge  %}  
-                  <div class="site-banner-heading bannerImg">
-                    <img src="{{ c.settings.img | img_url:'' }}">
-                  </div>
-                {% else %}
-                  {% if c.settings.text  %}
-                    <div class="site-banner-heading">
-                      <h2>{{ c.settings.text }}</h2>
+              <div class="swiper-slide">
+                <div id="custom-banner--{{ c.id }}" class="site-container">
+                  {% if c.settings.useImge  %}  
+                    <div class="site-banner-heading bannerImg">
+                      <img src="{{ c.settings.img | img_url:'' }}">
                     </div>
+                  {% else %}
+                    {% if c.settings.text  %}
+                      <div class="site-banner-heading">
+                        <h2>{{ c.settings.text }}</h2>
+                      </div>
+                    {% endif %}
                   {% endif %}
-                {% endif %}
-                <div class="site-banner-text {% if c.settings.hideDesk %}hideDesk{% endif %}">
-                    <div>
-                      {% if c.settings.richtext  %} 
-                        <div>{{ c.settings.richtext }} </div>
-                      {% endif %}
-                    
-                      {% if c.settings.buttonText  != blank  %}
-                        <div>
-                          <a class="site-primary-btn btn-layout" style=" display: block; " href="{{ c.settings.buttonUrl}}">{{ c.settings.buttonText }}</a>
+                  <div class="site-banner-text {% if c.settings.hideDesk %}hideDesk{% endif %}">
+                      <div>
+                        {% if c.settings.richtext  %} 
+                          <div>{{ c.settings.richtext }} </div>
+                        {% endif %}
+                      
+                        {% if c.settings.buttonText  != blank  %}
+                          <div>
+                            <a class="site-primary-btn btn-layout" style=" display: block; " href="{{ c.settings.buttonUrl}}">{{ c.settings.buttonText }}</a>
+                          </div>
+                        {% endif %}
+                      </div>
+                      {%- if c.settings.image != blank -%} 
+                        <div class="site-banner-div mobile-hide">
+                          <img src="{{ c.settings.image | img_url:"master" }}"/>
                         </div>
-                      {% endif %}
-                    </div>
-                    {%- if c.settings.image != blank -%} 
-                      <div class="site-banner-div mobile-hide">
-                        <img src="{{ c.settings.image | img_url:"master" }}"/>
-                      </div>
-                      <div class="site-banner-div mobile-show">
-                        <img src="{{ c.settings.image2 | img_url:"master" }}"/>
-                      </div>
-                    {%- endif -%}
+                        <div class="site-banner-div mobile-show">
+                          <img src="{{ c.settings.image2 | img_url:"master" }}"/>
+                        </div>
+                      {%- endif -%}
+                  </div>
                 </div>
               </div>
-  
              {% endfor %}
 
-         </div>
+     
       </div>
      <!-- pagination dots -->
       <div class="swiper-pagination"></div>
