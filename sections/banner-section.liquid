@@ -13,105 +13,169 @@
   }
 </style>
 
-<div id="custom-banner--{{ section.id }}" class="site-container">
-   {% if section.settings.useImge  %}  
-    <div class="site-banner-heading bannerImg">
-      <img src="{{ section.settings.img | img_url:'' }}">
-    </div>
-  {% else %}
-    {% if section.settings.text  %}
-      <div class="site-banner-heading">
-        <h2>{{ section.settings.text }}</h2>
+    <!-- Slider main container -->
+<div class="swiper-container-benner">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+          <div class="swiper-slide">
+             {% for c in section.blocks %}
+              <div id="custom-banner--{{ c.id }}" class="site-container">
+                {% if c.settings.useImge  %}  
+                  <div class="site-banner-heading bannerImg">
+                    <img src="{{ c.settings.img | img_url:'' }}">
+                  </div>
+                {% else %}
+                  {% if c.settings.text  %}
+                    <div class="site-banner-heading">
+                      <h2>{{ c.settings.text }}</h2>
+                    </div>
+                  {% endif %}
+                {% endif %}
+                <div class="site-banner-text {% if c.settings.hideDesk %}hideDesk{% endif %}">
+                    <div>
+                      {% if c.settings.richtext  %} 
+                        <div>{{ c.settings.richtext }} </div>
+                      {% endif %}
+                    
+                      {% if c.settings.buttonText  != blank  %}
+                        <div>
+                          <a class="site-primary-btn btn-layout" style=" display: block; " href="{{ c.settings.buttonUrl}}">{{ c.settings.buttonText }}</a>
+                        </div>
+                      {% endif %}
+                    </div>
+                    {%- if c.settings.image != blank -%} 
+                      <div class="site-banner-div mobile-hide">
+                        <img src="{{ c.settings.image | img_url:"master" }}"/>
+                      </div>
+                      <div class="site-banner-div mobile-show">
+                        <img src="{{ c.settings.image2 | img_url:"master" }}"/>
+                      </div>
+                    {%- endif -%}
+                </div>
+              </div>
+  
+             {% endfor %}
+
+         </div>
       </div>
-    {% endif %}
-  {% endif %}
-  <div class="site-banner-text {% if section.settings.hideDesk %}hideDesk{% endif %}">
-      <div>
-        {% if section.settings.richtext  %} 
-          <div>{{ section.settings.richtext }} </div>
-        {% endif %}
-      
-        {% if section.settings.buttonText  != blank  %}
-          <div>
-            <a class="site-primary-btn btn-layout" style=" display: block; " href="{{ section.settings.buttonUrl}}">{{ section.settings.buttonText }}</a>
-          </div>
-        {% endif %}
-      </div>
-      {%- if section.settings.image != blank -%} 
-        <div class="site-banner-div mobile-hide">
-          <img src="{{ section.settings.image | img_url:"master" }}"/>
-        </div>
-        <div class="site-banner-div mobile-show">
-          <img src="{{ section.settings.image2 | img_url:"master" }}"/>
-        </div>
-      {%- endif -%}
-  </div>
+     <!-- pagination dots -->
+      <div class="swiper-pagination"></div>
+    <!-- !pagination dots -->
+
 </div>
+
+
 {% schema %}
   {
   "name": "Site Banner",
-    "settings": [
+
+
+    "blocks": [
       {
-        "type": "checkbox",
-        "id": "hideDesk",
-        "label": "Hide on desk",
-        "default": false
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "t:sections.text-and-image.settings.image.label"
-      },
-      {
-        "type": "image_picker",
-        "id": "image2",
-        "label": "Mobile Image"
-      },
-      {
-        "type": "text",
-        "id": "text",
-        "label": "Heading"
-      },
-      {
-        "type": "checkbox",
-        "id": "useImge",
-        "label": "Use Image"
-      },
-      {
-        "type": "image_picker",
-        "id": "img",
-        "label": "Heading Image"
-      },
-      {
-        "type": "range",
-        "id": "heading_height",
-        "min": 80,
-        "max": 250,
-        "step": 2,
-        "label": "Banner Image Height",
-        "default": 120
-      },
-      {
-        "type": "richtext",
-        "id": "richtext",
-        "label": "Text"
-      },
-      {
-        "type": "url",
-        "id": "buttonUrl",
-        "label": "Button Url"
-      },
-      {
-        "type": "text",
-        "id": "buttonText",
-        "label": "Button label"
+        "type": "Slide",
+        "name": "slide",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "hideDesk",
+            "label": "Hide on desk",
+            "default": false
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.text-and-image.settings.image.label"
+          },
+          {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "Mobile Image"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Heading"
+          },
+          {
+            "type": "checkbox",
+            "id": "useImge",
+            "label": "Use Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Heading Image"
+          },
+          {
+            "type": "range",
+            "id": "heading_height",
+            "min": 80,
+            "max": 250,
+            "step": 2,
+            "label": "Banner Image Height",
+            "default": 120
+          },
+          {
+            "type": "richtext",
+            "id": "richtext",
+            "label": "Text"
+          },
+          {
+            "type": "url",
+            "id": "buttonUrl",
+            "label": "Button Url"
+          },
+          {
+            "type": "text",
+            "id": "buttonText",
+            "label": "Button label"
+          }
+        ]
       }
     ],
+    
     "presets": [
       {
-        "name": "Site Banner",
-        "category": "image"
+        "name": "Site Banner"
       }
     ]
   }
 {% endschema %}
+
+
+<script>
+  $(document).ready(function() {
+    // Swiper: Slider
+    const Swipesslide  =   new Swiper('.swiper-container-benner', {
+            loop: true,
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 0,
+          pagination: {
+            el: '.swiper-pagination',
+        }
+        });
+    });
+    
+
+</script>
+
+
+<style>
+  .swiper-container {
+    width: 100%;
+}
+
+{% comment %} .swiper-slide {
+    background-size: cover;
+    background-position: 50%;
+
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} {% endcomment %}
+
+
+</style>
