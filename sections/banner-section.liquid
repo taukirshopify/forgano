@@ -146,17 +146,25 @@
 <script>
   $(document).ready(function() {
     // Swiper: Slider
-    const Swipesslide  =   new Swiper('.swiper-container-benner', {
-            loop: true,
-            slidesPerView: 1,
-            paginationClickable: true,
-            spaceBetween: 0,
+
+
+
+        var Swipesnew = new Swiper('.swiper-container-benner', {
+          loop: true,
+          navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+          },
           pagination: {
-            el: '.swiper-pagination',
-        }
-        });
+              el: '.swiper-pagination',
+          },
+      });
+
     });
     
+
+
+
 
 </script>
 
