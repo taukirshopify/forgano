@@ -12,20 +12,46 @@
     },
     "bd8d02c5-72d4-4c7b-a0b5-15fcd742af34": {
       "type": "banner-section",
+      "blocks": {
+        "01fb5464-ef8b-4a06-afdb-f23da519514a": {
+          "type": "Slide",
+          "settings": {
+            "hideDesk": false,
+            "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
+            "image2": "shopify:\/\/shop_images\/Untitled_design_80.png",
+            "text": "now flourishing",
+            "useImge": true,
+            "img": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-08T080516.522.png",
+            "heading_height": 120,
+            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+            "buttonUrl": "shopify:\/\/collections\/all",
+            "buttonText": "shop now"
+          }
+        },
+        "b43fb504-aa88-4254-84ef-037e5590a78c": {
+          "type": "Slide",
+          "settings": {
+            "hideDesk": false,
+            "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
+            "image2": "shopify:\/\/shop_images\/Untitled_design_80.png",
+            "text": "now flourishing",
+            "useImge": false,
+            "img": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-08T080516.522.png",
+            "heading_height": 120,
+            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+            "buttonUrl": "shopify:\/\/collections\/all",
+            "buttonText": "shop now"
+          }
+        }
+      },
+      "block_order": [
+        "01fb5464-ef8b-4a06-afdb-f23da519514a",
+        "b43fb504-aa88-4254-84ef-037e5590a78c"
+      ],
       "custom_css": [
 
       ],
       "settings": {
-        "hideDesk": false,
-        "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
-        "image2": "shopify:\/\/shop_images\/Untitled_design_80.png",
-        "text": "now flourishing",
-        "useImge": true,
-        "img": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-08T080516.522.png",
-        "heading_height": 120,
-        "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
-        "buttonUrl": "shopify:\/\/collections\/all",
-        "buttonText": "shop now"
       }
     },
     "1c054611-3cf4-4c23-893f-70d70a855845": {
