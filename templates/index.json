@@ -30,6 +30,7 @@
         },
         "b43fb504-aa88-4254-84ef-037e5590a78c": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "hideDesk": false,
             "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
