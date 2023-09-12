@@ -1,0 +1,117 @@
+<style>
+  #custom-banner--{{ section.id }} .site-banner-text img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #custom-banner--{{ section.id }} .site-banner-heading.bannerImg img {
+    width: auto;
+    max-height: {{ section.settings.heading_height }}px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+  }
+</style>
+
+<div id="custom-banner--{{ section.id }}" class="site-container">
+   {% if section.settings.useImge  %}  
+    <div class="site-banner-heading bannerImg">
+      <img src="{{ section.settings.img | img_url:'' }}">
+    </div>
+  {% else %}
+    {% if section.settings.text  %}
+      <div class="site-banner-heading">
+        <h2>{{ section.settings.text }}</h2>
+      </div>
+    {% endif %}
+  {% endif %}
+  <div class="site-banner-text {% if section.settings.hideDesk %}hideDesk{% endif %}">
+      <div>
+        {% if section.settings.richtext  %} 
+          <div>{{ section.settings.richtext }} </div>
+        {% endif %}
+      
+        {% if section.settings.buttonText  != blank  %}
+          <div>
+            <a class="site-primary-btn btn-layout" style=" display: block; " href="{{ section.settings.buttonUrl}}">{{ section.settings.buttonText }}</a>
+          </div>
+        {% endif %}
+      </div>
+      {%- if section.settings.image != blank -%} 
+        <div class="site-banner-div mobile-hide">
+          <img src="{{ section.settings.image | img_url:"master" }}"/>
+        </div>
+        <div class="site-banner-div mobile-show">
+          <img src="{{ section.settings.image2 | img_url:"master" }}"/>
+        </div>
+      {%- endif -%}
+  </div>
+</div>
+{% schema %}
+  {
+  "name": "Site Banner",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "hideDesk",
+        "label": "Hide on desk",
+        "default": false
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.text-and-image.settings.image.label"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "Mobile Image"
+      },
+      {
+        "type": "text",
+        "id": "text",
+        "label": "Heading"
+      },
+      {
+        "type": "checkbox",
+        "id": "useImge",
+        "label": "Use Image"
+      },
+      {
+        "type": "image_picker",
+        "id": "img",
+        "label": "Heading Image"
+      },
+      {
+        "type": "range",
+        "id": "heading_height",
+        "min": 80,
+        "max": 250,
+        "step": 2,
+        "label": "Banner Image Height",
+        "default": 120
+      },
+      {
+        "type": "richtext",
+        "id": "richtext",
+        "label": "Text"
+      },
+      {
+        "type": "url",
+        "id": "buttonUrl",
+        "label": "Button Url"
+      },
+      {
+        "type": "text",
+        "id": "buttonText",
+        "label": "Button label"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Site Banner",
+        "category": "image"
+      }
+    ]
+  }
+{% endschema %}

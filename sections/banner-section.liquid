@@ -14,7 +14,7 @@
 </style>
 
     <!-- Slider main container -->
-<div class=" swiper swiper-container-benner">
+<div class=" swiper swiper-container-benner--{{ section.id }}">
       <!-- Additional required wrapper -->
       <div class="swiper-wrapper">
      
@@ -148,7 +148,7 @@
 
 
 
-        var Swipesnew = new Swiper('.swiper-container-benner', {
+        var Swipesnew = new Swiper('.swiper-container-benner--{{ section.id }}', {
           loop: true,
           speed: 1000,
         parallax: true,
