@@ -30,6 +30,7 @@
         },
         "b43fb504-aa88-4254-84ef-037e5590a78c": {
           "type": "Slide",
+          "disabled": true,
           "settings": {
             "hideDesk": false,
             "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
@@ -127,6 +128,7 @@
         "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-text-1",
         "template--15965928915121__2eb73f70-6cbd-437c-b827-381d1082076a-form-1"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
