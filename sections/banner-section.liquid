@@ -150,6 +150,12 @@
 
         var Swipesnew = new Swiper('.swiper-container-benner', {
           loop: true,
+          speed: 1000,
+        parallax: true,
+        autoplay: {
+          delay: 6500,
+          disableOnInteraction: true,
+      },
           autoHeight: true, //enable auto height
           pagination: {
               el: '.swiper-pagination',
@@ -170,6 +176,11 @@
     width: 100%;
 }
 
+
+.swiper-container-benner .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+}
 {% comment %} .swiper-slide {
     background-size: cover;
     background-position: 50%;
