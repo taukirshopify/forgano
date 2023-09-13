@@ -32,7 +32,7 @@
                   <div class="site-banner-text {% if c.settings.hideDesk %}hideDesk{% endif %}">
                       <div>
                         <h2>{{ c.settings.text }}</h2>
-                        
+
                         {% if c.settings.richtext  %} 
                           <div>{{ c.settings.richtext }} </div>
                         {% endif %}
@@ -74,6 +74,25 @@
   .swiper-container-benner--{{ section.id }}  .btn-layout {
 
     display: inline-block !important;
+
+}
+
+.swiper-container-benner--{{ section.id }}  .site-banner-text>div {
+
+
+  bottom: 10%;
+
+}
+.swiper-container-benner--{{ section.id }}  .site-banner-text h2 {
+
+ font-size:58px;
+ color:#fff;
+
+}
+.swiper-container-benner--{{ section.id }}  .site-banner-text p {
+
+
+ color:#fff;
 
 }
 </style>
