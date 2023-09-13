@@ -296,9 +296,9 @@
           "content1": "ONE WEEK OF FREE SHIPPING IS LIVE. UPDATE: NO CODE REQUIRED AT CHECKOUT. OFFER ENDS 9\/17 AT MIDNIGHT (PST)",
           "font-import": "<style>\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Roboto:wght@400&display=swap');\n<\/style>",
           "header_padding": 0,
-          "font-size-update": 65,
-          "color_scheme": "400",
-          "font-family": "'Roboto', sans-serif;"
+          "fontsizeupdate": 13,
+          "colorscheme": "400",
+          "fontfamily": "'Roboto', sans-serif;"
         }
       },
       "customenewletter": {
