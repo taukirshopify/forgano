@@ -9,10 +9,10 @@
 {% endif %}
 
 <style>
-.ticker__item{
- font-family: {{ section.settings.font-family }} ;
- font-size: {{ section.settings.font-size-update }};
- font-weight:{{ section.settings.color_scheme }}
+  .ticker-wrap .ticker__item {
+ font-family: {{ section.settings.fontfamily }};
+ font-size: {{ section.settings.fontsizeupdate }}px;
+ font-weight:{{ section.settings.colorscheme }}
 }
 
 </style>
@@ -61,7 +61,7 @@
     },
   {
       "type":   "range",
-      "id":     "font-size-update",
+      "id":     "fontsizeupdate",
       "min":    0,
       "max":    100,
       "step":   1,
@@ -71,7 +71,7 @@
     },
     {
       "type": "select",
-      "id": "color_scheme",
+      "id": "colorscheme",
       "options": [
         {
           "value": "700",
@@ -103,7 +103,7 @@
     },
     {
       "type": "text",
-      "id": "font-family",
+      "id": "fontfamily",
       "label": "Put your font family"
     }
   ]
