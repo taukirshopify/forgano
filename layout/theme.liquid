@@ -137,10 +137,12 @@
 
 
       {%- section 'footer-promotions' -%}
-       {% if  trequest.page_type == 'page' %}
+
+
+       {% comment %} {% if  trequest.page_type == 'page' %}
    {% else %}
         {%- section 'custome-instagram' -%}
-       {% endif %}
+       {% endif %} {% endcomment %}
  
       {%- section 'customenewletter' -%}
 
