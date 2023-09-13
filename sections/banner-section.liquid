@@ -21,7 +21,7 @@
              {% for c in section.blocks %}
               <div class="swiper-slide">
                 <div id="custom-banner--{{ c.id }}" class="site-container">
-                  {% if c.settings.useImge != blank %}  
+                  {% if c.settings.img != blank %}  
                     <div class="site-banner-heading bannerImg">
                       <img src="{{ c.settings.img | img_url:'' }}">
                     </div>
