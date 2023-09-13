@@ -2,11 +2,20 @@
   <div class="ticker-wrap" style="background-color:{{ section.settings.background_annoucement }}">
     <div class="ticker">
       {% for i in (1..50) %}
-      <div class="ticker__item" style="color:{{ section.settings.background_annoucement_text_color }}">{{ section.settings.content1 }}</div>
+      <div class=" ticker__item " style="color:{{ section.settings.background_annoucement_text_color }};">{{ section.settings.content1 }}</div>
        {% endfor %}
     </div>
 </div>
 {% endif %}
+
+<style>
+.ticker__item{
+ font-family: {{ section.settings.font-family }} ;
+ font-size: {{ section.settings.font-size-update }};
+ font-weight:{{ section.settings.color_scheme }}
+}
+
+</style>
 {% schema %}
   {
     "name": "Product Announcement",
@@ -31,6 +40,71 @@
       "id": "content1",
       "label": "Text",
       "default": "Announce something here"
+    },
+    {
+      "type": "html",
+      "id": "font-import",
+      "label": "Import your font Google",
+      "default": "<style></style>"
+    },
+
+  {
+      "type":   "range",
+      "id":     "header_padding",
+      "min":    0,
+      "max":    100,
+      "step":   1,
+      "unit":   "px",
+      "label":  "Header padding",
+      "default":   0,
+  "info":   "Pushes page content down below announcement bar (only needed on some themes)"
+    },
+  {
+      "type":   "range",
+      "id":     "font-size-update",
+      "min":    0,
+      "max":    100,
+      "step":   1,
+      "unit":   "px",
+      "label":  "Font-size",
+      "default":   12
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "700",
+          "label": "bold"
+        },
+        {
+          "value": "400",
+          "label": "Normal"
+        },
+        {
+          "value": "100",
+          "label": "Thin"
+        },
+        {
+          "value": "500",
+          "label": "Medium"
+        },
+        {
+          "value": "900",
+          "label": "Black"
+        },
+        {
+          "value": "Italic",
+          "label": "Italic"
+        }
+      ],
+      "default": "400",
+      "label": "Normal"
+    },
+    {
+      "type": "text",
+      "id": "font-family",
+      "label": "Put your font family"
     }
   ]
   }
