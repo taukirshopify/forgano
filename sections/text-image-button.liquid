@@ -29,7 +29,11 @@
 </div>
 
   <div class="text-image-wrapper-right">
-  {{ section.settings.image3 | img_url:"master" | img_tag }}
+      <div class="desktop">
+       {{ section.settings.image3 | img_url:"master" | img_tag }}
+    </div>
+    <div class="mobile"> {{ section.settings.image-m | img_url:"master" | img_tag }} </div>
+     
 </div>
 </div>
   <div class="text-image-button-wrapper mobile-show">
@@ -39,10 +43,14 @@
 </h3>
   <div class="text-image-wrapper-right">
   <div>{{ section.settings.image3 | img_url:"master" | img_tag }}</div>
-    <div class="text-image-wrapper-2"> <div>
+    <div class="text-image-wrapper-2"> 
+    <div>
     {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-    {{ section.settings.image | img_url:"master" | img_tag }}
-    {% if section.settings.imagelink != blank %}</a>{% endif %}
+
+    <div class="desktop"> {{ section.settings.image | img_url:"master" | img_tag }} </div>
+    <div class="mobile">{{ section.settings.image2-m | img_url:"master" | img_tag }}</div>
+
+    {% if section.settings.imagelink != blank %}</a> {% endif %}
     </div>
 <div> <a href="{{ section.settings.buttonLink}}" class="btn-style-1">
 {{ section.settings.buttonLabel}}
@@ -66,6 +74,11 @@
 "id": "image",
 "label": "Image"
 },
+{
+  "type": "image_picker",
+  "id": "image2-m",
+  "label": "Image for mobile"
+  },
 {
 "type": "url",
 "id": "imagelink",
@@ -100,13 +113,37 @@
 "type": "image_picker",
 "id": "image3",
 "label": "Image"
-}
+},
+{
+  "type": "image_picker",
+  "id": "image-m",
+  "label": "Image for mobile"
+  }
 ]
 }
 {% endschema %}
 
-{% stylesheet %}
-{% endstylesheet %}
+<style>
+
+
+
+
+.desktop{
+   display: none;
+}  .mobile{
+      display: block;
+   }
+
+      @media only screen and (min-width: 750px)  {
+       .mobile{
+         display: none;
+       }
+       .desktop{
+            display: block;
+         }
+      }
+
+    </style>
 
 {% javascript %}
 {% endjavascript %}
