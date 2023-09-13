@@ -26,14 +26,13 @@
                       <img src="{{ c.settings.img | img_url:'' }}">
                     </div>
                   {% else %}
-                    {% if c.settings.text != blank  %}
-                      <div class="site-banner-heading">
-                        <h2>{{ c.settings.text }}</h2>
-                      </div>
-                    {% endif %}
+
+
                   {% endif %}
                   <div class="site-banner-text {% if c.settings.hideDesk %}hideDesk{% endif %}">
                       <div>
+                        <h2>{{ c.settings.text }}</h2>
+                        
                         {% if c.settings.richtext  %} 
                           <div>{{ c.settings.richtext }} </div>
                         {% endif %}
@@ -65,6 +64,19 @@
 
 </div>
 
+
+<style>
+   .swiper-container-benner--{{ section.id }}  .site-banner-text>div {
+    display: unset;
+  
+  }
+
+  .swiper-container-benner--{{ section.id }}  .btn-layout {
+
+    display: inline-block !important;
+
+}
+</style>
 
 {% schema %}
   {
