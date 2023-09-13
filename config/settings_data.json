@@ -297,8 +297,8 @@
           "font-import": "<style>\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Roboto:wght@100&display=swap');\n<\/style>",
           "header_padding": 0,
           "font-size-update": 12,
-          "color_scheme": "400",
-          "font-family": ""
+          "color_scheme": "700",
+          "font-family": "'Roboto', sans-serif;"
         }
       },
       "customenewletter": {
