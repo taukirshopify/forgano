@@ -13,6 +13,9 @@
 
    <img src="{{ section.settings.imgMob | img_url:'master' }}">
   </div>
+
+   <h3>{{ section.settings.h3 }}</h3>
+
   {% if section.settings.image != blank or section.settings.image2 != blank %}
 <div class="images-wrapper-here">
   
@@ -69,6 +72,13 @@
 "id": "richtext3",
 "label": "Text"
 },
+      {
+"type": "text",
+"id": "h3",
+"label": "Section Title",
+"default": "FEATURED COLLECTIONS"
+},
+
 {
 "type": "image_picker",
 "id": "image",
