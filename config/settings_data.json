@@ -272,7 +272,6 @@
         "settings": {
           "message": false,
           "home_page_only": false,
-          "header_padding": 0,
           "message_text": "Free Standard Shipping",
           "free_shipping_countdown": false,
           "free_shipping_threshold": 25,
@@ -294,7 +293,12 @@
           "enable_bar": true,
           "background_annoucement_text_color": "#ffeaf6",
           "background_annoucement": "#f7239c",
-          "content1": "ONE WEEK OF FREE SHIPPING IS LIVE. UPDATE: NO CODE REQUIRED AT CHECKOUT. OFFER ENDS 9\/17 AT MIDNIGHT (PST)"
+          "content1": "ONE WEEK OF FREE SHIPPING IS LIVE. UPDATE: NO CODE REQUIRED AT CHECKOUT. OFFER ENDS 9\/17 AT MIDNIGHT (PST)",
+          "font-import": "<style>\n@import url('https:\/\/fonts.googleapis.com\/css2?family=Roboto:wght@400&display=swap');\n<\/style>",
+          "header_padding": 0,
+          "font-size-update": 65,
+          "color_scheme": "400",
+          "font-family": "'Roboto', sans-serif;"
         }
       },
       "customenewletter": {
