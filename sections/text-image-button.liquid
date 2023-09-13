@@ -29,10 +29,10 @@
 </div>
 
   <div class="text-image-wrapper-right">
-      <div class="desktop">
+     
        {{ section.settings.image3 | img_url:"master" | img_tag }}
-    </div>
-    <div class="mobile"> {{ section.settings.image-m | img_url:"master" | img_tag }} </div>
+
+   
      
 </div>
 </div>
@@ -42,7 +42,8 @@
 {{ section.settings.h3}}
 </h3>
   <div class="text-image-wrapper-right">
-  <div>{{ section.settings.image3 | img_url:"master" | img_tag }}</div>
+    <div class="desktop">{{ section.settings.image3 | img_url:"master" | img_tag }}</div>
+    <div class="mobile"> {{ section.settings.image-m | img_url:"master" | img_tag }} </div>
     <div class="text-image-wrapper-2"> 
     <div>
     {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
