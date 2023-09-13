@@ -7,7 +7,12 @@
         "enable_bar": true,
         "background_annoucement_text_color": "#ffeaf6",
         "background_annoucement": "#f7239c",
-        "content1": "BIG RESTOCKING PARTY COMING IN AUGUST 🎉 YOU DON'T WANT TO MISS IT! SIGN UP TO STAY TAPPED IN."
+        "content1": "BIG RESTOCKING PARTY COMING IN AUGUST 🎉 YOU DON'T WANT TO MISS IT! SIGN UP TO STAY TAPPED IN.",
+        "font-import": "<style><\/style>",
+        "header_padding": 0,
+        "fontsizeupdate": 12,
+        "colorscheme": "400",
+        "fontfamily": ""
       }
     },
     "bd8d02c5-72d4-4c7b-a0b5-15fcd742af34": {
@@ -19,8 +24,8 @@
             "hideDesk": false,
             "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
             "image2": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-12T182231.643.png",
-            "text": "",
-            "useImge": true,
+            "text": "New comfort",
+            "useImge": false,
             "heading_height": 120,
             "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
             "buttonUrl": "shopify:\/\/collections\/all",
