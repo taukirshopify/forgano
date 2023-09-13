@@ -21,14 +21,7 @@
              {% for c in section.blocks %}
               <div class="swiper-slide">
                 <div id="custom-banner--{{ c.id }}" class="site-container">
-                  {% if c.settings.img != blank %}  
-                    <div class="site-banner-heading bannerImg">
-                      <img src="{{ c.settings.img | img_url:'' }}">
-                    </div>
-                  {% else %}
 
-
-                  {% endif %}
                   <div class="site-banner-text {% if c.settings.hideDesk %}hideDesk{% endif %}">
                       <div>
                         <h2>{{ c.settings.text }}</h2>
