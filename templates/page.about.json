@@ -5,9 +5,10 @@
       "settings": {
         "hideDesk": false,
         "image": "shopify:\/\/shop_images\/custom_resized_535e39ee-93ee-4519-a212-e25f929c3e77.jpg",
-        "image2": "shopify:\/\/shop_images\/Untitled_design_79.png",
+        "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5297-v01.jpg",
         "text": "ABOUT FORGANO",
         "useImge": false,
+        "img": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5297-v01.jpg",
         "heading_height": 120,
         "richtext": "",
         "buttonUrl": "",
@@ -34,6 +35,7 @@
     },
     "a27adfa0-f39d-4ccd-97ae-6d0dbd10cddf": {
       "type": "image-text",
+      "disabled": true,
       "settings": {
         "text": "left-sided",
         "image": "shopify:\/\/shop_images\/custom_resized_c024af3f-63e9-4d3f-bcaf-f4b8a8de9052.jpg",
@@ -46,6 +48,7 @@
     },
     "7e270f75-0e47-429f-bb12-54b703235136": {
       "type": "about-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_14.jpg",
         "image2": "shopify:\/\/shop_images\/Untitled_design_81.png",
