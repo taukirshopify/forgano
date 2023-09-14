@@ -34,7 +34,6 @@
         },
         "b43fb504-aa88-4254-84ef-037e5590a78c": {
           "type": "Slide",
-          "disabled": true,
           "settings": {
             "hideDesk": false,
             "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
@@ -378,10 +377,6 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3N2A6202_3_-resize.jpg",
-        "h3": "Ability to edit text here",
-        "p": "Also can add small",
-        "link_text": "Shop now",
-        "link": "",
         "richtext1": "<p>Making versatility<br\/>look easy<\/p>",
         "richtext": "<p>Collaborative aesthetics that can easily be combined with any casual look.<\/p>",
         "buttonUrl": "shopify:\/\/products\/forgano-nursing-shoes-beige",
