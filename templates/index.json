@@ -296,6 +296,7 @@
       "type": "text-image-button",
       "settings": {
         "image": "shopify:\/\/shop_images\/custom_resized_171e8afb-7d44-4f70-8a2f-9ac42153ac0c.jpg",
+        "image2-m": "shopify:\/\/shop_images\/custom_resized_171e8afb-7d44-4f70-8a2f-9ac42153ac0c.jpg",
         "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLabel": "Shop Beige",
@@ -306,7 +307,8 @@
         "h4": "Ability to edit text here",
         "p": "Also can add small",
         "link_text": "Shop now",
-        "link": ""
+        "link": "",
+        "image-m": "shopify:\/\/shop_images\/custom_resized_39ba28b2-0c53-42a3-975a-64ac1a26a222.jpg"
       }
     },
     "11e3612f-34b5-4ad7-8030-15fc6660cc76": {
