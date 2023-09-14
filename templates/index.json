@@ -23,11 +23,12 @@
           "settings": {
             "hideDesk": false,
             "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px.png",
-            "image2": "shopify:\/\/shop_images\/custom_resized_9aa21625-4eb0-47ce-b097-146d36911330.jpg",
-            "text": "New comfort",
+            "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO4866-v01_-_40.jpg",
+            "text": "Still Flourishing",
             "useImge": false,
+            "img": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO4866-v01_-_40.jpg",
             "heading_height": 120,
-            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+            "richtext": "<p>That love at first sight shoe. Your go-to footwear for the hospital and beyond.<\/p>",
             "buttonUrl": "shopify:\/\/collections\/all",
             "buttonText": "shop now"
           }
