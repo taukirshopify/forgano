@@ -16,20 +16,26 @@
   </div>
 
 </div>
-<div class="text-content-with-image-right">
 
-  <div class="mobile-hide"><h2>{{ section.settings.richtext1 }}</h2></div>
+<div class="text-content-with-image-left">
 
-{%- if section.settings.image0 != blank -%}<div class="image0">  {{ section.settings.image0 | img_url:"master" | img_tag }}</div> {%- endif -%}
 
- <div class="site-banner-text">
-    <div>
-  {% if section.settings.richtext  %}  <div>  {{ section.settings.richtext }} </div>{% endif %}
-
-{% if section.settings.buttonText  %}<div> <a class="btn-style-1" href="{{ section.settings.buttonUrl}}">{{ section.settings.buttonText }}{% include 'icon-btn-arrow' %}</a></div> {% endif %}
+   <div class="image-with-content-gal">
+    {%- if section.settings.image != blank -%}  {{ section.settings.image0 | img_url:"master" | img_tag }} {%- endif -%}
+    <div class="gal-content">
+      <h4 class="h4">{{ section.settings.h32 }}</h4>
+      <p>{{ section.settings.p2 }}</p>
+      {% if section.settings.link_text2 %}
+         <a href="{{ section.settings.link2 }}" class="btn">{{ section.settings.link_text2 }}</a>
+      {% endif %}
+     
     </div>
   </div>
+
 </div>
+
+
+ 
 </div>
 
 <style>
@@ -66,6 +72,29 @@
 {
   "type": "url",
   "id": "link",
+  "label": "Link to your location"
+},
+{
+  "type": "text",
+  "id": "h32",
+  "label": "Title 01",
+  "default": "Ability to edit text here"
+},
+{
+  "type": "text",
+  "id": "p2",
+  "label": "Title Dec",
+  "default": "Also can add small"
+},
+{
+  "type": "text",
+  "id": "link_text2",
+  "label": "Section title",
+  "default": "Shop now"
+},
+{
+  "type": "url",
+  "id": "link2",
   "label": "Link to your location"
 },
 {

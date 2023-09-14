@@ -11825,11 +11825,13 @@ html[dir=rtl] .product-single__meta .rte{
       padding: 5% 3.5%;
       left:0;
       bottom:0;
+      max-width: 70%;
   }
   .image-with-content-gal .gal-content h4.h4 {
-    font-size: 3.2rem;
+    font-size: 3rem;
     color: #fff;
     letter-spacing: 3px;
+    line-height: 1;
 }
   .image-with-content-gal  .gal-content p{
     color: #fff;
@@ -11838,7 +11840,21 @@ html[dir=rtl] .product-single__meta .rte{
   .image-with-content-gal  .gal-content a.btn {
     line-height: 1;
     border-radius: 30px;
+    letter-spacing: 0;
+    padding: 14px 20px 11px 20px;
 }
   .image-with-content-gal  .gal-content a.btn:hover{
-    background: #000;
+    background: #000 !important;
+}
+
+
+@media only screen and (max-width: 600px)  {
+  .image-with-content-gal  .gal-content{
+
+    max-width: 100%;
+}
+.image-with-content-gal .gal-content h4.h4 {
+  font-size: 2.5rem;
+
+}
 }
