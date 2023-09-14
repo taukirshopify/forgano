@@ -6,21 +6,13 @@
         ".site-banner-text img {width: 100%; height: 100%; object-fit: cover;}"
       ],
       "settings": {
-        "hideDesk": false,
-        "text": "",
-        "useImge": true,
-        "img": "shopify:\/\/shop_images\/www.forgano.com___ab_0__fd_0__sc_1_4k.png",
-        "heading_height": 120,
-        "richtext": "",
-        "buttonUrl": "",
-        "buttonText": ""
       }
     },
     "74e5483f-c605-46b7-8f4b-06407dd1d92e": {
       "type": "featured-product-v2",
       "settings": {
         "product": "forgano-nursing-shoes-beige",
-        "img": "shopify:\/\/shop_images\/3N2A5776-2.jpg",
+        "img": "shopify:\/\/shop_images\/custom_resized_3dfaee89-3094-48b5-bb78-e7d00bb94036.jpg",
         "btn-text": "Shop Beige",
         "img2": "shopify:\/\/shop_images\/WhatsApp_Image_2023-08-22_at_11.53.13_PM.jpg",
         "text": "<p>The crowd pleaser is back - this time with all-new materials, an enhanced color palette, and twice the comfort.<\/p>",
