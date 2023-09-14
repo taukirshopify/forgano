@@ -18,6 +18,21 @@
     "bd8d02c5-72d4-4c7b-a0b5-15fcd742af34": {
       "type": "banner-section",
       "blocks": {
+        "b43fb504-aa88-4254-84ef-037e5590a78c": {
+          "type": "Slide",
+          "settings": {
+            "hideDesk": false,
+            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-09-14_at_20.15.45.jpg",
+            "image2": "shopify:\/\/shop_images\/custom_resized_208fc34b-638a-4c56-8815-e3d0199c5316.jpg",
+            "text": "now flourishing",
+            "useImge": false,
+            "img": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-08T080516.522.png",
+            "heading_height": 120,
+            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+            "buttonUrl": "shopify:\/\/collections\/all",
+            "buttonText": "shop now"
+          }
+        },
         "01fb5464-ef8b-4a06-afdb-f23da519514a": {
           "type": "Slide",
           "settings": {
@@ -31,26 +46,11 @@
             "buttonUrl": "shopify:\/\/collections\/all",
             "buttonText": "shop now"
           }
-        },
-        "b43fb504-aa88-4254-84ef-037e5590a78c": {
-          "type": "Slide",
-          "settings": {
-            "hideDesk": false,
-            "image": "shopify:\/\/shop_images\/Untitled_design_75.png",
-            "image2": "shopify:\/\/shop_images\/Untitled_design_80.png",
-            "text": "now flourishing",
-            "useImge": false,
-            "img": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-08T080516.522.png",
-            "heading_height": 120,
-            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
-            "buttonUrl": "shopify:\/\/collections\/all",
-            "buttonText": "shop now"
-          }
         }
       },
       "block_order": [
-        "01fb5464-ef8b-4a06-afdb-f23da519514a",
-        "b43fb504-aa88-4254-84ef-037e5590a78c"
+        "b43fb504-aa88-4254-84ef-037e5590a78c",
+        "01fb5464-ef8b-4a06-afdb-f23da519514a"
       ],
       "custom_css": [
 
@@ -295,14 +295,18 @@
     "5ccc2252-d03f-42bf-842e-8d480c20c4de": {
       "type": "text-image-button",
       "settings": {
-        "image": "shopify:\/\/shop_images\/product-image-1.png",
+        "image": "shopify:\/\/shop_images\/custom_resized_171e8afb-7d44-4f70-8a2f-9ac42153ac0c.jpg",
         "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLabel": "Shop Beige",
         "h3": "<p>Forgano <br\/>Nursing <br\/>Shoes <\/p>",
-        "image2": "shopify:\/\/shop_images\/product-image-2.png",
+        "image2": "shopify:\/\/shop_images\/custom_resized_33461d67-70c6-4940-a2e0-b707622e6b01.jpg",
         "image2link": "shopify:\/\/products\/forgano-nursing-shoes-beige",
-        "image3": "shopify:\/\/shop_images\/IMG_4532_copy.jpg"
+        "image3": "shopify:\/\/shop_images\/custom_resized_39ba28b2-0c53-42a3-975a-64ac1a26a222.jpg",
+        "h4": "Ability to edit text here",
+        "p": "Also can add small",
+        "link_text": "Shop now",
+        "link": ""
       }
     },
     "11e3612f-34b5-4ad7-8030-15fc6660cc76": {
@@ -359,14 +363,14 @@
     "1110efef-4e34-4154-a241-24afae80c9ba": {
       "type": "text-image-button-1",
       "settings": {
-        "image": "shopify:\/\/shop_images\/3N2A5068_2_copy_1.jpg",
+        "image": "shopify:\/\/shop_images\/custom_resized_cb24a246-71cc-4019-a312-96614dc775f5.jpg",
         "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "buttonLabel": "shop black",
         "h3": "<p>The hottest style<br\/>statement for modern<br\/> scrub wear<strong> <\/strong>{{ shop.brand.slogan }}<\/p>",
-        "image2": "shopify:\/\/shop_images\/3N2A5114_copy_1.jpg",
+        "image2": "shopify:\/\/shop_images\/custom_resized_2e7443ee-e459-4359-9156-c71af94c4e06.jpg",
         "image2link": "shopify:\/\/products\/forgano-nursing-shoes-black",
-        "image3": "shopify:\/\/shop_images\/3N2A5571_jpeg_copy_1_-resize.jpg"
+        "image3": "shopify:\/\/shop_images\/custom_resized_c27925e6-3bf4-4763-a400-aee96eeb07b9.jpg"
       }
     },
     "0020f82f-b570-44e5-a010-c0aca51eb8e7": {
@@ -376,12 +380,20 @@
         ".text-content-with-image-right h2 p,.text-content-with-image-right .site-banner-text p,.text-content-with-image-right .site-banner-text a {color: #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3N2A6202_3_-resize.jpg",
+        "image": "shopify:\/\/shop_images\/custom_resized_b6317dbf-dad1-413b-932d-215a6a8ec1b9.jpg",
+        "h3": "Ability to edit text here",
+        "p": "Also can add small",
+        "link_text": "Shop now",
+        "link": "",
+        "h32": "Ability to edit text here",
+        "p2": "Also can add small",
+        "link_text2": "Shop now",
+        "link2": "",
         "richtext1": "<p>Making versatility<br\/>look easy<\/p>",
         "richtext": "<p>Collaborative aesthetics that can easily be combined with any casual look.<\/p>",
         "buttonUrl": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonText": "Learn More",
-        "image0": "shopify:\/\/shop_images\/mg_8096_fixed2_2c648498-4142-473f-9521-4ddb2391aa7b.png"
+        "image0": "shopify:\/\/shop_images\/custom_resized_b83bf319-48b8-446f-91f1-062db94c15a1.jpg"
       }
     },
     "bf0a0d5e-f246-45d2-94bf-b995076262df": {
