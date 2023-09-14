@@ -33,7 +33,9 @@
       "type": "two-images",
       "settings": {
         "img1": "shopify:\/\/shop_images\/custom_resized_1324e7ff-779c-4636-8b7d-0ab6e583a091.jpg",
-        "img2": "shopify:\/\/shop_images\/custom_resized_9834e4e7-6a5f-4af9-8760-9e35c70a3a68.jpg"
+        "image": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "img2": "shopify:\/\/shop_images\/custom_resized_9834e4e7-6a5f-4af9-8760-9e35c70a3a68.jpg",
+        "imagetwo": "shopify:\/\/products\/forgano-nursing-shoes-black"
       }
     },
     "e1218205-eed5-4ca1-8fa5-7e30f69d70ec": {
