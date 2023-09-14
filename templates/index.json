@@ -295,14 +295,18 @@
     "5ccc2252-d03f-42bf-842e-8d480c20c4de": {
       "type": "text-image-button",
       "settings": {
-        "image": "shopify:\/\/shop_images\/product-image-1.png",
+        "image": "shopify:\/\/shop_images\/custom_resized_171e8afb-7d44-4f70-8a2f-9ac42153ac0c.jpg",
         "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLabel": "Shop Beige",
         "h3": "<p>Forgano <br\/>Nursing <br\/>Shoes <\/p>",
         "image2": "shopify:\/\/shop_images\/product-image-2.png",
         "image2link": "shopify:\/\/products\/forgano-nursing-shoes-beige",
-        "image3": "shopify:\/\/shop_images\/IMG_4532_copy.jpg"
+        "image3": "shopify:\/\/shop_images\/IMG_4532_copy.jpg",
+        "h4": "Ability to edit text here",
+        "p": "Also can add small",
+        "link_text": "Shop now",
+        "link": ""
       }
     },
     "11e3612f-34b5-4ad7-8030-15fc6660cc76": {
@@ -377,6 +381,14 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3N2A6202_3_-resize.jpg",
+        "h3": "Ability to edit text here",
+        "p": "Also can add small",
+        "link_text": "Shop now",
+        "link": "",
+        "h32": "Ability to edit text here",
+        "p2": "Also can add small",
+        "link_text2": "Shop now",
+        "link2": "",
         "richtext1": "<p>Making versatility<br\/>look easy<\/p>",
         "richtext": "<p>Collaborative aesthetics that can easily be combined with any casual look.<\/p>",
         "buttonUrl": "shopify:\/\/products\/forgano-nursing-shoes-beige",
