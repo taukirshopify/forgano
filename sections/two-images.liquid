@@ -2,17 +2,22 @@
  <div class="two-image-wrapper">
    <div class="TI-item">
      <!-- <img src="{{ section.settings.img1 | img_url:'' }}"> -->
-     <picture>
-      <source media="(min-width:768px)" srcset="{{ section.settings.img1 | img_url:'' }}">
-      <img src="{{ section.settings.img1 | img_url:'master' }}">
-    </picture>
+
+      <a href="{{ section.settings.image }}">
+          <picture>
+            <source media="(min-width:768px)" srcset="{{ section.settings.img1 | img_url:'' }}">
+            <img src="{{ section.settings.img1 | img_url:'master' }}">
+          </picture>
+      </a>
    </div>
    <div class="TI-item">
      <!-- <img src="{{ section.settings.img2 | img_url:'' }}"> -->
-     <picture>
-      <source media="(min-width:768px)" srcset="{{ section.settings.img2 | img_url:'' }}">
-      <img src="{{ section.settings.img2 | img_url:'master' }}">
-    </picture>
+      <a href="{{ section.settings.imagetwo }}">
+        <picture>
+          <source media="(min-width:768px)" srcset="{{ section.settings.img2 | img_url:'' }}">
+          <img src="{{ section.settings.img2 | img_url:'master' }}">
+        </picture>
+      </a>
    </div>
  </div>
 </div>
@@ -51,10 +56,20 @@
            "id":"img1",
            "label":"Image 1"
          },
+         {
+          "type": "link_list",
+          "id": "image",
+          "label": "Link to left"
+         },
      {
            "type":"image_picker",
            "id":"img2",
            "label":"Image 2"
+         },
+         {
+          "type": "link_list",
+          "id": "imagetwo",
+          "label": "Link to left"
          }
    
        ],
