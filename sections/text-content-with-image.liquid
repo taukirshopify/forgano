@@ -1,14 +1,4 @@
-<style>
-  .image-with-content-gal {
-    position: relative;
-  }
-  .image-with-content-gal  .gal-content{
-      position: absolute;
-      padding: 5% 3.5%;
-      left:0;
-      bottom:0;
-  }
-</style>
+
 <div class="asyncLoad site-container text-content-with-image-wrapper">
 <div class="text-content-with-image-left">
   <div class="mobile-show"><h2>{{ section.settings.richtext1 }}</h2></div>
@@ -16,8 +6,8 @@
    <div class="image-with-content-gal">
     {%- if section.settings.image != blank -%}  {{ section.settings.image | img_url:"master" | img_tag }} {%- endif -%}
     <div class="gal-content">
-      <h4>{{ sectiion.settings.h3 }}</h4>
-      <p>{{ sectiion.settings.p }}</p>
+      <h4 class="h4">{{ section.settings.h3 }}</h4>
+      <p>{{ section.settings.p }}</p>
       {% if section.settings.link_text %}
          <a href="{{ section.settings.link }}" class="btn">{{ section.settings.link_text }}</a>
       {% endif %}
@@ -41,6 +31,10 @@
   </div>
 </div>
 </div>
+
+<style>
+
+</style>
 {% schema %}
   {
     "name": "Text content with image",
