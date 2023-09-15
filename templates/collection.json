@@ -40,6 +40,7 @@
     },
     "e1218205-eed5-4ca1-8fa5-7e30f69d70ec": {
       "type": "single-product",
+      "disabled": true,
       "settings": {
         "product": "forgano-gift-card"
       }
