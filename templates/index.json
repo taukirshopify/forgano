@@ -18,6 +18,20 @@
     "bd8d02c5-72d4-4c7b-a0b5-15fcd742af34": {
       "type": "banner-section",
       "blocks": {
+        "b43fb504-aa88-4254-84ef-037e5590a78c": {
+          "type": "Slide",
+          "settings": {
+            "hideDesk": false,
+            "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px_1.png",
+            "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5002-v01.jpg",
+            "text": "still flourishing",
+            "useImge": false,
+            "heading_height": 120,
+            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+            "buttonUrl": "shopify:\/\/collections\/all",
+            "buttonText": "shop now"
+          }
+        },
         "01fb5464-ef8b-4a06-afdb-f23da519514a": {
           "type": "Slide",
           "settings": {
@@ -32,25 +46,11 @@
             "buttonUrl": "shopify:\/\/collections\/all",
             "buttonText": "shop now"
           }
-        },
-        "b43fb504-aa88-4254-84ef-037e5590a78c": {
-          "type": "Slide",
-          "settings": {
-            "hideDesk": false,
-            "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px_1.png",
-            "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5002-v01.jpg",
-            "text": "still flourishing",
-            "useImge": false,
-            "heading_height": 120,
-            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
-            "buttonUrl": "shopify:\/\/collections\/all",
-            "buttonText": "shop now"
-          }
         }
       },
       "block_order": [
-        "01fb5464-ef8b-4a06-afdb-f23da519514a",
-        "b43fb504-aa88-4254-84ef-037e5590a78c"
+        "b43fb504-aa88-4254-84ef-037e5590a78c",
+        "01fb5464-ef8b-4a06-afdb-f23da519514a"
       ],
       "custom_css": [
 
