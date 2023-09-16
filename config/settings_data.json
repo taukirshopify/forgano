@@ -290,7 +290,7 @@
 
         ],
         "settings": {
-          "enable_bar": true,
+          "enable_bar": false,
           "background_annoucement_text_color": "#ffffff",
           "background_annoucement": "#0f0f0f",
           "content1": "ONE WEEK OF FREE SHIPPING IS LIVE. UPDATE: NO CODE REQUIRED AT CHECKOUT. OFFER ENDS 9\/17 AT MIDNIGHT (PST)",
@@ -373,6 +373,12 @@
       },
       "855628211100114053": {
         "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "12657775114333427046": {
+        "type": "shopify:\/\/apps\/essential-countdown\/blocks\/app_embed\/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
         "disabled": false,
         "settings": {
         }
