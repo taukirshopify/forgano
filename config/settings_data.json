@@ -290,7 +290,7 @@
 
         ],
         "settings": {
-          "enable_bar": true,
+          "enable_bar": false,
           "background_annoucement_text_color": "#ffffff",
           "background_annoucement": "#0f0f0f",
           "content1": "ONE WEEK OF FREE SHIPPING IS LIVE. UPDATE: NO CODE REQUIRED AT CHECKOUT. OFFER ENDS 9\/17 AT MIDNIGHT (PST)",
