@@ -345,6 +345,12 @@
       ],
       "settings": {
       }
+    },
+    "19cc793a-bb9f-485b-bc80-d6a25f25a30c": {
+      "type": "product-video-section",
+      "settings": {
+        "video": "shopify:\/\/files\/videos\/copy_E787D26B-90DF-4E68-B034-053A3A95FE0B.mov"
+      }
     }
   },
   "order": [
@@ -357,6 +363,7 @@
     "collection-return",
     "1664904571d6718697",
     "bcdceeeb-5387-43b8-85bc-b9c74e82333b",
-    "f60f384a-9b7f-4728-a5d6-da5e9d81e0a6"
+    "f60f384a-9b7f-4728-a5d6-da5e9d81e0a6",
+    "19cc793a-bb9f-485b-bc80-d6a25f25a30c"
   ]
 }
