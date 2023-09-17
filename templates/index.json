@@ -22,12 +22,12 @@
           "type": "Slide",
           "settings": {
             "hideDesk": false,
-            "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px_1.png",
+            "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px.png",
             "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5002-v01.jpg",
-            "text": "still flourishing",
+            "text": "NOW TRENDING",
             "useImge": false,
             "heading_height": 120,
-            "richtext": "<p>That love at first sight shoe. Go-to footwear for the hospital and beyond.<\/p>",
+            "richtext": "<p>Experience the all-new Gano Z Black Sneaker V2: 'Rebirth'<\/p>",
             "buttonUrl": "shopify:\/\/collections\/all",
             "buttonText": "shop now"
           }
@@ -36,8 +36,8 @@
           "type": "Slide",
           "settings": {
             "hideDesk": false,
-            "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px.png",
-            "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO4866-v01_-_40.jpg",
+            "image": "shopify:\/\/shop_images\/Untitled_2866_x_1225_px_2866_x_2109_px_1.png",
+            "image2": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T091259.519.png",
             "text": "Still Flourishing",
             "useImge": false,
             "img": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO4866-v01_-_40.jpg",
@@ -281,9 +281,9 @@
         "richtext2": "why we created the right shoes to",
         "richtext3": "help you catch them",
         "h3": "FEATURED",
-        "image": "shopify:\/\/shop_images\/custom_resized_b382f115-375d-490e-b17d-5e60dbb564a6.jpg",
-        "image2": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO4546-v01.jpg",
-        "image-m": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO4546-v01.jpg",
+        "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T013204.711.png",
+        "image2": "shopify:\/\/shop_images\/Untitled_720_x_1080_px.png",
+        "image-m": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T013204.711.png",
         "image2-m": "shopify:\/\/shop_images\/Untitled_720_x_1080_px.png",
         "richtext4": "We Know every Morning you",
         "richtext5": "wake up to chase your Dreams.",
@@ -296,19 +296,19 @@
       "type": "text-image-button",
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-15T083651.742.png",
-        "image2-m": "shopify:\/\/shop_images\/custom_resized_171e8afb-7d44-4f70-8a2f-9ac42153ac0c.jpg",
+        "image2-m": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T092047.293.png",
         "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonLabel": "Shop Beige",
         "h3": "<p>Forgano <br\/>Nursing <br\/>Shoes <\/p>",
-        "image2": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-15T083437.429.png",
+        "image2": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T111604.294.png",
         "image2link": "shopify:\/\/products\/forgano-nursing-shoes-beige",
-        "image3": "shopify:\/\/shop_images\/custom_resized_39ba28b2-0c53-42a3-975a-64ac1a26a222.jpg",
+        "image3": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T111055.404.png",
         "h4": "Footwear Finesse",
         "p": "Shop the newest version of the Gano Z Beige sneaker.",
         "link_text": "Shop now",
         "link": "",
-        "image-m": "shopify:\/\/shop_images\/custom_resized_39ba28b2-0c53-42a3-975a-64ac1a26a222.jpg"
+        "image-m": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T091431.289.png"
       }
     },
     "11e3612f-34b5-4ad7-8030-15fc6660cc76": {
@@ -365,7 +365,7 @@
     "1110efef-4e34-4154-a241-24afae80c9ba": {
       "type": "text-image-button-1",
       "settings": {
-        "image": "shopify:\/\/shop_images\/custom_resized_cb24a246-71cc-4019-a312-96614dc775f5.jpg",
+        "image": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5197-v01_1.jpg",
         "imagelink": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "buttonLink": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "buttonLabel": "shop black",
@@ -384,7 +384,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/custom_resized_b6317dbf-dad1-413b-932d-215a6a8ec1b9.jpg",
         "h3": "Back in Black",
-        "p": "Easily combine these with any look, no matter the season",
+        "p": "Easily combine these with any casual look, no matter the season.",
         "link_text": "Shop now",
         "link": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "h32": "Beige beauty",

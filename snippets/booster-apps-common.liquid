@@ -32,12 +32,10 @@
         id: {{product.id}}, price: {{product.price}}, handle: {{product.handle | json}}, tags: {{ product.tags | json}},
         available: {{product.available}}, title: {{product.title | json}}, variants: {{product.variants | json}}
       };
-      window.Rivo.common.product.review_data = {{product.metafields.ba_rev.review_data | json}};
     }
   {% endif %}
 
 
-    window.Rivo.rev_config = {{shop.metafields.ba_rev.config | json}};
 
 
     window.Rivo.widgets_config = {{shop.metafields.ba_widgets.config | json}};
