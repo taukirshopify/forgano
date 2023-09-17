@@ -28,7 +28,7 @@
 {% endstyle %}
 <div class="product-video-section">
   <div class="video-wrapper">
-    <video controls="controls"  muted loop playsinline preload="metadata">
+    <video controls="controls"  muted loop playsinline preload="metadata" poster="{{ section.settings.image | img_url:'master' }}">
       <source src="{{ section.settings.video.sources[1].url }}" type="video/mp4">
     </video>
   </div>
@@ -42,6 +42,11 @@
         "type": "video",
         "id": "video",
         "label": "Video"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Movie poster"
       }
 
     ],
