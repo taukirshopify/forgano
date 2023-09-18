@@ -348,6 +348,7 @@
     },
     "225b8a3f-cd2f-46c2-a8fe-3d3bf4788a12": {
       "type": "product-video-section",
+      "disabled": true,
       "settings": {
         "video": "shopify:\/\/files\/videos\/copy_CDEE52A8-6754-488F-B072-37D9BEB9E1A6.mov",
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2023-09-17_at_23.50.52_45ed9662-e261-4f6a-aca5-f6a0c89ea350.jpg"
