@@ -11865,3 +11865,28 @@ html[dir=rtl] .product-single__meta .rte{
 
 }
 }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  .variant-input-wrap label.disabled:after {
+    border-color: #e0e0e0;
+    transform: rotate(-42deg) translateY(-28px) translate(15px);
+  }
+  .variant-input-wrap label.disabled:after {
+    position: absolute;
+    content: "";
+    left: 38%;
+    top: -64%;
+    width: 200%;
+    height: 200%;
+    bottom: 0;
+    border-left: 1px solid;
+    border-color: #000;
+    border-color: var(--colorBorder);
+    transform: rotate(45deg);
+    transition: scale(67.5);
+  }
+}
