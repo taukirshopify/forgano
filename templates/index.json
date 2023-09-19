@@ -183,7 +183,7 @@
         "f1abfaa5-1d2c-4a42-8e1d-6de5342afc2b"
       ],
       "settings": {
-        "tp_heading": "The comfiest fit for all-day wear",
+        "tp_heading": "The comfiest fit for all-shift wear",
         "tp_heading1": "All-shift comfort",
         "tp_span_color": "#1f1f1f",
         "tp_non_span_color": "",
@@ -351,10 +351,10 @@
     "e0c3672d-804b-4859-8fe6-d256e0f5e579": {
       "type": "richtext-custom",
       "settings": {
-        "richtext": "COMBINING LEGENDARY COMFORT WITH",
-        "richtext1": "PROGRESSIVE DESIGN, OUR Purpose is TO",
-        "richtext2": "SUPPORT YOU ON YOUR JOURNEY TO YOUR",
-        "richtext3": "BEST-VERSION",
+        "richtext": "COMBINING LEGENDARY COMFORT",
+        "richtext1": "WITH PROGRESSIVE DESIGN,",
+        "richtext2": "OUR PURPOSE IS TO SUPPORT YOU ON YOUR JOURNEY",
+        "richtext3": "TO YOUR BEST VERSION",
         "richtext4": "COMBINING LEGENDARY COMFORT",
         "richtext5": "WITH <b>PROGRESSIVE DESIGN<\/b>, OUR Purpose",
         "richtext6": "is TO SUPPORT YOU ON YOUR JOURNEY",
