@@ -9,9 +9,18 @@
   <div class="footer__logo">
     <a href="{{ routes.root_url }}">
       <img src="{{ block.settings.logo | img_url: footer_logo_size, scale: 2 }}" alt="{{ block.settings.logo.alt | default: shop.name }}">
+      <p>*[for nurses] in korean</p>
     </a>
   </div>
 {%- endif -%}
+
+<style>
+  .footer__logo p {
+    font-size: 10px;
+    text-align: right;
+    margin-right: 17%;
+}
+</style>
 {% comment %} <div class="footer__item-padding">
   {%- if block.settings.show_footer_title -%}
     <p class="h4 footer__title small--hide">{{ block.settings.title }}</p>
