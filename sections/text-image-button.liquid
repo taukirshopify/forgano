@@ -52,10 +52,17 @@
 </h3>
   <div class="text-image-wrapper-right">
 
-    <div class="desktop">{{ section.settings.image3 | img_url:"master" | img_tag }}</div>
+    <div class="desktop">
+      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+      {{ section.settings.image3 | img_url:"master" | img_tag }}
+      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+    
+    </div>
     <div class="mobile extra-width">
-
-      {{ section.settings.image-m | img_url:"master" | img_tag }} </div>
+      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+      {{ section.settings.image-m | img_url:"master" | img_tag }}
+      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+    </div>
     <div class="text-image-wrapper-2"> 
     <div>
     {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}

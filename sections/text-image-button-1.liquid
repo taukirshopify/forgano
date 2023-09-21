@@ -56,7 +56,13 @@
 </div>
 <div class="text-image-wrapper-1">
 
-<div>{{ section.settings.image3 | img_url:"master" | img_tag }}</div>
+<div>
+  {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+  
+  {{ section.settings.image3 | img_url:"master" | img_tag }}
+  {% if section.settings.imagelink != blank %}</a>{% endif %}
+
+</div>
 <div><a href="{{ section.settings.buttonLink}}" class="btn-style-1">
 {{ section.settings.buttonLabel}}
 {% include 'icon-btn-arrow' %}
