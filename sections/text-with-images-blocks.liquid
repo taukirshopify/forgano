@@ -19,10 +19,28 @@
   {% if section.settings.image != blank or section.settings.image2 != blank %}
 <div class="images-wrapper-here">
   
- <div class="desktop"> {{ section.settings.image | img_url:"master" | img_tag }} </div>
-   <div class="desktop">{{ section.settings.image2 | img_url:"master" | img_tag }}</div>
- <div class="mobile"> {{ section.settings.image-m | img_url:"master" | img_tag }} </div>
-   <div class="mobile">{{ section.settings.image2-m | img_url:"master" | img_tag }}</div>
+ <div class="desktop"> 
+ <a href="{{ section.settings.link-one }}">
+ {{ section.settings.image | img_url:"master" | img_tag }}
+
+</a>
+</div>
+   <div class="desktop">
+      <a href="{{ section.settings.link-two }}">
+      {{ section.settings.image2 | img_url:"master" | img_tag }}
+</a>
+</div>
+
+ <div class="mobile">
+      <a href="{{ section.settings.link-one }}">
+      {{ section.settings.image-m | img_url:"master" | img_tag }}  </a> </div>
+   <div class="mobile">
+      <a href="{{ section.settings.link-two }}">
+      
+      {{ section.settings.image2-m | img_url:"master" | img_tag }}
+
+</a>
+</div>
 </div>
   {% endif %}
 </div>         
@@ -108,6 +126,11 @@
 "label": "Image"
 },
 {
+      "type": "url",
+      "id": "link-one",
+      "label": "Link to the proudct to one"
+},
+{
 "type": "image_picker",
 "id": "image-m",
 "label": "Image for mobile"
@@ -116,6 +139,11 @@
 "type": "image_picker",
 "id": "image2-m",
 "label": "Image for mobile"
+},
+{
+      "type": "url",
+      "id": "link-two",
+      "label": "Link to the proudct to one"
 },
 {
   "type":"header",

@@ -16,20 +16,29 @@
 </div>
 
   <div class="text-image-wrapper-right">
+    {% if section.settings.imagelink != blank %}<a href="{{ section.settings.image2link }}">{% endif %}
   {{ section.settings.image3 | img_url:"master" | img_tag }}
+  {% if section.settings.imagelink != blank %}</a>{% endif %}
 </div>
+
+
 <div class="text-image-wrapper-2">
 <div>
-<div><h3>
+<div>
+  
+  
+  <h3>
 {{ section.settings.h3}}
 </h3></div>
 
 </div>
-  <div>
+
+  <div class="align-bttom-css"> 
     {% if section.settings.imagelink != blank %}<a href="{{ section.settings.image2link }}">{% endif %}
 {{ section.settings.image2 | img_url:"master" | img_tag }}
 {% if section.settings.imagelink != blank %}</a>{% endif %}
   </div>
+
 </div>
 </div>
 
@@ -109,6 +118,10 @@
 {% endschema %}
 
 {% stylesheet %}
+.align-bttom-css {
+    display: flex;
+    align-items: end;
+}
 {% endstylesheet %}
 
 {% javascript %}
