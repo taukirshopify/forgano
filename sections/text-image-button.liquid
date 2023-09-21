@@ -1,4 +1,4 @@
-<div class="text-image--wrapper">
+<div class="text-image--wrapper section-{{ section.id }}">
 <div class="text-image-button-wrapper mobile-hide">
 <div class="text-image-wrapper-left">
 <div class="text-image-wrapper-1">
@@ -77,6 +77,19 @@
 
 </div>
 </div>
+
+
+<style>
+
+  .section-{{ section.id }} .text-image-wrapper-left p {
+
+    @media only screen and (max-width: 1500px) and (min-width: 1100px)  {
+    
+    
+      font-size: 56px;
+    }
+  }
+</style>
 {% schema %}
 {
 "name": "Text Image Button",
