@@ -54,19 +54,25 @@
   {{ section.settings.image | img_url:"master" | img_tag }}
 {% if section.settings.imagelink != blank %}</a>{% endif %}
 </div>
-<div class="text-image-wrapper-1">
+      <div class="text-image-wrapper-1">
 
-<div>
-  {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+            <div>
+              {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+              
+              {{ section.settings.image3 | img_url:"master" | img_tag }}
+              {% if section.settings.imagelink != blank %}</a>{% endif %}
+
+            </div>
+
+
+      <div>
   
-  {{ section.settings.image3 | img_url:"master" | img_tag }}
-  {% if section.settings.imagelink != blank %}</a>{% endif %}
-
-</div>
-<div><a href="{{ section.settings.buttonLink}}" class="btn-style-1">
+  <a href="{{ section.settings.buttonLink}}" class="btn-style-1">
 {{ section.settings.buttonLabel}}
 {% include 'icon-btn-arrow' %}
-</a></div>
+</a>
+
+</div>
 </div>
 
 </div>
@@ -127,6 +133,9 @@
 .align-bttom-css {
     display: flex;
     align-items: end;
+}
+:empty {
+  display: none;
 }
 {% endstylesheet %}
 

@@ -1,100 +1,94 @@
 <div class="text-image--wrapper section-{{ section.id }}">
-<div class="text-image-button-wrapper mobile-hide">
-<div class="text-image-wrapper-left">
-<div class="text-image-wrapper-1">
-<div>
-{% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-{{ section.settings.image | img_url:"master" | img_tag }}
-{% if section.settings.imagelink != blank %}</a>{% endif %}
-</div>
-   
-        
-<div><h3>
-{{ section.settings.h3}}
-</h3></div>
-</div>
-<div class="text-image-wrapper-2">
-<div>
-<a href="{{ section.settings.buttonLink}}" class="btn-style-1">
-{{ section.settings.buttonLabel}}
-{% render 'rectangle-icon' %}
-</a>
-</div>
-  <div>
-    {% if section.settings.imagelink != blank %}<a href="{{ section.settings.image2link }}">{% endif %}
-    {{ section.settings.image2 | img_url:"master" | img_tag }}
-{% if section.settings.imagelink != blank %}</a>{% endif %}
+  <div class="text-image-button-wrapper mobile-hide">
+     <div class="text-image-wrapper-left">
+        <div class="text-image-wrapper-1">
+           <div>
+              {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+              {{ section.settings.image | img_url:"master" | img_tag }}
+              {% if section.settings.imagelink != blank %}</a>{% endif %}
+           </div>
+           <div>
+              <h3>
+                 {{ section.settings.h3}}
+              </h3>
+           </div>
+        </div>
+        <div class="text-image-wrapper-2">
+           <div>
+              <a href="{{ section.settings.buttonLink}}" class="btn-style-1">
+              {{ section.settings.buttonLabel}}
+              {% render 'rectangle-icon' %}
+              </a>
+           </div>
+           <div>
+              {% if section.settings.imagelink != blank %}<a href="{{ section.settings.image2link }}">{% endif %}
+              {{ section.settings.image2 | img_url:"master" | img_tag }}
+              {% if section.settings.imagelink != blank %}</a>{% endif %}
+           </div>
+        </div>
+     </div>
+     <div class="text-image-wrapper-right">
+        <div class="image-with-content-gal">
+           <a href="{{ section.settings.link }}">     {{ section.settings.image3 | img_url:"master" | img_tag }} </a>
+           <div class="gal-content">
+              <h4 class="h4">{{ section.settings.h4 }}</h4>
+              <p>{{ section.settings.p }}</p>
+              {% if section.settings.link_text %}
+              <a href="{{ section.settings.link }}" class="btn">{{ section.settings.link_text }}</a>
+              {% endif %}
+           </div>
+        </div>
+     </div>
+  </div>
+  <div class="text-image-button-wrapper mobile-show">
+     <div class="text-image-wrapper-left">
+        <h3>
+           {{ section.settings.h3}}
+        </h3>
+        <div class="text-image-wrapper-right">
+           <div class="desktop">
+              {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+              {{ section.settings.image3 | img_url:"master" | img_tag }}
+
+              {% if section.settings.imagelink != blank %} </a>  {% endif %}
+           </div>
+           <div class="mobile extra-width">
+           {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+
+           {{ section.settings.image-m | img_url:"master" | img_tag }}
+
+             {% if section.settings.imagelink != blank %}</a> {% endif %}
+           </div>
+           <div class="text-image-wrapper-2"> 
+           <div>
+           <div class="desktop">
+           {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+           {{ section.settings.image | img_url:"master" | img_tag }} 
+           
+           {% if section.settings.imagelink != blank %}</a> {% endif %}
+           </div>
+           <div class="mobile">
+           {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
+           {{ section.settings.image2-m | img_url:"master" | img_tag }}
+           {% if section.settings.imagelink != blank %}</a> {% endif %}
+           </div>
+           </div>
+           <div> 
+           <a href="{{ section.settings.buttonLink}}" class="btn-style-1">
+           {{ section.settings.buttonLabel}}
+           {% render 'rectangle-icon' %}
+           </a>
+           </div>
+           </div>
+        </div>
+     </div>
   </div>
 </div>
-</div>
-
-  <div class="text-image-wrapper-right">
-     
-    <div class="image-with-content-gal">
-      <a href="{{ section.settings.link }}">     {{ section.settings.image3 | img_url:"master" | img_tag }} </a>
-       <div class="gal-content">
-          <h4 class="h4">{{ section.settings.h4 }}</h4>
-          <p>{{ section.settings.p }}</p>
-          {% if section.settings.link_text %}
-            <a href="{{ section.settings.link }}" class="btn">{{ section.settings.link_text }}</a>
-          {% endif %}
-       
-        </div>
-    </div>
-   
-     
-</div>
-</div>
-  <div class="text-image-button-wrapper mobile-show">
-<div class="text-image-wrapper-left">
-<h3>
-{{ section.settings.h3}}
-</h3>
-  <div class="text-image-wrapper-right">
-
-    <div class="desktop">
-      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-      {{ section.settings.image3 | img_url:"master" | img_tag }}
-      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-    
-    </div>
-    <div class="mobile extra-width">
-      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-      {{ section.settings.image-m | img_url:"master" | img_tag }}
-      {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-    </div>
-    <div class="text-image-wrapper-2"> 
-    <div>
-    {% if section.settings.imagelink != blank %}<a href="{{ section.settings.imagelink }}">{% endif %}
-
-    <div class="desktop"> {{ section.settings.image | img_url:"master" | img_tag }} </div>
-    <div class="mobile">{{ section.settings.image2-m | img_url:"master" | img_tag }}</div>
-
-    {% if section.settings.imagelink != blank %}</a> {% endif %}
-    </div>
-<div> <a href="{{ section.settings.buttonLink}}" class="btn-style-1">
-{{ section.settings.buttonLabel}}
-{% render 'rectangle-icon' %}
-</a>
-</div>
-</div>
-</div>
-</div>
-
-
-</div>
-</div>
-
-
 <style>
-
   .section-{{ section.id }} .text-image-wrapper-left p {
-
-    @media only screen and (max-width: 1600px) and (min-width: 1100px)  {
-    
-    
-      font-size: 48px;
-    }
+  @media only screen and (max-width: 1600px) and (min-width: 1100px)  {
+  font-size: 48px;
+  }
   }
 </style>
 {% schema %}
@@ -108,10 +102,10 @@
 "label": "Image"
 },
 {
-  "type": "image_picker",
-  "id": "image2-m",
-  "label": "Image for mobile"
-  },
+"type": "image_picker",
+"id": "image2-m",
+"label": "Image for mobile"
+},
 {
 "type": "url",
 "id": "imagelink",
@@ -137,7 +131,7 @@
 "id": "image2",
 "label": "Image"
 },
-  {
+{
 "type": "url",
 "id": "image2link",
 "label": "Image Link"
@@ -148,64 +142,56 @@
 "label": "Image"
 },
 {
-  "type": "text",
-  "id": "h4",
-  "label": "Title 01",
-  "default": "Ability to edit text here"
+"type": "text",
+"id": "h4",
+"label": "Title 01",
+"default": "Ability to edit text here"
 },
 {
-  "type": "text",
-  "id": "p",
-  "label": "Title Dec",
-  "default": "Also can add small"
+"type": "text",
+"id": "p",
+"label": "Title Dec",
+"default": "Also can add small"
 },
 {
-  "type": "text",
-  "id": "link_text",
-  "label": "Section title",
-  "default": "Shop now"
+"type": "text",
+"id": "link_text",
+"label": "Section title",
+"default": "Shop now"
 },
 {
-  "type": "url",
-  "id": "link",
-  "label": "Link to your location"
+"type": "url",
+"id": "link",
+"label": "Link to your location"
 },
 {
-  "type": "image_picker",
-  "id": "image-m",
-  "label": "Image for mobile"
-  }
+"type": "image_picker",
+"id": "image-m",
+"label": "Image for mobile"
+}
 ]
 }
 {% endschema %}
-
 <style>
-
-
-
-
-.desktop{
-   display: none;
-}  .mobile{
-      display: block;
-   }
-   .mobile.extra-width {
-    width: 82%;
-}
-
-      @media only screen and (min-width: 750px)  {
-        .mobile.extra-width {
-          width: auto;
-      }
-       .mobile{
-         display: none;
-       }
-       .desktop{
-            display: block;
-         }
-      }
-
-    </style>
-
+  .desktop{
+  display: none;
+  }  .mobile{
+  display: block;
+  }
+  .mobile.extra-width {
+  width: 82%;
+  }
+  @media only screen and (min-width: 750px)  {
+  .mobile.extra-width {
+  width: auto;
+  }
+  .mobile{
+  display: none;
+  }
+  .desktop{
+  display: block;
+  }
+  }
+</style>
 {% javascript %}
 {% endjavascript %}
