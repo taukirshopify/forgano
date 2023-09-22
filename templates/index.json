@@ -353,9 +353,9 @@
     "e0c3672d-804b-4859-8fe6-d256e0f5e579": {
       "type": "richtext-custom",
       "settings": {
-        "richtext": "A unique blend of material",
+        "richtext": "A unique blend of materials",
         "richtext1": "optimized for breathability, a snug fit",
-        "richtext2": "nd superior cushioning. Discover footwear designed for",
+        "richtext2": "and superior cushioning. Footwear designed for",
         "richtext3": "your daily marathon.",
         "richtext4": "A unique blend of material",
         "richtext5": "optimized for breathability, a snug fit",
@@ -384,20 +384,20 @@
         ".text-content-with-image-right h2 p,.text-content-with-image-right .site-banner-text p,.text-content-with-image-right .site-banner-text a {color: #000;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/custom_resized_b6317dbf-dad1-413b-932d-215a6a8ec1b9.jpg",
-        "h3": "Back in Black",
-        "p": "Easily combine these with any casual look, no matter the season.",
+        "image": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5937-grade-v01.jpg",
+        "h3": "Beige Beauty",
+        "p": "Neutral color tones to let your femininity bloom.",
         "link_text": "Shop now",
-        "link": "shopify:\/\/products\/forgano-nursing-shoes-black",
-        "h32": "Beige beauty",
-        "p2": "Neutral colortones to let your femininity bloom.",
+        "link": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "h32": "BACK IN BLACK",
+        "p2": "Easily combine these with any casual look, no matter the season.",
         "link_text2": "Shop now",
-        "link2": "shopify:\/\/products\/forgano-nursing-shoes-beige",
+        "link2": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "richtext1": "",
-        "richtext": "<p>Collaborative aesthetics that can easily be combined with any casual look.<\/p>",
+        "richtext": "",
         "buttonUrl": "shopify:\/\/products\/forgano-nursing-shoes-beige",
         "buttonText": "Learn More",
-        "image0": "shopify:\/\/shop_images\/ConvertOut-Resized-FORGANO5937-grade-v01.jpg"
+        "image0": "shopify:\/\/shop_images\/custom_resized_b6317dbf-dad1-413b-932d-215a6a8ec1b9.jpg"
       }
     },
     "bf0a0d5e-f246-45d2-94bf-b995076262df": {
