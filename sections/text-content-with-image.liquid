@@ -1,15 +1,22 @@
 
 <div class="asyncLoad site-container text-content-with-image-wrapper">
-<div class="text-content-with-image-left">
+<div class="text-content-with-image-left image-overly-withbutton-left">
   <div class="mobile-show"><h2>{{ section.settings.richtext1 }}</h2></div>
 
    <div class="image-with-content-gal">
     {%- if section.settings.image != blank -%}  
     
+    <div class="desktop-image">
+      <a href="{{ section.settings.link }}">
+        {{ section.settings.image | img_url:"master" | img_tag }}
+        </a>    
+    </div>
+    <div class="mobile-image">
+      <a href="{{ section.settings.link }}">
+        {{ section.settings.image2 | img_url:"master" | img_tag }}
+        </a>    
+    </div>
     
-    <a href="{{ section.settings.link }}">
-    {{ section.settings.image | img_url:"master" | img_tag }}
-    </a>
   
   {%- endif -%}
     <div class="gal-content">
@@ -24,14 +31,17 @@
 
 </div>
 
-<div class="text-content-with-image-left">
+<div class="text-content-with-image-left image-overly-withbutton-right">
 
 
    <div class="image-with-content-gal">
     {%- if section.settings.image != blank -%} 
-    
-    <a href="{{ section.settings.link2 }}">{{ section.settings.image0 | img_url:"master" | img_tag }} 
-  </a>
+    <div class="desktop-image">
+     <a href="{{ section.settings.link2 }}">{{ section.settings.image0 | img_url:"master" | img_tag }} </a>
+    </div>
+    <div class="mobile-image">
+     <a href="{{ section.settings.link2 }}">{{ section.settings.image1 | img_url:"master" | img_tag }} </a>
+    </div>
   {%- endif -%}
     <div class="gal-content">
       <h4 class="h4">{{ section.settings.h32 }}</h4>
@@ -50,7 +60,32 @@
 </div>
 
 <style>
+{% if ontop %}
+  .image-overly-withbutton-left .image-with-content-gal .gal-content{
+    top: 3%
+   }
+{% endif %}
+{% if ontoprihgt %}
+  .image-overly-withbutton-right .image-with-content-gal .gal-content{
+    top: 3%
+   }
+{% endif %}
+.image-with-content-gal .mobile-image{
+ display: none;
+}
+.image-with-content-gal .desktop-image{
+  display: block;
+ }
 
+@media only screen and (max-width: 600px) {
+  .image-with-content-gal .desktop-image{
+    display: none;
+   }
+  .image-with-content-gal .mobile-image{
+    display: block;
+   }
+   
+}
 </style>
 {% schema %}
   {
@@ -62,6 +97,19 @@
 "id": "image",
 "label": "Image"
 },
+{
+"type": "image_picker",
+"id": "image2",
+"label": "Image"
+},
+{
+  "type": "checkbox",
+  "id": "ontop",
+  "label": "Take content on the top",
+  "default": false
+
+},
+
 {
   "type": "text",
   "id": "h3",
@@ -132,6 +180,18 @@
 "type": "image_picker",
 "id": "image0",
 "label": "Image"
+},
+      {
+"type": "image_picker",
+"id": "image1",
+"label": "Image"
+},
+{
+  "type": "checkbox",
+  "id": "ontoprihgt",
+  "label": "Take content on the top",
+  "default": false
+
 }
     ]
   }
