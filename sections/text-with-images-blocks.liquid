@@ -5,7 +5,7 @@
 <span>{{ section.settings.richtext2 }}</span>
 <span>{{ section.settings.richtext3 }}</span></h2>
   </div>
- <div class="text-with-head mobile-show test">
+ <div class="text-with-head mobile-show test margin-reduct">
 
        <h2><span class="only_mobile">{{ section.settings.richtext4 }}</span>
 <span class="only_mobile1">{{ section.settings.richtext5 }}</span>
@@ -47,7 +47,7 @@
 </div>         
 
 <style>
-      
+
       h2.indedebdnone span {
             display: block !important;
             font-size: 1.8rem;
@@ -63,7 +63,26 @@
       display: block;
    }
 
-      @media only screen and (min-width: 750px)  {
+
+      @media only screen and (max-width: 750px)  {
+
+            .text-with-head.mobile-show.test.margin-reduct span        {
+                  display: block;
+                  font-size: 15px !important;
+                  text-align: center;
+              }
+            .text-with-head.mobile-show.test.margin-reduct {
+                  margin-left: 0 !important;
+              }
+            .text-with-head.mobile-show.test.margin-reduct  span{
+                  display: block;
+              }
+            .text-with-head.mobile-show.test.margin-reduct  h2{
+                  margin: 0 !important;
+              }
+
+            }
+              @media only screen and (min-width: 750px)  {
        .mobile{
          display: none;
        }
