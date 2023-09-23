@@ -277,9 +277,6 @@
       ],
       "settings": {
         "richtext": "WE KNOW EVERY MORNING YOU WAKE UP TO CHASE YOUR DREAMS. THAT’S WHY WE CREATED THE RIGHT SHOES TO HELP YOU CATCH THEM.",
-        "richtext1": "",
-        "richtext2": "",
-        "richtext3": "",
         "h3": "",
         "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T013204.711.png",
         "image2": "shopify:\/\/shop_images\/Untitled_720_x_1080_px.png",
@@ -288,9 +285,6 @@
         "image2-m": "shopify:\/\/shop_images\/Untitled_720_x_1080_px.png",
         "link-two": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "richtext4": "WE KNOW EVERY MORNING YOU WAKE UP TO CHASE YOUR DREAMS. THAT’S WHY WE CREATED THE RIGHT SHOES TO HELP YOU CATCH THEM.",
-        "richtext5": "",
-        "richtext6": "",
-        "richtext7": "",
         "imgMob": "shopify:\/\/shop_images\/text222_eea492b8-380a-46d5-830c-1a5fc4582bfe.svg"
       }
     },
@@ -353,14 +347,14 @@
     "e0c3672d-804b-4859-8fe6-d256e0f5e579": {
       "type": "richtext-custom",
       "settings": {
-        "richtext": "A unique blend of materials",
-        "richtext1": "optimized for breathability, a snug fit",
-        "richtext2": "and superior cushioning. Footwear designed for",
-        "richtext3": "your daily marathon.",
-        "richtext4": "A unique blend of material",
-        "richtext5": "optimized for breathability, a snug fit",
-        "richtext6": "nd superior cushioning. Discover footwear designed for",
-        "richtext7": "your daily marathon.",
+        "richtext": "A UNIQUE BLEND OF MATERIALS OPTIMZED FOR BREATHABILITY, A SNUG FIT, AND SUPERIOR CUSHIONING. FOOTWEAR DESIGNED FOR YOUR  DAILY MARATHON.",
+        "richtext1": "",
+        "richtext2": "",
+        "richtext3": "",
+        "richtext4": "A UNIQUE BLEND OF MATERIALS OPTIMZED FOR BREATHABILITY, A SNUG FIT, AND SUPERIOR CUSHIONING. FOOTWEAR DESIGNED FOR YOUR  DAILY MARATHON.",
+        "richtext5": "",
+        "richtext6": "",
+        "richtext7": "",
         "imgMob": "shopify:\/\/shop_images\/svg-new_update.svg"
       }
     },
