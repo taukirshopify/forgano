@@ -276,9 +276,9 @@
         ".text-with-head {position: relative; z-index: 1;}"
       ],
       "settings": {
-        "richtext": "WE KNOW EVERY MORNING YOU WAKE UP TO CHASE",
-        "richtext1": "YOUR DREAMS. THAT’S WHY WE CREATED THE RIGHT",
-        "richtext2": "SHOES TO HELP YOU CATCH THEM.",
+        "richtext": "WE KNOW EVERY MORNING YOU WAKE UP TO CHASE YOUR DREAMS. THAT’S WHY WE CREATED THE RIGHT SHOES TO HELP YOU CATCH THEM.",
+        "richtext1": "",
+        "richtext2": "",
         "richtext3": "",
         "h3": "",
         "image": "shopify:\/\/shop_images\/Untitled_design_-_2023-09-17T013204.711.png",
@@ -288,7 +288,7 @@
         "image2-m": "shopify:\/\/shop_images\/Untitled_720_x_1080_px.png",
         "link-two": "shopify:\/\/products\/forgano-nursing-shoes-black",
         "richtext4": "WE KNOW EVERY MORNING YOU WAKE UP TO CHASE",
-        "richtext5": "wake up to chase your Dreams. that's",
+        "richtext5": "YOUR DREAMS. THAT’S WHY WE CREATED THE RIGHT",
         "richtext6": "SHOES TO HELP YOU CATCH THEM.",
         "richtext7": "",
         "imgMob": "shopify:\/\/shop_images\/text222_eea492b8-380a-46d5-830c-1a5fc4582bfe.svg"
