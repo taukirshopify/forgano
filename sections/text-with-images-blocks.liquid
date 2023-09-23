@@ -1,17 +1,18 @@
 <div class="site-container text-with-images-blocks-wrapper text-with-images-blocks-section-1 image-slide-one">
 <div class="text-with-head mobile-hide">
-<h2><span class="mobile-block">{{ section.settings.richtext }}</span>
+<h2 class="indedebdnone"><span class="mobile-block">{{ section.settings.richtext }}</span>
 <span>{{ section.settings.richtext1 }}</span>
 <span>{{ section.settings.richtext2 }}</span>
 <span>{{ section.settings.richtext3 }}</span></h2>
   </div>
  <div class="text-with-head mobile-show test">
-<!-- <h2><span class="only_mobile">{{ section.settings.richtext4 }}</span>
+
+       <h2><span class="only_mobile">{{ section.settings.richtext4 }}</span>
 <span class="only_mobile1">{{ section.settings.richtext5 }}</span>
 <span class="only_mobile2">{{ section.settings.richtext6 }}</span>
-<span class="only_mobile3">{{ section.settings.richtext7 }}</span></h2> -->
+<span class="only_mobile3">{{ section.settings.richtext7 }}</span></h2>
 
-   <img src="{{ section.settings.imgMob | img_url:'master' }}">
+   {% comment %} <img src="{{ section.settings.imgMob | img_url:'master' }}"> {% endcomment %}
   </div>
 
    <h3>{{ section.settings.h3 }}</h3>
@@ -47,6 +48,9 @@
 
 <style>
 
+      h2.indedebdnone {
+            text-indent: 0;
+        }
   .desktop{
    display: none;
 }  .mobile{
