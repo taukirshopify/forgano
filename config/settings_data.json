@@ -382,6 +382,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "qikify-boosterkit-1696249321": {
+        "type": "shopify:\/\/apps\/qikify-cart-upsell-cross-sell\/blocks\/app-embed\/2e94b962-8172-4839-8ad9-7837eb8b017a",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
